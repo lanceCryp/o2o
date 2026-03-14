@@ -16,6 +16,7 @@ export default function ParticleBackground() {
     let particles: Particle[] = [];
     let mouse = { x: 0, y: 0 };
     let isDarkTheme = false;
+    let mouseGlow = { x: 0, y: 0, radius: 0, maxRadius: 80, fadeSpeed: 0.05 };
 
     // 检测主题
     const checkTheme = () => {
@@ -151,9 +152,39 @@ export default function ParticleBackground() {
       });
 
       connectParticles();
+      drawMouseGlow();
       animationFrameId = requestAnimationFrame(animate);
     };
     animate();
+
+    // 绘制鼠标光晕
+    const drawMouseGlow = () => {
+      if (mouseGlow.radius <= 0) return;
+
+      const color = getParticleColor();
+
+      // 绘制多层渐变光晕
+      for (let i = 0; i < 3; i++) {
+        const gradient = ctx.createRadialGradient(
+          mouseGlow.x, mouseGlow.y, 0,
+          mouseGlow.x, mouseGlow.y, mouseGlow.radius * (1 - i * 0.25)
+        );
+
+        const baseAlpha = 0.15 * (1 - i * 0.2);
+        gradient.addColorStop(0, `rgba(${color.r}, ${color.g}, ${color.b}, ${baseAlpha})`);
+        gradient.addColorStop(0.5, `rgba(${color.r}, ${color.g}, ${color.b}, ${baseAlpha * 0.5})`);
+        gradient.addColorStop(1, `rgba(${color.r}, ${color.g}, ${color.b}, 0)`);
+
+        ctx.fillStyle = gradient;
+        ctx.beginPath();
+        ctx.arc(mouseGlow.x, mouseGlow.y, mouseGlow.radius * (1 - i * 0.25), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      // 逐渐缩小光晕
+      mouseGlow.radius -= mouseGlow.fadeSpeed * mouseGlow.maxRadius;
+      if (mouseGlow.radius < 0) mouseGlow.radius = 0;
+    };
 
     // 事件监听
     const handleResize = () => {
@@ -164,6 +195,10 @@ export default function ParticleBackground() {
     const handleMouseMove = (e: MouseEvent) => {
       mouse.x = e.clientX;
       mouse.y = e.clientY;
+      // 鼠标移动时重置光晕半径
+      mouseGlow.x = e.clientX;
+      mouseGlow.y = e.clientY;
+      mouseGlow.radius = mouseGlow.maxRadius;
     };
 
     // 使用 MutationObserver 监听主题变化
