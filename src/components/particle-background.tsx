@@ -13,10 +13,9 @@ export default function ParticleBackground() {
     if (!ctx) return;
 
     let animationFrameId: number;
-    let particles: Particle[] = [];
-    let mouse = { x: 0, y: 0 };
     let isDarkTheme = false;
-    let mouseGlow = { x: 0, y: 0, radius: 0, maxRadius: 80, fadeSpeed: 0.05 };
+    let ripples: Ripple[] = [];
+    let mouse = { x: 0, y: 0, lastX: 0, lastY: 0, moved: false };
 
     // 检测主题
     const checkTheme = () => {
@@ -25,17 +24,6 @@ export default function ParticleBackground() {
     };
     checkTheme();
 
-    // 获取主题颜色
-    const getParticleColor = () => {
-      if (isDarkTheme) {
-        // 深色主题：使用更亮的紫色
-        return { r: 167, g: 139, b: 250 };
-      } else {
-        // 浅色主题：使用更深的蓝紫色，增加对比度
-        return { r: 79, g: 70, b: 229 };
-      }
-    };
-
     // 设置 canvas 尺寸
     const setCanvasSize = () => {
       canvas.width = window.innerWidth;
@@ -43,102 +31,72 @@ export default function ParticleBackground() {
     };
     setCanvasSize();
 
-    // 粒子类
-    class Particle {
+    // 涟漪类
+    class Ripple {
       x: number;
       y: number;
-      size: number;
-      speedX: number;
-      speedY: number;
+      radius: number;
       opacity: number;
-      fadeSpeed: number;
+      speed: number;
+      width: number;
 
-      constructor() {
-        this.x = Math.random() * canvas!.width;
-        this.y = Math.random() * canvas!.height;
-        this.size = Math.random() * 4 + 2; // 增大粒子尺寸 (2-6px)
-        this.speedX = (Math.random() - 0.5) * 0.5;
-        this.speedY = (Math.random() - 0.5) * 0.5;
-        this.opacity = Math.random() * 0.3 + 0.5; // 提高基础透明度 (0.5-0.8)
-        this.fadeSpeed = Math.random() * 0.003 + 0.002;
+      constructor(x: number, y: number) {
+        this.x = x;
+        this.y = y;
+        this.radius = 0;
+        this.opacity = 0.6;
+        this.speed = 0.8;
+        this.width = 2;
       }
 
       update() {
-        this.x += this.speedX;
-        this.y += this.speedY;
-
-        // 边界检测
-        if (this.x > canvas!.width || this.x < 0) {
-          this.speedX = -this.speedX;
-        }
-        if (this.y > canvas!.height || this.y < 0) {
-          this.speedY = -this.speedY;
-        }
-
-        // 淡入淡出效果
-        this.opacity += this.fadeSpeed;
-        if (this.opacity <= 0.4 || this.opacity >= 0.95) {
-          this.fadeSpeed = -this.fadeSpeed;
-        }
+        this.radius += this.speed;
+        this.opacity -= 0.008;
+        this.width = Math.max(0.5, 2 - this.radius / 100);
       }
 
       draw() {
         if (!ctx) return;
-        const color = getParticleColor();
-        ctx.fillStyle = `rgba(${color.r}, ${color.g}, ${color.b}, ${this.opacity})`;
+        const gradient = ctx.createRadialGradient(
+          this.x, this.y, this.radius * 0.8,
+          this.x, this.y, this.radius + this.width
+        );
+
+        const color = isDarkTheme
+          ? 'rgba(139, 92, 246, '  // 深色主题：紫色
+          : 'rgba(59, 130, 246, '; // 浅色主题：蓝色
+
+        gradient.addColorStop(0, color + '0)');
+        gradient.addColorStop(0.5, color + (this.opacity * 0.3) + ')');
+        gradient.addColorStop(0.7, color + (this.opacity * 0.5) + ')');
+        gradient.addColorStop(1, color + '0)');
+
+        ctx.strokeStyle = gradient;
+        ctx.lineWidth = this.width;
         ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fill();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.stroke();
       }
     }
 
-    // 初始化粒子
-    const initParticles = () => {
-      particles = [];
-      // 增加粒子数量
-      const particleCount = Math.min(300, Math.floor((canvas.width * canvas.height) / 6000));
-      for (let i = 0; i < particleCount; i++) {
-        particles.push(new Particle());
-      }
-    };
-    initParticles();
+    // 绘制湖面基础波光效果
+    const drawWaterSurface = () => {
+      const time = Date.now() * 0.001;
 
-    // 连接粒子
-    const connectParticles = () => {
-      const maxDistance = 200; // 增加连接距离
-      for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
-          const dx = particles[i].x - particles[j].x;
-          const dy = particles[i].y - particles[j].y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
+      // 绘制微弱的水平波光线条 - 增强效果
+      for (let i = 0; i < 25; i++) {
+        const y = (canvas.height / 25) * i + Math.sin(time + i * 0.3) * 15;
+        const baseOpacity = isDarkTheme ? 0.06 : 0.05;
+        const opacity = baseOpacity + Math.sin(time * 0.8 + i) * 0.02;
 
-          if (distance < maxDistance) {
-            const opacity = (1 - distance / maxDistance) * 0.4; // 提高连线透明度
-            const color = getParticleColor();
-            ctx.strokeStyle = `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity})`;
-            ctx.lineWidth = 1; // 加粗连线
-            ctx.beginPath();
-            ctx.moveTo(particles[i].x, particles[i].y);
-            ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.stroke();
-          }
-        }
-
-        // 连接鼠标
-        const dxMouse = particles[i].x - mouse.x;
-        const dyMouse = particles[i].y - mouse.y;
-        const distanceMouse = Math.sqrt(dxMouse * dxMouse + dyMouse * dyMouse);
-
-        if (distanceMouse < 300) { // 增加鼠标感应范围
-          const opacity = (1 - distanceMouse / 300) * 0.5;
-          const color = getParticleColor();
-          ctx.strokeStyle = `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity})`;
-          ctx.lineWidth = 1.5;
-          ctx.beginPath();
-          ctx.moveTo(particles[i].x, particles[i].y);
-          ctx.lineTo(mouse.x, mouse.y);
-          ctx.stroke();
-        }
+        ctx.strokeStyle = isDarkTheme
+          ? `rgba(139, 92, 246, ${Math.abs(opacity)})`
+          : `rgba(59, 130, 246, ${Math.abs(opacity)})`;
+        ctx.lineWidth = isDarkTheme ? 1.5 : 1.2;
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+        ctx.stroke();
       }
     };
 
@@ -146,59 +104,56 @@ export default function ParticleBackground() {
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      particles.forEach((particle) => {
-        particle.update();
-        particle.draw();
-      });
+      // 绘制湖面基础效果 - 轻微的波光
+      drawWaterSurface();
 
-      connectParticles();
-      drawMouseGlow();
+      // 更新和绘制涟漪
+      for (let i = ripples.length - 1; i >= 0; i--) {
+        ripples[i].update();
+        ripples[i].draw();
+
+        if (ripples[i].opacity <= 0.02) {
+          ripples.splice(i, 1);
+        }
+      }
+
       animationFrameId = requestAnimationFrame(animate);
     };
     animate();
 
-    // 绘制鼠标光晕
-    const drawMouseGlow = () => {
-      if (mouseGlow.radius <= 0) return;
-
-      const color = getParticleColor();
-
-      // 绘制多层渐变光晕
-      for (let i = 0; i < 3; i++) {
-        const gradient = ctx.createRadialGradient(
-          mouseGlow.x, mouseGlow.y, 0,
-          mouseGlow.x, mouseGlow.y, mouseGlow.radius * (1 - i * 0.25)
-        );
-
-        const baseAlpha = 0.15 * (1 - i * 0.2);
-        gradient.addColorStop(0, `rgba(${color.r}, ${color.g}, ${color.b}, ${baseAlpha})`);
-        gradient.addColorStop(0.5, `rgba(${color.r}, ${color.g}, ${color.b}, ${baseAlpha * 0.5})`);
-        gradient.addColorStop(1, `rgba(${color.r}, ${color.g}, ${color.b}, 0)`);
-
-        ctx.fillStyle = gradient;
-        ctx.beginPath();
-        ctx.arc(mouseGlow.x, mouseGlow.y, mouseGlow.radius * (1 - i * 0.25), 0, Math.PI * 2);
-        ctx.fill();
-      }
-
-      // 逐渐缩小光晕
-      mouseGlow.radius -= mouseGlow.fadeSpeed * mouseGlow.maxRadius;
-      if (mouseGlow.radius < 0) mouseGlow.radius = 0;
+    // 创建涟漪
+    const createRipple = (x: number, y: number) => {
+      ripples.push(new Ripple(x, y));
     };
 
     // 事件监听
     const handleResize = () => {
       setCanvasSize();
-      initParticles();
     };
 
     const handleMouseMove = (e: MouseEvent) => {
       mouse.x = e.clientX;
       mouse.y = e.clientY;
-      // 鼠标移动时重置光晕半径
-      mouseGlow.x = e.clientX;
-      mouseGlow.y = e.clientY;
-      mouseGlow.radius = mouseGlow.maxRadius;
+
+      // 检测鼠标移动距离，移动一定距离才创建涟漪
+      const dx = mouse.x - mouse.lastX;
+      const dy = mouse.y - mouse.lastY;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+      if (distance > 30 && mouse.moved) {
+        createRipple(mouse.x, mouse.y);
+        // 偶尔创建额外的涟漪以增加效果
+        if (Math.random() > 0.7) {
+          createRipple(
+            mouse.x + (Math.random() - 0.5) * 50,
+            mouse.y + (Math.random() - 0.5) * 50
+          );
+        }
+      }
+
+      mouse.lastX = mouse.x;
+      mouse.lastY = mouse.y;
+      mouse.moved = true;
     };
 
     // 使用 MutationObserver 监听主题变化
@@ -226,7 +181,7 @@ export default function ParticleBackground() {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none"
-      style={{ zIndex: -1000 }}
+      style={{ zIndex: -10 }}
     />
   );
 }
