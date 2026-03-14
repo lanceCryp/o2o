@@ -28,10 +28,13 @@
     "description": "最安全的私密通话方式",
     "descriptionHighlight": "一个链接，两人，零妥协",
     "cta": "开始您的私密通话 - 免费 100 分钟",
-    "ctaLoggedIn": "开始您的私密通话"
+    "ctaLoggedIn": "开始您的私密通话",
+    "badge": "安全私密",
+    "learnMore": "了解更多"
   },
   "Features": {
     "title": "为什么选择 o2o？",
+    "subtitle": "您需要的一切，尽在这里",
     "private": {
       "title": "私密安全",
       "description": "IP 绑定链接、端到端加密、不留存任何记录"
@@ -85,6 +88,7 @@
   },
   "Dashboard": {
     "title": "仪表板",
+    "subtitle": "开始私密通话或管理您的账户",
     "newMeeting": {
       "title": "新建会议",
       "description": "创建一个新的一对一视频会议室",
