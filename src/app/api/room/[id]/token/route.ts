@@ -65,7 +65,7 @@ export async function POST(
     }
 
     // 访客（通过邀请链接加入的）也可以获取令牌
-    // 检查邀请令牌
+    // 检查邀请令牌（used=true 也可以，因为 join 页面已经验证过）
     const url = new URL(request.url);
     const inviteToken = url.searchParams.get('invite_token');
 
@@ -74,19 +74,25 @@ export async function POST(
       const tokenRecord = await db.select().from(inviteTokens).where(
         and(
           eq(inviteTokens.token, inviteToken),
-          eq(inviteTokens.used, false)
+          eq(inviteTokens.roomId, roomId)
         )
       ).limit(1);
 
-      if (tokenRecord.length > 0 && tokenRecord[0].roomId === roomId) {
-        // 有效的邀请令牌，允许获取访问令牌
+      if (tokenRecord.length > 0) {
+        // 有效的邀请令牌（无论 used 状态，因为 join 页面已经验证过）
         isParticipant = true;
       }
     }
 
+    // 如果房间状态是 active，说明已经有人在里面，允许访客以 guest 身份加入
+    // 这适用于访客直接访问房间 URL 的情况（例如从 join 页面跳转过来）
+    if (room.status === 'active' && !userId) {
+      isParticipant = true;
+    }
+
     if (!isHost && !isParticipant) {
       return NextResponse.json(
-        { error: 'Access denied' },
+        { error: 'Access denied. You need to be the host or have a valid invite token.' },
         { status: 403 }
       );
     }

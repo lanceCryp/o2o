@@ -42,6 +42,30 @@ export default function RoomPage() {
     fetchRoom();
   }, [isLoaded, params.id]);
 
+  // 请求 Daily.co 访问令牌的完整 URL（后端代理，不暴露 token）
+  const fetchDailyUrl = async () => {
+    try {
+      // 检查 URL 是否有 invite_token 参数（从 join 页面跳转过来的）
+      const urlParams = new URLSearchParams(window.location.search);
+      const inviteToken = urlParams.get('invite_token');
+
+      const url = `/api/room/${params.id}/token${inviteToken ? `?invite_token=${inviteToken}` : ''}`;
+
+      const res = await fetch(url, {
+        method: 'POST',
+      });
+      if (!res.ok) {
+        const error = await res.json() as { error?: string };
+        throw new Error(error.error || 'Failed to get Daily.co access token');
+      }
+      const data = await res.json() as { dailyUrl: string };
+      return data.dailyUrl;
+    } catch (err) {
+      console.error('Failed to fetch Daily URL:', err);
+      return null;
+    }
+  };
+
   useEffect(() => {
     let interval: NodeJS.Timeout;
     if (room) {
@@ -54,10 +78,6 @@ export default function RoomPage() {
 
   const fetchRoom = async () => {
     try {
-      // 从 URL 获取 Daily.co 访问令牌（如果有）- 访客通过 ?t=xxx 传入
-      const urlParams = new URLSearchParams(window.location.search);
-      const dailyToken = urlParams.get('t');
-
       const res = await fetch(`/api/room/${params.id}`);
       if (!res.ok) {
         if (res.status === 404) {
@@ -72,9 +92,9 @@ export default function RoomPage() {
       const data = await res.json() as RoomData;
       setRoom(data);
 
-      // 如果有 Daily.co 令牌，直接附加到 URL 上
-      if (dailyToken) {
-        const dailyUrlWithToken = `${data.roomUrl}?t=${dailyToken}`;
+      // 通过后端的 token 接口获取完整的 Daily.co URL（token 不暴露在 URL 中）
+      const dailyUrlWithToken = await fetchDailyUrl();
+      if (dailyUrlWithToken) {
         setRoom(prev => prev ? { ...prev, roomUrl: dailyUrlWithToken } : null);
       }
     } catch (err) {

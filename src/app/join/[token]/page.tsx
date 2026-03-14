@@ -62,9 +62,10 @@ export default function JoinPage() {
         throw new Error(data.error || 'Failed to join');
       }
 
-      const data = await res.json() as { roomId: string; token: string };
-      // 跳转到我们自己的房间页面，带上令牌
-      window.location.href = `/room/${data.roomId}?t=${data.token}`;
+      const data = await res.json() as { roomId: string; roomUrl: string };
+      // 跳转到房间页面，带上 invite_token 用于获取 Daily.co 访问令牌
+      // 注意：invite_token 不是 Daily token，只是一个授权凭证
+      window.location.href = `/room/${data.roomId}?invite_token=${params.token}`;
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to join room');
     } finally {
@@ -114,15 +115,15 @@ export default function JoinPage() {
         <div className="max-w-md mx-auto">
           <Card>
             <CardHeader>
-              <CardTitle>{t('Dashboard.newMeeting.title')}</CardTitle>
+              <CardTitle>{t('Dashboard.joinMeeting.title')}</CardTitle>
               <CardDescription>
-                {inviteData.roomName}
+                {t('Dashboard.joinMeeting.description')}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="bg-muted p-4 rounded-lg">
                 <p className="text-sm text-muted-foreground mb-2">
-                  {t('Room.shareLink')}
+                  {t('Dashboard.joinMeeting.hostName')}
                 </p>
                 <p className="font-medium">{inviteData.roomName}</p>
               </div>
@@ -136,7 +137,7 @@ export default function JoinPage() {
                 disabled={isJoining}
                 className="w-full"
               >
-                {isJoining ? t('Common.loading') : 'Join Meeting'}
+                {isJoining ? t('Room.joining') : t('Room.joinMeeting')}
               </Button>
 
               <Link href="/dashboard">

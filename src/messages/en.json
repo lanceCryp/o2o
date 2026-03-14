@@ -100,6 +100,14 @@
         "private": "1-on-1 private video call",
         "encrypted": "End-to-end encrypted",
         "nodownload": "No download required"
+      },
+      "existingRoom": {
+        "title": "Existing Active Room",
+        "message": "You already have an active room named \"{name}\".",
+        "description": "Do you want to enter the existing room or delete it and create a new one?",
+        "enterExisting": "Enter Existing Room",
+        "createNew": "Delete & Create New",
+        "deleting": "Deleting..."
       }
     },
     "history": {
@@ -111,6 +119,13 @@
       "title": "Balance",
       "description": "View your available minutes",
       "button": "Top Up"
+    },
+    "joinMeeting": {
+      "title": "Join Meeting",
+      "description": "You've been invited to join a meeting",
+      "hostName": "Host",
+      "joinButton": "Join Meeting",
+      "joining": "Joining..."
     }
   },
   "Footer": {
@@ -148,6 +163,165 @@
     "shareLink": "Share this link to invite someone",
     "endingCall": "Ending call...",
     "confirmEnd": "End this call?",
-    "confirmEndDescription": "The meeting will be closed for all participants."
+    "confirmEndDescription": "The meeting will be closed for all participants.",
+    "joinMeeting": "Join Meeting",
+    "joining": "Joining..."
+  },
+  "History": {
+    "title": "Meeting History",
+    "description": "View your past meetings",
+    "noRecords": "No meeting records",
+    "noRecordsDescription": "You haven't had any ended meetings yet",
+    "createFirst": "Create your first meeting",
+    "host": "Host",
+    "duration": "Duration",
+    "signInRequired": "Sign In Required",
+    "signInToView": "Please sign in to view your meeting history",
+    "emptyState": {
+      "title": "No Meeting History",
+      "description": "You haven't had any ended meetings yet",
+      "createButton": "Create your first meeting"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageInfo": "Page {current} of {total}"
+    },
+    "status": {
+      "ended": "Ended",
+      "active": "Active",
+      "waiting": "Waiting"
+    }
+  },
+  "Billing": {
+    "title": "Billing & Top Up",
+    "signInRequired": "Sign In Required",
+    "signInToView": "Please sign in to view your billing information",
+    "credits": {
+      "title": "Account Balance",
+      "availableMinutes": "Available Minutes",
+      "totalMinutes": "Total Minutes",
+      "usedMinutes": "Used Minutes",
+      "lifetime": "Lifetime Valid"
+    },
+    "freeTrial": {
+      "title": "Free Trial",
+      "remainingMinutes": "Remaining Minutes",
+      "expiresAt": "Expires At",
+      "expired": "Expired",
+      "description": "New users get 100 minutes free"
+    },
+    "subscription": {
+      "title": "Subscription Status",
+      "noSubscription": "No subscription",
+      "startWithPackage": "Purchase a package to get started"
+    },
+    "packages": {
+      "title": "Top Up Packages",
+      "starter": {
+        "name": "Starter",
+        "description": "For occasional users"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Best value choice",
+        "badge": "Most Popular"
+      },
+      "unlimited": {
+        "name": "Unlimited",
+        "description": "For frequent users"
+      },
+      "features": {
+        "lifetime": "Lifetime valid",
+        "hdVideo": "HD video",
+        "encrypted": "End-to-end encryption"
+      },
+      "buy": "Buy",
+      "processing": "Processing..."
+    },
+    "subscriptions": {
+      "title": "Membership Plans",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "yearlySave": "Save 2 months",
+      "yearlySavings": "Save ${amount}/year",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "subscribe": "Subscribe",
+      "subscribing": "Processing..."
+    },
+    "plans": {
+      "member": {
+        "name": "Member",
+        "billing": "Monthly billing"
+      },
+      "pro": {
+        "name": "Pro Member",
+        "billing": "Monthly billing",
+        "badge": "Most Popular"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "billing": "Monthly billing",
+        "badge": "For Business"
+      }
+    },
+    "benefits": {
+      "member": "200 minutes per month,HD video calls,End-to-end encryption,Meeting recording,Priority support",
+      "pro": "500 minutes per month,4K Ultra HD video,End-to-end encryption,Recording + Transcription,Custom backgrounds,Priority support,Analytics reports",
+      "enterprise": "Unlimited minutes,4K Ultra HD video,End-to-end encryption,Recording + Transcription,Custom branding,Dedicated account manager,SLA guarantee,API access"
+    },
+    "orders": {
+      "title": "Order History",
+      "recentOrders": "Recent Orders"
+    },
+    "messages": {
+      "paymentSuccess": "Payment successful! Minutes will be added to your account automatically.",
+      "paymentCanceled": "Payment canceled, please try again",
+      "subscriptionSuccess": "Subscription successful! Member minutes will be added to your account automatically.",
+      "subscriptionCanceled": "Subscription canceled, please try again",
+      "purchaseError": "Purchase failed, please try again",
+      "subscribeError": "Subscription failed, please try again"
+    },
+    "status": {
+      "active": "Active",
+      "succeeded": "Succeeded",
+      "pending": "Pending",
+      "failed": "Failed",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    }
+  },
+  "Settings": {
+    "title": "Settings",
+    "description": "Manage your account preferences and settings",
+    "profile": {
+      "title": "Profile",
+      "description": "Manage your personal information",
+      "name": "Name",
+      "email": "Email",
+      "avatar": "Avatar",
+      "memberSince": "Member since"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "description": "Customize your experience",
+      "language": "Language",
+      "theme": "Theme",
+      "languageAuto": "Auto",
+      "languageEn": "English",
+      "languageZh": "中文",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "themeSystem": "System"
+    },
+    "account": {
+      "title": "Account",
+      "description": "Manage your account security and login methods",
+      "password": "Change Password",
+      "twoFactor": "Two-Factor Authentication",
+      "sessions": "Active Sessions",
+      "deleteAccount": "Delete Account"
+    }
   }
 }

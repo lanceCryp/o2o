@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { createDb } from '@/lib/db';
-import { eq } from 'drizzle-orm';
-import { rooms, participants } from '@/drizzle/schema';
+import { eq, and } from 'drizzle-orm';
+import { rooms, participants, meetingRecords, userCredits } from '@/drizzle/schema';
 
 export async function GET(
   request: NextRequest,
@@ -156,6 +156,8 @@ export async function DELETE(
     }
 
     // 正常结束会议：删除 Daily.co 房间并更新数据库状态
+    const now = new Date();
+
     // 删除 Daily.co 房间
     try {
       if (room.dailyRoomName) {
@@ -171,11 +173,58 @@ export async function DELETE(
       console.error('Failed to delete Daily.co room:', dailyError);
     }
 
+    // 计算会议时长（秒）
+    const durationSeconds = room.startedAt
+      ? Math.floor((now.getTime() - room.startedAt.getTime()) / 1000)
+      : 0;
+
     // 更新数据库状态
     await db.update(rooms).set({
       status: 'ended',
-      endedAt: new Date(),
+      endedAt: now,
     }).where(eq(rooms.id, roomId));
+
+    // 创建会议记录
+    const { v4: uuidv4 } = await import('uuid');
+    await db.insert(meetingRecords).values({
+      id: uuidv4(),
+      roomId,
+      hostId: room.hostId,
+      duration: durationSeconds,
+      type: 'video',
+      status: 'ended',
+      endedBy: 'host',
+      createdAt: now,
+    });
+
+    // 更新房主的已用时长（从 user_credits 扣除）
+    const durationMinutes = Math.ceil(durationSeconds / 60); // 向上取整分钟数
+    const hostCreditsList = await db.select().from(userCredits).where(eq(userCredits.userId, room.hostId)).limit(1);
+
+    if (hostCreditsList.length > 0) {
+      await db.update(userCredits).set({
+        usedMinutes: hostCreditsList[0].usedMinutes + durationMinutes,
+      }).where(eq(userCredits.id, hostCreditsList[0].id));
+      console.log(`Updated host credits: used ${durationMinutes} minutes, total used: ${hostCreditsList[0].usedMinutes + durationMinutes}`);
+    } else {
+      // 如果没有时长记录，说明是新用户首次通话，不自动创建记录
+      // 时长扣减会在用户购买套餐或订阅时处理
+      console.log(`Host ${room.hostId} has no credits record, skipping deduction`);
+    }
+
+    // 同时更新参与者的时长（如果参与者在数据库中有时长记录）
+    const participantList = await db.select().from(participants).where(eq(participants.roomId, roomId));
+    for (const participant of participantList) {
+      if (participant.userId && !participant.userId.startsWith('guest_')) {
+        const participantCredits = await db.select().from(userCredits).where(eq(userCredits.userId, participant.userId)).limit(1);
+        if (participantCredits.length > 0) {
+          await db.update(userCredits).set({
+            usedMinutes: participantCredits[0].usedMinutes + durationMinutes,
+          }).where(eq(userCredits.id, participantCredits[0].id));
+          console.log(`Updated participant ${participant.userId} credits: used ${durationMinutes} minutes`);
+        }
+      }
+    }
 
     return NextResponse.json({ success: true, ended: true });
   } catch (error) {

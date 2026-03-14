@@ -169,11 +169,13 @@ export async function POST(
       guestToken = tokenData.token;
     }
 
+    // 构造完整的 Daily.co URL（带访问令牌）
+    const dailyUrlWithToken = `${room.dailyRoomUrl}?t=${guestToken}`;
+
     return NextResponse.json({
       success: true,
       roomId: inviteToken.roomId,
-      roomUrl: room.dailyRoomUrl,
-      token: guestToken, // 返回令牌，让前端自己构造 URL
+      roomUrl: dailyUrlWithToken, // 返回完整的 URL，前端直接使用
     });
   } catch (error) {
     console.error('Error using invite token:', error);

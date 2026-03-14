@@ -100,6 +100,14 @@
         "private": "一对一私密视频通话",
         "encrypted": "端到端加密",
         "nodownload": "无需下载"
+      },
+      "existingRoom": {
+        "title": "已有活跃会议室",
+        "message": "您已经创建了一个名为\"{name}\"的会议室。",
+        "description": "您想要进入已有会议室，还是删除它并创建一个新的？",
+        "enterExisting": "进入已有房间",
+        "createNew": "删除并新建",
+        "deleting": "删除中..."
       }
     },
     "history": {
@@ -111,6 +119,13 @@
       "title": "账户余额",
       "description": "查看您的可用时长",
       "button": "充值时长"
+    },
+    "joinMeeting": {
+      "title": "加入会议",
+      "description": "您被邀请加入一个会议",
+      "hostName": "会议发起人",
+      "joinButton": "加入会议",
+      "joining": "加入中..."
     }
   },
   "Footer": {
@@ -148,6 +163,165 @@
     "shareLink": "分享此链接邀请他人加入",
     "endingCall": "正在结束通话...",
     "confirmEnd": "结束此通话？",
-    "confirmEndDescription": "会议室将对所有参与者关闭"
+    "confirmEndDescription": "会议室将对所有参与者关闭",
+    "joinMeeting": "加入会议",
+    "joining": "加入中..."
+  },
+  "History": {
+    "title": "会议历史记录",
+    "description": "查看您的过往会议",
+    "noRecords": "暂无历史记录",
+    "noRecordsDescription": "您还没有任何已结束的会议记录",
+    "createFirst": "创建第一个会议",
+    "host": "房主",
+    "duration": "时长",
+    "signInRequired": "需要登录",
+    "signInToView": "请先登录以查看您的会议历史记录",
+    "emptyState": {
+      "title": "暂无历史记录",
+      "description": "您还没有任何已结束的会议记录",
+      "createButton": "创建第一个会议"
+    },
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页",
+      "pageInfo": "第 {current} 页，共 {total} 页"
+    },
+    "status": {
+      "ended": "已结束",
+      "active": "进行中",
+      "waiting": "等待中"
+    }
+  },
+  "Billing": {
+    "title": "账单与充值",
+    "signInRequired": "需要登录",
+    "signInToView": "请先登录以查看您的账单信息",
+    "credits": {
+      "title": "账户余额",
+      "availableMinutes": "可用时长",
+      "totalMinutes": "总时长",
+      "usedMinutes": "已使用",
+      "lifetime": "永久有效"
+    },
+    "freeTrial": {
+      "title": "免费试用",
+      "remainingMinutes": "剩余分钟",
+      "expiresAt": "有效期至",
+      "expired": "已过期",
+      "description": "新用户注册即送 100 分钟免费通话时长"
+    },
+    "subscription": {
+      "title": "订阅状态",
+      "noSubscription": "暂无订阅",
+      "startWithPackage": "购买时长包即可开始使用"
+    },
+    "packages": {
+      "title": "充值套餐",
+      "starter": {
+        "name": "标准包",
+        "description": "适合偶尔使用的用户"
+      },
+      "standard": {
+        "name": "超值包",
+        "description": "最超值的选择",
+        "badge": "最受欢迎"
+      },
+      "unlimited": {
+        "name": "无限包",
+        "description": "适合频繁使用的用户"
+      },
+      "features": {
+        "lifetime": "永久有效",
+        "hdVideo": "高清视频",
+        "encrypted": "端到端加密"
+      },
+      "buy": "购买",
+      "processing": "处理中..."
+    },
+    "subscriptions": {
+      "title": "会员订阅",
+      "monthly": "月付",
+      "yearly": "年付",
+      "yearlySave": "省 2 个月",
+      "yearlySavings": "省${amount}/年",
+      "perMonth": "/月",
+      "perYear": "/年",
+      "subscribe": "订阅",
+      "subscribing": "处理中..."
+    },
+    "plans": {
+      "member": {
+        "name": "会员",
+        "billing": "按月计费"
+      },
+      "pro": {
+        "name": "专业会员",
+        "billing": "按月计费",
+        "badge": "最受欢迎"
+      },
+      "enterprise": {
+        "name": "企业版",
+        "billing": "按月计费",
+        "badge": "适合企业"
+      }
+    },
+    "benefits": {
+      "member": "每月 200 分钟通话时长，高清视频通话，端到端加密，会议录制功能，优先客服支持",
+      "pro": "每月 500 分钟通话时长，4K 超清视频，端到端加密，会议录制 + 转录，自定义房间背景，优先客服支持，数据分析报告",
+      "enterprise": "无限通话时长，4K 超清视频，端到端加密，会议录制 + 转录，自定义品牌标识，专属客户经理，SLA 保障，API 访问权限"
+    },
+    "orders": {
+      "title": "订单历史",
+      "recentOrders": "最近订单"
+    },
+    "messages": {
+      "paymentSuccess": "支付成功！时长将在确认后自动添加到您的账户。",
+      "paymentCanceled": "支付已取消，请重试",
+      "subscriptionSuccess": "订阅成功！会员时长将在确认后自动添加到您的账户。",
+      "subscriptionCanceled": "订阅已取消，请重试",
+      "purchaseError": "购买失败，请重试",
+      "subscribeError": "订阅失败，请重试"
+    },
+    "status": {
+      "active": "有效",
+      "succeeded": "成功",
+      "pending": "待处理",
+      "failed": "失败",
+      "cancelled": "已取消",
+      "expired": "已过期"
+    }
+  },
+  "Settings": {
+    "title": "设置",
+    "description": "管理您的账户偏好和设置",
+    "profile": {
+      "title": "个人资料",
+      "description": "管理您的个人信息",
+      "name": "姓名",
+      "email": "邮箱",
+      "avatar": "头像",
+      "memberSince": "注册于"
+    },
+    "preferences": {
+      "title": "偏好设置",
+      "description": "自定义您的使用体验",
+      "language": "语言",
+      "theme": "主题",
+      "languageAuto": "自动",
+      "languageEn": "English",
+      "languageZh": "中文",
+      "themeLight": "浅色",
+      "themeDark": "深色",
+      "themeSystem": "系统"
+    },
+    "account": {
+      "title": "账户管理",
+      "description": "管理您的账户安全和登录方式",
+      "password": "修改密码",
+      "twoFactor": "双重验证",
+      "sessions": "登录设备",
+      "deleteAccount": "删除账户"
+    }
   }
 }

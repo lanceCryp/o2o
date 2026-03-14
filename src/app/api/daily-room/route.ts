@@ -123,13 +123,14 @@ export async function POST(request: NextRequest) {
       joinedAt: now,
     });
 
-    // 返回房主令牌，让前端自己构造 URL
+    // 返回房主令牌，使用 hostToken 字段明确表示
     return NextResponse.json({
       roomId,
       roomName: name || 'Quick Meeting',
-      token: ownerToken, // 返回令牌
-      dailyRoomUrl: roomData.url, // 返回原始 Daily.co URL
+      hostToken: ownerToken, // 房主令牌（如果需要在前端存储）
+      dailyRoomUrl: roomData.url,
       createdAt: now.toISOString(),
+      isHost: true,
     });
   } catch (error) {
     console.error('Error creating room:', error);

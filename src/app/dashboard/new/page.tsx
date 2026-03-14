@@ -48,9 +48,9 @@ export default function NewMeetingPage() {
         throw new Error('Failed to create room');
       }
 
-      const data = await res.json() as { roomId: string; token: string };
-      // 跳转到房间页面，带上令牌
-      window.location.href = `/room/${data.roomId}?t=${data.token}`;
+      const data = await res.json() as { roomId: string };
+      // 跳转到房间页面，不暴露 token（token 由后端代理）
+      window.location.href = `/room/${data.roomId}`;
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong');
     } finally {
@@ -93,7 +93,8 @@ export default function NewMeetingPage() {
 
       const data = await createRes.json() as { roomId: string };
       setExistingRoom(null);
-      router.push(`/room/${data.roomId}`);
+      // 跳转到房间页面，不暴露 token
+      window.location.href = `/room/${data.roomId}`;
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong');
       setExistingRoom(null);
@@ -164,10 +165,11 @@ export default function NewMeetingPage() {
       <Dialog open={!!existingRoom} onOpenChange={() => setExistingRoom(null)}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>已有活跃会议室</DialogTitle>
+            <DialogTitle>{t('Dashboard.newMeeting.existingRoom.title')}</DialogTitle>
             <DialogDescription>
-              您已经创建了一个名为"{existingRoom?.existingRoomName}"的会议室。
-              您想要进入已有会议室，还是删除它并创建一个新的？
+              {t('Dashboard.newMeeting.existingRoom.message').replace('{name}', existingRoom?.existingRoomName || '')}
+              <br />
+              {t('Dashboard.newMeeting.existingRoom.description')}
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="gap-2">
@@ -176,14 +178,14 @@ export default function NewMeetingPage() {
               onClick={handleEnterExisting}
               disabled={isCreating}
             >
-              进入已有房间
+              {t('Dashboard.newMeeting.existingRoom.enterExisting')}
             </Button>
             <Button
               variant="destructive"
               onClick={handleCreateNew}
               disabled={isCreating}
             >
-              {isCreating ? '删除中...' : '删除并新建'}
+              {isCreating ? t('Dashboard.newMeeting.existingRoom.deleting') : t('Dashboard.newMeeting.existingRoom.createNew')}
             </Button>
           </DialogFooter>
         </DialogContent>
