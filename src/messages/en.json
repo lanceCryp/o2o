@@ -1,0 +1,153 @@
+{
+  "Common": {
+    "signIn": "Sign In",
+    "signUp": "Get Started",
+    "dashboard": "Dashboard",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "history": "History",
+    "settings": "Settings",
+    "billing": "Billing",
+    "logout": "Logout"
+  },
+  "Hero": {
+    "title": "Private 1-on-1 Video.",
+    "titleHighlight": "No Downloads. No Traces.",
+    "description": "The safest way to connect privately.",
+    "descriptionHighlight": "One link, two people, zero compromises.",
+    "cta": "Start Your Private Call - Free 100 Minutes",
+    "ctaLoggedIn": "Start Your Private Call"
+  },
+  "Features": {
+    "title": "Why Choose o2o?",
+    "private": {
+      "title": "Private & Secure",
+      "description": "IP-bound links, end-to-end encryption, no traces left behind"
+    },
+    "onetoone": {
+      "title": "1-on-1 Focused",
+      "description": "Designed for two people only, no distractions, no group chats"
+    },
+    "nodownload": {
+      "title": "No Download Needed",
+      "description": "Pure browser-based, works on all devices, no installation required"
+    },
+    "pricing": {
+      "title": "Flexible Pricing",
+      "description": "Pay-as-you-go from $2.99, no subscription pressure"
+    }
+  },
+  "Pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start with 100 free minutes, upgrade when you need more",
+    "starter": {
+      "name": "Starter",
+      "price": "$2.99",
+      "minutes": "60 minutes",
+      "sessionLimit": "120 min session limit",
+      "noExpiration": "No expiration",
+      "hdVideo": "HD video",
+      "cta": "Get Started"
+    },
+    "standard": {
+      "name": "Standard",
+      "price": "$5.99",
+      "minutes": "150 minutes",
+      "sessionLimit": "120 min session limit",
+      "noExpiration": "No expiration",
+      "hdVideo": "HD video",
+      "screenSharing": "Screen sharing",
+      "cta": "Get Started",
+      "bestValue": "Best Value"
+    },
+    "unlimited": {
+      "name": "Unlimited",
+      "price": "$9.99",
+      "minutes": "300 minutes",
+      "sessionLimit": "120 min session limit",
+      "noExpiration": "No expiration",
+      "hdVideo": "HD video",
+      "allFeatures": "All premium features",
+      "cta": "Get Started"
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "newMeeting": {
+      "title": "New Meeting",
+      "description": "Create a new 1-on-1 video room",
+      "button": "Create Room",
+      "pageTitle": "Create New Meeting",
+      "pageDescription": "Create a new 1-on-1 video meeting room. You can invite someone to join later.",
+      "meetingNameLabel": "Meeting Name (optional)",
+      "meetingNamePlaceholder": "My Meeting",
+      "createButton": "Create Meeting Room",
+      "creating": "Creating...",
+      "createError": "Failed to create meeting room. Please try again.",
+      "features": {
+        "private": "1-on-1 private video call",
+        "encrypted": "End-to-end encrypted",
+        "nodownload": "No download required"
+      }
+    },
+    "history": {
+      "title": "History",
+      "description": "View your meeting history",
+      "button": "View History"
+    },
+    "balance": {
+      "title": "Balance",
+      "description": "View your available minutes",
+      "button": "Top Up"
+    }
+  },
+  "Footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy",
+    "refund": "Refund Policy",
+    "copyright": "All rights reserved."
+  },
+  "Theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto",
+    "label": "Theme"
+  },
+  "Room": {
+    "loading": "Loading room...",
+    "notFound": "Room not found",
+    "notFoundDescription": "This meeting room doesn't exist or has expired.",
+    "error": "Error loading room",
+    "errorDescription": "Something went wrong while loading the room.",
+    "duration": "Duration",
+    "participants": "Participants",
+    "waiting": "Waiting for participants...",
+    "inCall": "In call",
+    "endCall": "End Call",
+    "leaveCall": "Leave Call",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "camera": "Camera",
+    "cameraOn": "Camera On",
+    "cameraOff": "Camera Off",
+    "copyLink": "Copy Invite Link",
+    "linkCopied": "Link copied to clipboard!",
+    "shareLink": "Share this link to invite someone",
+    "endingCall": "Ending call...",
+    "confirmEnd": "End this call?",
+    "confirmEndDescription": "The meeting will be closed for all participants."
+  }
+}

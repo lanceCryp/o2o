@@ -1,0 +1,153 @@
+{
+  "Common": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "dashboard": "仪表板",
+    "loading": "加载中...",
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步"
+  },
+  "Navigation": {
+    "home": "首页",
+    "pricing": "定价",
+    "history": "历史记录",
+    "settings": "设置",
+    "billing": "充值",
+    "logout": "退出登录"
+  },
+  "Hero": {
+    "title": "一对一私密视频通话",
+    "titleHighlight": "无需下载，不留痕迹",
+    "description": "最安全的私密通话方式",
+    "descriptionHighlight": "一个链接，两人，零妥协",
+    "cta": "开始您的私密通话 - 免费 100 分钟",
+    "ctaLoggedIn": "开始您的私密通话"
+  },
+  "Features": {
+    "title": "为什么选择 o2o？",
+    "private": {
+      "title": "私密安全",
+      "description": "IP 绑定链接、端到端加密、不留存任何记录"
+    },
+    "onetoone": {
+      "title": "专注一对一",
+      "description": "专为两人设计，无干扰，无群聊"
+    },
+    "nodownload": {
+      "title": "无需下载",
+      "description": "纯浏览器运行，全平台支持，免安装"
+    },
+    "pricing": {
+      "title": "灵活定价",
+      "description": "按量付费，$2.99 起，无订阅压力"
+    }
+  },
+  "Pricing": {
+    "title": "简单透明的定价",
+    "subtitle": "从 100 分钟免费额度开始，按需升级",
+    "starter": {
+      "name": "标准包",
+      "price": "$2.99",
+      "minutes": "60 分钟",
+      "sessionLimit": "单次最长 120 分钟",
+      "noExpiration": "永久有效",
+      "hdVideo": "高清视频",
+      "cta": "开始使用"
+    },
+    "standard": {
+      "name": "超值包",
+      "price": "$5.99",
+      "minutes": "150 分钟",
+      "sessionLimit": "单次最长 120 分钟",
+      "noExpiration": "永久有效",
+      "hdVideo": "高清视频",
+      "screenSharing": "屏幕共享",
+      "cta": "开始使用",
+      "bestValue": "最超值"
+    },
+    "unlimited": {
+      "name": "无限包",
+      "price": "$9.99",
+      "minutes": "300 分钟",
+      "sessionLimit": "单次最长 120 分钟",
+      "noExpiration": "永久有效",
+      "hdVideo": "高清视频",
+      "allFeatures": "所有高级功能",
+      "cta": "开始使用"
+    }
+  },
+  "Dashboard": {
+    "title": "仪表板",
+    "newMeeting": {
+      "title": "新建会议",
+      "description": "创建一个新的一对一视频会议室",
+      "button": "创建会议室",
+      "pageTitle": "创建新会议",
+      "pageDescription": "创建一个新的一对一视频会议室，您可以邀请他人稍后加入。",
+      "meetingNameLabel": "会议名称（可选）",
+      "meetingNamePlaceholder": "我的会议",
+      "createButton": "创建会议室",
+      "creating": "创建中...",
+      "createError": "创建会议室失败，请重试。",
+      "features": {
+        "private": "一对一私密视频通话",
+        "encrypted": "端到端加密",
+        "nodownload": "无需下载"
+      }
+    },
+    "history": {
+      "title": "历史记录",
+      "description": "查看您的会议历史记录",
+      "button": "查看历史"
+    },
+    "balance": {
+      "title": "账户余额",
+      "description": "查看您的可用时长",
+      "button": "充值时长"
+    }
+  },
+  "Footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookie": "Cookie 政策",
+    "refund": "退款政策",
+    "copyright": "版权所有"
+  },
+  "Theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "auto": "自动",
+    "label": "主题"
+  },
+  "Room": {
+    "loading": "加载会议室...",
+    "notFound": "会议室不存在",
+    "notFoundDescription": "该会议室不存在或已过期",
+    "error": "加载失败",
+    "errorDescription": "加载会议室时出错",
+    "duration": "通话时长",
+    "participants": "参与者",
+    "waiting": "等待参与者加入...",
+    "inCall": "通话中",
+    "endCall": "结束通话",
+    "leaveCall": "离开通话",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "camera": "摄像头",
+    "cameraOn": "开启摄像头",
+    "cameraOff": "关闭摄像头",
+    "copyLink": "复制邀请链接",
+    "linkCopied": "链接已复制！",
+    "shareLink": "分享此链接邀请他人加入",
+    "endingCall": "正在结束通话...",
+    "confirmEnd": "结束此通话？",
+    "confirmEndDescription": "会议室将对所有参与者关闭"
+  }
+}
