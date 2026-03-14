@@ -5,6 +5,7 @@ import { useUser } from '@clerk/nextjs';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Button } from "@/components/ui/button";
 import Header from '@/components/header';
+import ParticleBackground from '@/components/particle-background';
 
 export default function HomePage() {
   const { t } = useI18n();
@@ -12,6 +13,11 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted/10">
+      {/* Particle Background - Full viewport, behind all content */}
+      <div className="fixed inset-0 -z-10 pointer-events-none">
+        <ParticleBackground />
+      </div>
+
       {/* Header */}
       <Header />
 
