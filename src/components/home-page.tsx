@@ -12,11 +12,9 @@ export default function HomePage() {
   const { isSignedIn } = useUser();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted/10">
-      {/* Particle Background - Full viewport, behind all content */}
-      <div className="fixed inset-0 -z-10 pointer-events-none">
-        <ParticleBackground />
-      </div>
+    <div className="relative min-h-screen bg-gradient-to-b from-background via-background to-muted/10">
+      {/* Particle Background - Fixed at the very back */}
+      <ParticleBackground />
 
       {/* Header */}
       <Header />
@@ -24,8 +22,8 @@ export default function HomePage() {
       {/* Hero Section */}
       <main className="container mx-auto px-4">
         <section className="py-24 md:py-36 text-center relative">
-          {/* Background decoration */}
-          <div className="absolute inset-0 -z-10 overflow-hidden">
+          {/* Background decoration - behind particles */}
+          <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
             <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
             <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
           </div>
@@ -88,7 +86,7 @@ export default function HomePage() {
 
         {/* Features Section */}
         <section id="features" className="py-24 relative">
-          <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
             <div className="absolute top-1/2 -left-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
             <div className="absolute top-1/2 -right-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
           </div>
