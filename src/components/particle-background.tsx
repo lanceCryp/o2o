@@ -30,8 +30,8 @@ export default function ParticleBackground() {
         // 深色主题：使用更亮的紫色
         return { r: 167, g: 139, b: 250 };
       } else {
-        // 浅色主题：使用柔和的蓝灰色
-        return { r: 99, g: 102, b: 241 };
+        // 浅色主题：使用更深的蓝紫色，增加对比度
+        return { r: 79, g: 70, b: 229 };
       }
     };
 
@@ -55,10 +55,10 @@ export default function ParticleBackground() {
       constructor() {
         this.x = Math.random() * canvas!.width;
         this.y = Math.random() * canvas!.height;
-        this.size = Math.random() * 3 + 1; // 增大粒子尺寸
-        this.speedX = (Math.random() - 0.5) * 0.5; // 加快移动速度
+        this.size = Math.random() * 4 + 2; // 增大粒子尺寸 (2-6px)
+        this.speedX = (Math.random() - 0.5) * 0.5;
         this.speedY = (Math.random() - 0.5) * 0.5;
-        this.opacity = Math.random() * 0.4 + 0.3; // 提高基础透明度
+        this.opacity = Math.random() * 0.3 + 0.5; // 提高基础透明度 (0.5-0.8)
         this.fadeSpeed = Math.random() * 0.003 + 0.002;
       }
 
@@ -76,7 +76,7 @@ export default function ParticleBackground() {
 
         // 淡入淡出效果
         this.opacity += this.fadeSpeed;
-        if (this.opacity <= 0.2 || this.opacity >= 0.9) {
+        if (this.opacity <= 0.4 || this.opacity >= 0.95) {
           this.fadeSpeed = -this.fadeSpeed;
         }
       }
@@ -104,7 +104,7 @@ export default function ParticleBackground() {
 
     // 连接粒子
     const connectParticles = () => {
-      const maxDistance = 180; // 增加连接距离
+      const maxDistance = 200; // 增加连接距离
       for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
@@ -112,10 +112,10 @@ export default function ParticleBackground() {
           const distance = Math.sqrt(dx * dx + dy * dy);
 
           if (distance < maxDistance) {
-            const opacity = (1 - distance / maxDistance) * 0.25; // 提高连线透明度
+            const opacity = (1 - distance / maxDistance) * 0.4; // 提高连线透明度
             const color = getParticleColor();
             ctx.strokeStyle = `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity})`;
-            ctx.lineWidth = 0.8; // 加粗连线
+            ctx.lineWidth = 1; // 加粗连线
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
@@ -128,11 +128,11 @@ export default function ParticleBackground() {
         const dyMouse = particles[i].y - mouse.y;
         const distanceMouse = Math.sqrt(dxMouse * dxMouse + dyMouse * dyMouse);
 
-        if (distanceMouse < 250) { // 增加鼠标感应范围
-          const opacity = (1 - distanceMouse / 250) * 0.35;
+        if (distanceMouse < 300) { // 增加鼠标感应范围
+          const opacity = (1 - distanceMouse / 300) * 0.5;
           const color = getParticleColor();
           ctx.strokeStyle = `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity})`;
-          ctx.lineWidth = 1;
+          ctx.lineWidth = 1.5;
           ctx.beginPath();
           ctx.moveTo(particles[i].x, particles[i].y);
           ctx.lineTo(mouse.x, mouse.y);
