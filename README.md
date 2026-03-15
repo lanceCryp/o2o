@@ -65,6 +65,22 @@ pnpm preview      # Preview production build locally
 pnpm cf-typegen   # Generate Cloudflare types
 ```
 
+## About the Author
+
+**Available for freelance work!**
+
+I'm a senior frontend developer with **10+ years of experience**, specializing in:
+
+- Frontend Development (React, Next.js, TypeScript, Vue)
+- Overseas SaaS Services Architecture
+- **Clerk** - Authentication & User Management
+- **Resend** - Email Delivery
+- **Stripe** - Payment Integration
+- **Cloudflare** - Workers, D1, R2, KV
+- Overseas Company Registration & Setup
+
+Looking to build your SaaS product or need technical consultation? Feel free to reach out!
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
