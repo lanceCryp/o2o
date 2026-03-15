@@ -32,6 +32,11 @@
     "badge": "安全私密",
     "learnMore": "了解更多"
   },
+  "TrustIndicators": {
+    "encrypted": "端到端加密",
+    "noStorage": "不留存数据",
+    "instantSetup": "即时设置"
+  },
   "Features": {
     "title": "为什么选择 o2o？",
     "subtitle": "您需要的一切，尽在这里",
@@ -50,6 +55,27 @@
     "pricing": {
       "title": "灵活定价",
       "description": "按量付费，$2.99 起，无订阅压力"
+    }
+  },
+  "HowItWorks": {
+    "title": "使用流程",
+    "subtitle": "三个简单步骤，即刻开始",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "创建账户",
+        "description": "免费注册，即送 100 分钟免费试用时长"
+      },
+      "start": {
+        "step": "02",
+        "title": "创建房间",
+        "description": "创建私密会议室，分享链接给访客"
+      },
+      "connect": {
+        "step": "03",
+        "title": "安全连接",
+        "description": "享受端到端加密的一对一视频通话"
+      }
     }
   },
   "Pricing": {
@@ -137,7 +163,15 @@
     "terms": "服务条款",
     "cookie": "Cookie 政策",
     "refund": "退款政策",
-    "copyright": "版权所有"
+    "copyright": "版权所有",
+    "description": "一对一私密视频通话，端到端加密",
+    "product": "产品",
+    "legal": "法律",
+    "connect": "联系我们",
+    "features": "功能特性",
+    "pricing": "价格",
+    "signIn": "登录",
+    "signUp": "注册"
   },
   "CookieConsent": {
     "title": "我们使用 Cookie",

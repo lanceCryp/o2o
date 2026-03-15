@@ -99,7 +99,7 @@ export default function HomePage() {
                   d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                 />
               </svg>
-              <span>End-to-End Encrypted</span>
+              <span>{t("TrustIndicators.encrypted")}</span>
             </div>
             <div className="flex items-center gap-2">
               <svg
@@ -115,7 +115,7 @@ export default function HomePage() {
                   d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                 />
               </svg>
-              <span>No Data Storage</span>
+              <span>{t("TrustIndicators.noStorage")}</span>
             </div>
             <div className="flex items-center gap-2">
               <svg
@@ -131,7 +131,7 @@ export default function HomePage() {
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span>Instant Setup</span>
+              <span>{t("TrustIndicators.instantSetup")}</span>
             </div>
           </div>
         </section>
@@ -180,28 +180,28 @@ export default function HomePage() {
         <section className="py-24 relative">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
-              How It Works
+              {t("HowItWorks.title")}
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Get started in three simple steps
+              {t("HowItWorks.subtitle")}
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <StepCard
-              step="01"
-              title="Create Account"
-              description="Sign up for free and get 100 minutes of free trial time"
+              step={t("HowItWorks.steps.create.step")}
+              title={t("HowItWorks.steps.create.title")}
+              description={t("HowItWorks.steps.create.description")}
             />
             <StepCard
-              step="02"
-              title="Start a Room"
-              description="Create a private room and share the link with your guest"
+              step={t("HowItWorks.steps.start.step")}
+              title={t("HowItWorks.steps.start.title")}
+              description={t("HowItWorks.steps.start.description")}
             />
             <StepCard
-              step="03"
-              title="Connect Securely"
-              description="Enjoy end-to-end encrypted 1-on-1 video conversation"
+              step={t("HowItWorks.steps.connect.step")}
+              title={t("HowItWorks.steps.connect.title")}
+              description={t("HowItWorks.steps.connect.description")}
             />
           </div>
         </section>
@@ -273,18 +273,18 @@ export default function HomePage() {
             <div>
               <h3 className="text-lg font-bold mb-4">o2o</h3>
               <p className="text-sm text-muted-foreground">
-                Private 1-on-1 video calls with end-to-end encryption.
+                {t("Footer.description")}
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Product</h4>
+              <h4 className="font-semibold mb-4">{t("Footer.product")}</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
                   <Link
                     href="#features"
                     className="hover:text-foreground transition-colors"
                   >
-                    Features
+                    {t("Footer.features")}
                   </Link>
                 </li>
                 <li>
@@ -292,20 +292,20 @@ export default function HomePage() {
                     href="/dashboard/billing"
                     className="hover:text-foreground transition-colors"
                   >
-                    Pricing
+                    {t("Footer.pricing")}
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
+              <h4 className="font-semibold mb-4">{t("Footer.legal")}</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
                   <Link
                     href="/privacy"
                     className="hover:text-foreground transition-colors"
                   >
-                    Privacy Policy
+                    {t("Footer.privacy")}
                   </Link>
                 </li>
                 <li>
@@ -313,20 +313,20 @@ export default function HomePage() {
                     href="/terms"
                     className="hover:text-foreground transition-colors"
                   >
-                    Terms of Service
+                    {t("Footer.terms")}
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Connect</h4>
+              <h4 className="font-semibold mb-4">{t("Footer.connect")}</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
                   <Link
                     href="/sign-in"
                     className="hover:text-foreground transition-colors"
                   >
-                    Sign In
+                    {t("Footer.signIn")}
                   </Link>
                 </li>
                 <li>
@@ -334,7 +334,7 @@ export default function HomePage() {
                     href="/sign-up"
                     className="hover:text-foreground transition-colors"
                   >
-                    Sign Up
+                    {t("Footer.signUp")}
                   </Link>
                 </li>
               </ul>

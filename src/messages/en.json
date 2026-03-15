@@ -32,6 +32,11 @@
     "badge": "Secure & Private",
     "learnMore": "Learn More"
   },
+  "TrustIndicators": {
+    "encrypted": "End-to-End Encrypted",
+    "noStorage": "No Data Storage",
+    "instantSetup": "Instant Setup"
+  },
   "Features": {
     "title": "Why Choose o2o?",
     "subtitle": "Everything you need for secure, private conversations",
@@ -50,6 +55,27 @@
     "pricing": {
       "title": "Flexible Pricing",
       "description": "Pay-as-you-go from $2.99, no subscription pressure"
+    }
+  },
+  "HowItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started in three simple steps",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Create Account",
+        "description": "Sign up for free and get 100 minutes of free trial time"
+      },
+      "start": {
+        "step": "02",
+        "title": "Start a Room",
+        "description": "Create a private room and share the link with your guest"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Connect Securely",
+        "description": "Enjoy end-to-end encrypted 1-on-1 video conversation"
+      }
     }
   },
   "Pricing": {
@@ -137,7 +163,15 @@
     "terms": "Terms of Service",
     "cookie": "Cookie Policy",
     "refund": "Refund Policy",
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "description": "Private 1-on-1 video calls with end-to-end encryption.",
+    "product": "Product",
+    "legal": "Legal",
+    "connect": "Connect",
+    "features": "Features",
+    "pricing": "Pricing",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
   },
   "CookieConsent": {
     "title": "We use cookies",
