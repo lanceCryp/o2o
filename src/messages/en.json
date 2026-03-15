@@ -139,6 +139,33 @@
     "refund": "Refund Policy",
     "copyright": "All rights reserved."
   },
+  "CookieConsent": {
+    "title": "We use cookies",
+    "description": "We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. By clicking \"Accept All\", you consent to our use of cookies.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "customize": "Customize",
+    "savePreferences": "Save Preferences",
+    "preferences": {
+      "title": "Cookie Preferences",
+      "description": "Choose which cookies to allow. You can change your preferences at any time in the settings.",
+      "necessary": {
+        "title": "Necessary Cookies",
+        "description": "Required for the site to function properly. Cannot be disabled.",
+        "alwaysActive": "Always Active"
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "description": "Remember your preferences and settings for a personalized experience."
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "Help us improve the website by collecting anonymous usage information."
+      }
+    },
+    "learnMore": "Learn more in our",
+    "policyLink": "Cookie Policy"
+  },
   "Theme": {
     "light": "Light",
     "dark": "Dark",

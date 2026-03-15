@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "@/contexts/theme-provider";
 import { I18nProvider } from "@/contexts/i18n-provider";
+import CookieConsent from "@/components/cookie-consent";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -86,6 +87,7 @@ export default function RootLayout({
           <ThemeProvider>
             <I18nProvider>
               {children}
+              <CookieConsent />
             </I18nProvider>
           </ThemeProvider>
         </body>

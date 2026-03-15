@@ -139,6 +139,33 @@
     "refund": "退款政策",
     "copyright": "版权所有"
   },
+  "CookieConsent": {
+    "title": "我们使用 Cookie",
+    "description": "我们使用 Cookie 来提升您的浏览体验、分析网站流量并个性化内容。点击\"全部接受\"即表示您同意我们使用 Cookie。",
+    "acceptAll": "全部接受",
+    "rejectAll": "全部拒绝",
+    "customize": "自定义设置",
+    "savePreferences": "保存设置",
+    "preferences": {
+      "title": "Cookie 偏好设置",
+      "description": "选择要允许的 Cookie 类型。您可以随时在设置中更改偏好。",
+      "necessary": {
+        "title": "必要 Cookie",
+        "description": "网站正常运行所必需，无法禁用。",
+        "alwaysActive": "始终启用"
+      },
+      "functional": {
+        "title": "功能 Cookie",
+        "description": "记住您的偏好和设置，提供个性化体验。"
+      },
+      "analytics": {
+        "title": "分析 Cookie",
+        "description": "通过收集匿名使用信息来帮助我们改进网站。"
+      }
+    },
+    "learnMore": "了解更多，请查看",
+    "policyLink": "Cookie 政策"
+  },
   "Theme": {
     "light": "浅色",
     "dark": "深色",
