@@ -1,5 +1,6 @@
 {
 	"name": "o2o",
+	"version": "0.1.0",
 	"description": "one to one meeting",
 	"cloudflare": {
 		"label": "Next.js Framework Starter",
