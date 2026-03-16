@@ -1,7 +1,7 @@
 'use client';
 
 import { useParams, useRouter } from 'next/navigation';
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 import { useI18n } from '@/contexts/i18n-provider';
@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import Header from '@/components/header';
+import { MeetingRoom } from '@/components/meeting-room';
 
 interface RoomData {
   roomId: string;
@@ -32,8 +33,7 @@ export default function RoomPage() {
   const [isEnding, setIsEnding] = useState(false);
   const [inviteUrl, setInviteUrl] = useState('');
   const [showInviteUrl, setShowInviteUrl] = useState(false);
-
-  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [isTokenReady, setIsTokenReady] = useState(false);
 
   useEffect(() => {
     if (!isLoaded) return;
@@ -96,6 +96,7 @@ export default function RoomPage() {
       const dailyUrlWithToken = await fetchDailyUrl();
       if (dailyUrlWithToken) {
         setRoom(prev => prev ? { ...prev, roomUrl: dailyUrlWithToken } : null);
+        setIsTokenReady(true);
       }
     } catch (err) {
       setError('error');
@@ -174,8 +175,15 @@ export default function RoomPage() {
     );
   }
 
-  if (!room) {
-    return null;
+  if (!room || !isTokenReady) {
+    return (
+      <div className="min-h-screen bg-background">
+        <Header showDashboardLink />
+        <div className="flex items-center justify-center h-[calc(100vh-80px)]">
+          <div className="text-muted-foreground">{t('Room.loading')}</div>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -184,13 +192,14 @@ export default function RoomPage() {
 
       <main className="container mx-auto px-4 py-4">
         <div className="grid lg:grid-cols-4 gap-4 h-[calc(100vh-100px)]">
-          {/* Main video area */}
+          {/* Main video area - Using custom MeetingRoom component */}
           <div className="lg:col-span-3 bg-black rounded-lg overflow-hidden relative">
-            <iframe
-              ref={iframeRef}
-              src={room.roomUrl}
-              allow="camera; microphone; display-capture"
-              className="w-full h-full border-0"
+            <MeetingRoom
+              roomUrl={room.roomUrl}
+              isHost={room.isHost}
+              roomId={room.roomId}
+              onLeave={() => router.push(room.isHost ? '/dashboard' : '/welcome')}
+              onMeetingEnded={() => router.push(`/room/${params.id}/ended`)}
             />
 
             {/* Duration display */}
@@ -201,76 +210,49 @@ export default function RoomPage() {
 
           {/* Sidebar */}
           <div className="space-y-4">
-            {/* Meeting info */}
-            <Card>
-              <CardHeader className="pb-3">
-                <CardTitle className="text-lg">{room.roomName}</CardTitle>
-                <CardDescription className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                  {duration > 30 ? t('Room.inCall') : t('Room.waiting')}
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <Button
-                  variant="outline"
-                  className="w-full justify-start"
-                  onClick={handleCopyLink}
-                >
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                  </svg>
-                  {t('Room.copyLink')}
-                </Button>
-                {showInviteUrl && inviteUrl && (
-                  <div className="bg-green-50 text-green-700 text-xs px-3 py-2 rounded">
-                    {t('Room.linkCopied')}
-                  </div>
-                )}
-                <p className="text-xs text-muted-foreground">{t('Room.shareLink')}</p>
-              </CardContent>
-            </Card>
+            {/* 房主专属：分享链接 */}
+            {room.isHost && (
+              <Card>
+                <CardHeader className="pb-3">
+                  <CardTitle className="text-lg">{room.roomName}</CardTitle>
+                  <CardDescription className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    {duration > 30 ? t('Room.inCall') : t('Room.waiting')}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <Button
+                    variant="outline"
+                    className="w-full justify-start"
+                    onClick={handleCopyLink}
+                  >
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                    </svg>
+                    {t('Room.copyLink')}
+                  </Button>
+                  {showInviteUrl && inviteUrl && (
+                    <div className="bg-green-50 text-green-700 text-xs px-3 py-2 rounded">
+                      {t('Room.linkCopied')}
+                    </div>
+                  )}
+                  <p className="text-xs text-muted-foreground">{t('Room.shareLink')}</p>
+                </CardContent>
+              </Card>
+            )}
 
-            {/* Controls - Simple client-side toggle */}
-            <Card>
-              <CardContent className="pt-6 space-y-3">
-                <div className="grid grid-cols-2 gap-2">
-                  <Button
-                    variant="outline"
-                    className="w-full"
-                    onClick={() => {
-                      iframeRef.current?.contentWindow?.postMessage({ action: 'toggleAudio' }, '*');
-                    }}
-                  >
-                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
-                    </svg>
-                    {t('Room.mute')}
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="w-full"
-                    onClick={() => {
-                      iframeRef.current?.contentWindow?.postMessage({ action: 'toggleVideo' }, '*');
-                    }}
-                  >
-                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                    </svg>
-                    {t('Room.camera')}
-                  </Button>
-                </div>
-                {/* 只有房主才能结束通话 */}
-                {room.isHost && (
-                  <Button
-                    variant="destructive"
-                    className="w-full"
-                    onClick={handleEndCallClick}
-                  >
-                    {t('Room.endCall')}
-                  </Button>
-                )}
-              </CardContent>
-            </Card>
+            {/* 访客：只显示会议名称 */}
+            {!room.isHost && (
+              <Card>
+                <CardHeader className="pb-3">
+                  <CardTitle className="text-lg">{room.roomName}</CardTitle>
+                  <CardDescription className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    {duration > 30 ? t('Room.inCall') : t('Room.waiting')}
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            )}
 
             {/* Info */}
             <Card>

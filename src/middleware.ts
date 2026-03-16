@@ -11,5 +11,6 @@ export const config = {
     // Protect dashboard and room routes
     "/dashboard/:path*",
     "/room/:path*",
+    "/welcome",
   ],
 };

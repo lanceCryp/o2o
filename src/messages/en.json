@@ -230,7 +230,60 @@
     "confirmEnd": "End this call?",
     "confirmEndDescription": "The meeting will be closed for all participants.",
     "joinMeeting": "Join Meeting",
-    "joining": "Joining..."
+    "joining": "Joining...",
+    "endedTitle": "Meeting Ended",
+    "endedSummary": "Meeting Summary",
+    "durationLabel": "Duration",
+    "endTimeLabel": "End Time",
+    "participantCountLabel": "Participants",
+    "signupCta": "Sign up to create more meetings",
+    "backToDashboard": "Back to Dashboard",
+    "hostLeftTitle": "Host Left",
+    "hostLeftMessage": "The host has ended this meeting. You will be redirected to the sign up page."
+  },
+  "Welcome": {
+    "title": "Start Your Private Call Journey",
+    "subtitle": "One-to-one private video calls, end-to-end encrypted, no download required",
+    "features": {
+      "private": {
+        "title": "Private & Secure",
+        "description": "End-to-end encryption, no data storage"
+      },
+      "onetoone": {
+        "title": "Focused on 1-on-1",
+        "description": "Designed for two people, no distractions"
+      },
+      "nodownload": {
+        "title": "No Download",
+        "description": "Runs in browser, cross-platform support"
+      }
+    },
+    "offer": {
+      "title": "New User Special",
+      "subtitle": "Sign up and get 100 minutes free",
+      "signupButton": "Sign Up Free",
+      "signinButton": "Already have an account? Sign In",
+      "note": "No credit card required"
+    },
+    "pricing": {
+      "title": "Flexible Pricing, Choose as Needed",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Starter Pack / 60 mins",
+        "limit": "Max 120 mins per session"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Standard Pack / 150 mins",
+        "limit": "Max 120 mins per session",
+        "badge": "Most Popular"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Unlimited Pack / 300 mins",
+        "limit": "Max 120 mins per session"
+      }
+    }
   },
   "History": {
     "title": "Meeting History",

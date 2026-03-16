@@ -46,9 +46,17 @@ export default function SettingsPage() {
 
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto space-y-6">
-          <div>
-            <h1 className="text-2xl font-bold mb-2">{t('Settings.title')}</h1>
-            <p className="text-muted-foreground">{t('Settings.description')}</p>
+          <div className="flex items-center gap-4">
+            <Button variant="ghost" onClick={() => router.back()} className="gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              {t('Common.back')}
+            </Button>
+            <div>
+              <h1 className="text-2xl font-bold mb-2">{t('Settings.title')}</h1>
+              <p className="text-muted-foreground">{t('Settings.description')}</p>
+            </div>
           </div>
 
           {/* 个人资料 */}
@@ -157,13 +165,6 @@ export default function SettingsPage() {
               </div>
             </CardContent>
           </Card>
-
-          {/* 返回仪表板 */}
-          <div className="flex justify-center">
-            <Link href="/dashboard">
-              <Button variant="outline">{t('Common.back')}</Button>
-            </Link>
-          </div>
         </div>
       </main>
     </div>

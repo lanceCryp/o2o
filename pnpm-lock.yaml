@@ -14,9 +14,6 @@ importers:
       '@clerk/nextjs':
         specifier: ^7.0.4
         version: 7.0.4(next@16.0.7(@babel/core@7.29.0)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@daily-co/daily-js':
-        specifier: ^0.87.0
-        version: 0.87.0
       '@daily-co/daily-react':
         specifier: ^0.24.0
         version: 0.24.0(@daily-co/daily-js@0.87.0)(jotai@2.18.1(@babel/core@7.29.0)(@babel/template@7.28.6)(@types/react@19.2.7)(react@19.2.1))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)

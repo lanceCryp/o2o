@@ -1,6 +1,7 @@
 'use client';
 
 import { useUser } from '@clerk/nextjs';
+import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useI18n } from '@/contexts/i18n-provider';
@@ -90,6 +91,7 @@ const SUBSCRIPTION_PLANS = [
 ];
 
 export default function BillingPage() {
+  const router = useRouter();
   const { isLoaded, isSignedIn } = useUser();
   const { t } = useI18n();
 
@@ -283,6 +285,14 @@ export default function BillingPage() {
       <Header showDashboardLink />
 
       <main className="container mx-auto px-4 py-8">
+        <div className="mb-6">
+          <Button variant="ghost" onClick={() => router.back()} className="gap-2">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            {t('Common.back')}
+          </Button>
+        </div>
         <div className="max-w-5xl mx-auto space-y-8">
           {/* 支付结果提示 */}
           {purchaseError && (

@@ -109,6 +109,14 @@ export default function NewMeetingPage() {
 
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-md mx-auto">
+          <div className="mb-6">
+            <Button variant="ghost" onClick={() => router.back()} className="gap-2 mb-4">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              {t('Common.back')}
+            </Button>
+          </div>
           <Card>
             <CardHeader>
               <CardTitle>{t('Dashboard.newMeeting.pageTitle')}</CardTitle>

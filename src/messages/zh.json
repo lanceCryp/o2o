@@ -212,8 +212,11 @@
     "notFoundDescription": "该会议室不存在或已过期",
     "error": "加载失败",
     "errorDescription": "加载会议室时出错",
+    "ended": "会议已结束",
+    "endedDescription": "此会议已结束，无法加入",
     "duration": "通话时长",
     "participants": "参与者",
+    "participant": "参与者",
     "waiting": "等待参与者加入...",
     "inCall": "通话中",
     "endCall": "结束通话",
@@ -230,7 +233,64 @@
     "confirmEnd": "结束此通话？",
     "confirmEndDescription": "会议室将对所有参与者关闭",
     "joinMeeting": "加入会议",
-    "joining": "加入中..."
+    "joining": "加入中...",
+    "joinError": "加入会议失败",
+    "you": "你",
+    "muted": "已静音",
+    "waitingForParticipants": "等待参与者加入...",
+    "endedTitle": "会议已结束",
+    "endedSummary": "会议总结",
+    "durationLabel": "通话时长",
+    "endTimeLabel": "结束时间",
+    "participantCountLabel": "参与人数",
+    "signupCta": "注册账户以创建更多会议",
+    "backToDashboard": "返回仪表板",
+    "hostLeftTitle": "房主已离开",
+    "hostLeftMessage": "房主已结束此会议，您将被 redirect 到注册页面"
+  },
+  "Welcome": {
+    "title": "开始您的私密通话之旅",
+    "subtitle": "一对一私密视频通话，端到端加密，无需下载",
+    "features": {
+      "private": {
+        "title": "私密安全",
+        "description": "端到端加密，不留存任何记录"
+      },
+      "onetoone": {
+        "title": "专注一对一",
+        "description": "专为两人设计，无干扰"
+      },
+      "nodownload": {
+        "title": "无需下载",
+        "description": "纯浏览器运行，全平台支持"
+      }
+    },
+    "offer": {
+      "title": "新用户专享",
+      "subtitle": "注册即送 100 分钟免费通话时长",
+      "signupButton": "免费注册",
+      "signinButton": "已有账户？登录",
+      "note": "无需信用卡，即刻体验"
+    },
+    "pricing": {
+      "title": "灵活定价，按需选择",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "标准包 / 60 分钟",
+        "limit": "单次最长 120 分钟"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "超值包 / 150 分钟",
+        "limit": "单次最长 120 分钟",
+        "badge": "最受欢迎"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "无限包 / 300 分钟",
+        "limit": "单次最长 120 分钟"
+      }
+    }
   },
   "History": {
     "title": "会议历史记录",
