@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Inloggen",
+    "signUp": "Aan de Slag",
+    "dashboard": "Dashboard",
+    "loading": "Laden...",
+    "submit": "Verzenden",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "close": "Sluiten",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pricing": "Prijzen",
+    "history": "Geschiedenis",
+    "settings": "Instellingen",
+    "billing": "Facturatie",
+    "logout": "Uitloggen"
+  },
+  "Hero": {
+    "title": "Privé 1-op-1 Video.",
+    "titleHighlight": "Geen Downloads. Geen Sporen.",
+    "description": "De veiligste manier om privé te verbinden.",
+    "descriptionHighlight": "Eén link, twee mensen, nul compromissen.",
+    "cta": "Start Je Privé Gesprek - 100 Minuten Gratis",
+    "ctaLoggedIn": "Start Je Privé Gesprek",
+    "badge": "Veilig & Privé",
+    "learnMore": "Meer Informatie"
+  },
+  "TrustIndicators": {
+    "encrypted": "End-to-End Versleuteld",
+    "noStorage": "Geen Data Opslag",
+    "instantSetup": "Directe Installatie"
+  },
+  "Features": {
+    "title": "Waarum o2o Kiezen?",
+    "subtitle": "Alles wat je nodig hebt voor veilige, privé gesprekken",
+    "private": {
+      "title": "Privé & Veilig",
+      "description": "IP-gebonden links, end-to-end versleuteling, geen sporen achtergelaten"
+    },
+    "onetoone": {
+      "title": "1-op-1 Gericht",
+      "description": "Alleen voor twee personen, geen afleidingen, geen groepschats"
+    },
+    "nodownload": {
+      "title": "Geen Download Nodig",
+      "description": "Pure browser-based, werkt op alle apparaten, geen installatie vereist"
+    },
+    "pricing": {
+      "title": "Flexibele Prijzen",
+      "description": "Betaal naar gebruik vanaf $2.99, geen abonnementsdruk"
+    }
+  },
+  "HowItWorks": {
+    "title": "Hoe Het Werkt",
+    "subtitle": "Begin in drie eenvoudige stappen",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Account Aanmaken",
+        "description": "Meld je gratis aan en ontvang 100 minuten gratis proeftijd"
+      },
+      "start": {
+        "step": "02",
+        "title": "Ruimte Starten",
+        "description": "Maak een privé ruimte en deel de link met je gast"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Veilig Verbinden",
+        "description": "Geniet van end-to-end versleutelde 1-op-1 videogesprekken"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Eenvoudige, Transparante Prijzen",
+    "subtitle": "Begin met 100 gratis minuten, upgrade wanneer je meer nodig hebt",
+    "starter": {
+      "name": "Starter",
+      "price": "$2.99",
+      "minutes": "60 minuten",
+      "sessionLimit": "120 min sessielimiet",
+      "noExpiration": "Geen vervaldatum",
+      "hdVideo": "HD video",
+      "cta": "Aan de Slag"
+    },
+    "standard": {
+      "name": "Standaard",
+      "price": "$5.99",
+      "minutes": "150 minuten",
+      "sessionLimit": "120 min sessielimiet",
+      "noExpiration": "Geen vervaldatum",
+      "hdVideo": "HD video",
+      "screenSharing": "Scherm delen",
+      "cta": "Aan de Slag",
+      "bestValue": "Beste Waarde"
+    },
+    "unlimited": {
+      "name": "Onbeperkt",
+      "price": "$9.99",
+      "minutes": "300 minuten",
+      "sessionLimit": "120 min sessielimiet",
+      "noExpiration": "Geen vervaldatum",
+      "hdVideo": "HD video",
+      "allFeatures": "Alle premium functies",
+      "cta": "Aan de Slag"
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Start een privé gesprek of beheer je account",
+    "newMeeting": {
+      "title": "Nieuwe Vergadering",
+      "description": "Maak een nieuwe 1-op-1 videoruimte",
+      "button": "Ruimte Aanmaken",
+      "pageTitle": "Nieuwe Vergadering Aanmaken",
+      "pageDescription": "Maak een nieuwe 1-op-1 videovergaderruimte. Je kunt iemand later uitnodigen.",
+      "meetingNameLabel": "Vergadernaam (optioneel)",
+      "meetingNamePlaceholder": "Mijn Vergadering",
+      "createButton": "Vergaderruimte Aanmaken",
+      "creating": "Aanmaken...",
+      "createError": "Kan vergaderruimte niet aanmaken. Probeer het opnieuw.",
+      "features": {
+        "private": "1-op-1 privé videogesprek",
+        "encrypted": "End-to-end versleuteld",
+        "nodownload": "Geen download vereist"
+      },
+      "existingRoom": {
+        "title": "Bestaande Actieve Ruimte",
+        "message": "Je hebt al een actieve ruimte genaamd \"{name}\".",
+        "description": "Wil je de bestaande ruimte betreden of verwijderen en een nieuwe aanmaken?",
+        "enterExisting": "Bestaande Ruimte Betreden",
+        "createNew": "Verwijderen & Nieuwe Aanmaken",
+        "deleting": "Verwijderen..."
+      }
+    },
+    "history": {
+      "title": "Geschiedenis",
+      "description": "Bekijk je vergadergeschiedenis",
+      "button": "Geschiedenis Bekijken"
+    },
+    "balance": {
+      "title": "Saldo",
+      "description": "Bekijk je beschikbare minuten",
+      "button": "Opladen"
+    },
+    "joinMeeting": {
+      "title": "Vergadering Deelnemen",
+      "description": "Je bent uitgenodigd voor een vergadering",
+      "hostName": "Gastheer",
+      "joinButton": "Vergadering Deelnemen",
+      "joining": "Deelnemen..."
+    }
+  },
+  "Footer": {
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "cookie": "Cookiebeleid",
+    "refund": "Restitutiebeleid",
+    "copyright": "Alle rechten voorbehouden.",
+    "description": "Privé 1-op-1 videogesprekken met end-to-end versleuteling.",
+    "product": "Product",
+    "legal": "Juridisch",
+    "connect": "Verbinden",
+    "features": "Functies",
+    "pricing": "Prijzen",
+    "signIn": "Inloggen",
+    "signUp": "Registreren"
+  },
+  "CookieConsent": {
+    "title": "Wij gebruiken cookies",
+    "description": "Wij gebruiken cookies om je browse-ervaring te verbeteren, sitetraffic te analyseren en inhoud te personaliseren. Door op \"Alles Accepteren\" te klikken, ga je akkoord met ons gebruik van cookies.",
+    "acceptAll": "Alles Accepteren",
+    "rejectAll": "Alles Afwijzen",
+    "customize": "Aanpassen",
+    "savePreferences": "Voorkeuren Opslaan",
+    "preferences": {
+      "title": "Cookie Voorkeuren",
+      "description": "Kies welke cookies je wilt toestaan. Je kunt je voorkeuren op elk moment wijzigen in de instellingen.",
+      "necessary": {
+        "title": "Noodzakelijke Cookies",
+        "description": "Vereist voor goede werking van de site. Kan niet worden uitgeschakeld.",
+        "alwaysActive": "Altijd Actief"
+      },
+      "functional": {
+        "title": "Functionele Cookies",
+        "description": "Onthoudt je voorkeuren en instellingen voor een gepersonaliseerde ervaring."
+      },
+      "analytics": {
+        "title": "Analytische Cookies",
+        "description": "Helpt de website te verbeteren door anonieme gebruiksgegevens te verzamelen."
+      }
+    },
+    "learnMore": "Meer informatie in ons",
+    "policyLink": "Cookiebeleid"
+  },
+  "Theme": {
+    "light": "Licht",
+    "dark": "Donker",
+    "auto": "Automatisch",
+    "label": "Thema"
+  },
+  "Room": {
+    "loading": "Ruimte laden...",
+    "notFound": "Ruimte niet gevonden",
+    "notFoundDescription": "Deze vergaderruimte bestaat niet of is verlopen.",
+    "error": "Fout bij laden ruimte",
+    "errorDescription": "Er is iets misgegaan bij het laden van de ruimte.",
+    "ended": "Vergadering beëindigd",
+    "endedDescription": "Deze vergadering is beëindigd en kan niet meer worden bijgewoond.",
+    "duration": "Duur",
+    "participants": "Deelnemers",
+    "participant": "Deelnemer",
+    "waiting": "Wachten op deelnemers...",
+    "inCall": "In gesprek",
+    "endCall": "Gesprek Beëindigen",
+    "leaveCall": "Gesprek Verlaten",
+    "mute": "Dempen",
+    "unmute": "Dempen Opheffen",
+    "camera": "Camera",
+    "cameraOn": "Camera Aan",
+    "cameraOff": "Camera Uit",
+    "copyLink": "Uitnodigingslink Kopiëren",
+    "linkCopied": "Link gekopieerd naar klembord!",
+    "shareLink": "Deel deze link om iemand uit te nodigen",
+    "endingCall": "Gesprek beëindigen...",
+    "confirmEnd": "Dit gesprek beëindigen?",
+    "confirmEndDescription": "De vergadering wordt voor alle deelnemers gesloten.",
+    "joinMeeting": "Vergadering Deelnemen",
+    "joining": "Deelnemen...",
+    "joinError": "Kan niet deelnemen aan vergadering",
+    "you": "Jij",
+    "muted": "Gedempt",
+    "waitingForParticipants": "Wachten op deelnemers...",
+    "endedTitle": "Vergadering Beëindigd",
+    "endedSummary": "Vergadering Samenvatting",
+    "durationLabel": "Duur",
+    "endTimeLabel": "Eindtijd",
+    "participantCountLabel": "Deelnemers",
+    "signupCta": "Registreer om meer vergaderingen aan te maken",
+    "backToDashboard": "Terug naar Dashboard",
+    "hostLeftTitle": "Gastheer Vertrokken",
+    "hostLeftMessage": "De gastheer heeft deze vergadering beëindigd. Je wordt doorgestuurd naar de registratiepagina.",
+    "fullscreen": "Volledig Scherm",
+    "exitFullscreen": "Volledig Scherm Afsluiten"
+  },
+  "Welcome": {
+    "title": "Begin Je Privé Gesprekken Reis",
+    "subtitle": "Eén-op-één privé videogesprekken, end-to-end versleuteld, geen download vereist",
+    "features": {
+      "private": {
+        "title": "Privé & Veilig",
+        "description": "End-to-end versleuteling, geen data-opslag"
+      },
+      "onetoone": {
+        "title": "Richt op 1-op-1",
+        "description": "Ontworpen voor twee mensen, geen afleidingen"
+      },
+      "nodownload": {
+        "title": "Geen Download",
+        "description": "Werkt in browser, cross-platform ondersteuning"
+      }
+    },
+    "offer": {
+      "title": "Speciale Aanbieding voor Nieuwe Gebruikers",
+      "subtitle": "Registreer en ontvang 100 minuten gratis",
+      "signupButton": "Gratis Registreren",
+      "signinButton": "Al een account? Inloggen",
+      "note": "Geen creditcard vereist"
+    },
+    "pricing": {
+      "title": "Flexibele Prijzen, Kies naar Behoefte",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Starter Pakket / 60 min",
+        "limit": "Max 120 min per sessie"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Standaard Pakket / 150 min",
+        "limit": "Max 120 min per sessie",
+        "badge": "Meest Populair"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Onbeperkt Pakket / 300 min",
+        "limit": "Max 120 min per sessie"
+      }
+    }
+  },
+  "History": {
+    "title": "Vergader Geschiedenis",
+    "description": "Bekijk je afgelopen vergaderingen",
+    "noRecords": "Geen vergaderrecords",
+    "noRecordsDescription": "Je hebt nog geen beëindigde vergaderingen gehad",
+    "createFirst": "Maak je eerste vergadering",
+    "host": "Gastheer",
+    "duration": "Duur",
+    "signInRequired": "Inloggen Vereist",
+    "signInToView": "Log in om je vergadergeschiedenis te bekijken",
+    "emptyState": {
+      "title": "Geen Vergader Geschiedenis",
+      "description": "Je hebt nog geen beëindigde vergaderingen gehad",
+      "createButton": "Maak je eerste vergadering"
+    },
+    "pagination": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "pageInfo": "Pagina {current} van {total}"
+    },
+    "status": {
+      "ended": "Beëindigd",
+      "active": "Actief",
+      "waiting": "Wachten"
+    }
+  },
+  "Billing": {
+    "title": "Facturatie & Opladen",
+    "signInRequired": "Inloggen Vereist",
+    "signInToView": "Log in om je facturatiegegevens te bekijken",
+    "credits": {
+      "title": "Accountsaldo",
+      "availableMinutes": "Beschikbare Minuten",
+      "totalMinutes": "Totaal Minuten",
+      "usedMinutes": "Gebruikte Minuten",
+      "lifetime": "Levenslang Geldig"
+    },
+    "freeTrial": {
+      "title": "Gratis Proefperiode",
+      "remainingMinutes": "Resterende Minuten",
+      "expiresAt": "Verloopt Op",
+      "expired": "Verlopen",
+      "description": "Nieuwe gebruikers krijgen 100 minuten gratis"
+    },
+    "subscription": {
+      "title": "Abonnementsstatus",
+      "noSubscription": "Geen abonnement",
+      "startWithPackage": "Koop een pakket om te beginnen"
+    },
+    "packages": {
+      "title": "Oplaad Pakketten",
+      "starter": {
+        "name": "Starter",
+        "description": "Voor incidentele gebruikers"
+      },
+      "standard": {
+        "name": "Standaard",
+        "description": "Beste waarde keuze",
+        "badge": "Meest Populair"
+      },
+      "unlimited": {
+        "name": "Onbeperkt",
+        "description": "Voor frequente gebruikers"
+      },
+      "features": {
+        "lifetime": "Levenslang geldig",
+        "hdVideo": "HD video",
+        "encrypted": "End-to-end versleuteld"
+      },
+      "buy": "Kopen",
+      "processing": "Verwerken..."
+    },
+    "subscriptions": {
+      "title": "Lidmaatschapsplannen",
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "yearlySave": "Bespaar 2 maanden",
+      "yearlySavings": "Bespaar ${amount}/jaar",
+      "perMonth": "/maand",
+      "perYear": "/jaar",
+      "subscribe": "Abonneren",
+      "subscribing": "Verwerken..."
+    },
+    "plans": {
+      "member": {
+        "name": "Lid",
+        "billing": "Maandelijkse facturatie"
+      },
+      "pro": {
+        "name": "Pro Lid",
+        "billing": "Maandelijkse facturatie",
+        "badge": "Meest Populair"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "billing": "Maandelijkse facturatie",
+        "badge": "Voor Bedrijven"
+      }
+    },
+    "benefits": {
+      "member": "200 minuten per maand,HD videobellen,End-to-end versleuteling,Vergadering opname,Prioriteitsondersteuning",
+      "pro": "500 minuten per maand,4K Ultra HD video,End-to-end versleuteling,Opname + Transcriptie,Aangepaste achtergronden,Prioriteitsondersteuning,Analyserapporten",
+      "enterprise": "Onbeperkte minuten,4K Ultra HD video,End-to-end versleuteling,Opname + Transcriptie,Aangepaste branding,Toegewijde accountmanager,SLA-garantie,API-toegang"
+    },
+    "orders": {
+      "title": "Bestelgeschiedenis",
+      "recentOrders": "Recente Bestellingen"
+    },
+    "messages": {
+      "paymentSuccess": "Betaling gelukt! Minuten worden automatisch aan je account toegevoegd.",
+      "paymentCanceled": "Betaling geannuleerd, probeer opnieuw",
+      "subscriptionSuccess": "Abonnement gelukt! Ledenminuten worden automatisch aan je account toegevoegd.",
+      "subscriptionCanceled": "Abonnement geannuleerd, probeer opnieuw",
+      "purchaseError": "Aankoop mislukt, probeer opnieuw",
+      "subscribeError": "Abonnement mislukt, probeer opnieuw"
+    },
+    "status": {
+      "active": "Actief",
+      "succeeded": "Geslaagd",
+      "pending": "In Afwachting",
+      "failed": "Mislukt",
+      "cancelled": "Geannuleerd",
+      "expired": "Verlopen"
+    }
+  },
+  "Settings": {
+    "title": "Instellingen",
+    "description": "Beheer je accountvoorkeuren en instellingen",
+    "profile": {
+      "title": "Profiel",
+      "description": "Beheer je persoonlijke informatie",
+      "name": "Naam",
+      "email": "E-mail",
+      "avatar": "Avatar",
+      "memberSince": "Lid sinds"
+    },
+    "preferences": {
+      "title": "Voorkeuren",
+      "description": "Pas je ervaring aan",
+      "language": "Taal",
+      "theme": "Thema",
+      "languageAuto": "Automatisch",
+      "languageEn": "Engels",
+      "languageZh": "Chinees",
+      "themeLight": "Licht",
+      "themeDark": "Donker",
+      "themeSystem": "Systeem"
+    },
+    "account": {
+      "title": "Account",
+      "description": "Beheer je accountbeveiliging en inlogmethoden",
+      "password": "Wachtwoord Wijzigen",
+      "twoFactor": "Tweefactorauthenticatie",
+      "sessions": "Actieve Sessies",
+      "deleteAccount": "Account Verwijderen"
+    }
+  }
+}

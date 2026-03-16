@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Logga In",
+    "signUp": "Kom Igång",
+    "dashboard": "Instrumentpanel",
+    "loading": "Laddar...",
+    "submit": "Skicka",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "close": "Stäng",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "previous": "Föregående"
+  },
+  "Navigation": {
+    "home": "Hem",
+    "pricing": "Priser",
+    "history": "Historik",
+    "settings": "Inställningar",
+    "billing": "Fakturering",
+    "logout": "Logga Ut"
+  },
+  "Hero": {
+    "title": "Privat 1-mot-1 Video.",
+    "titleHighlight": "Inga Nedladdningar. Inga Spår.",
+    "description": "Det säkraste sättet att ansluta privat.",
+    "descriptionHighlight": "En länk, två personer, noll kompromisser.",
+    "cta": "Starta Ditt Privata Samtal - 100 Minuter Gratis",
+    "ctaLoggedIn": "Starta Ditt Privata Samtal",
+    "badge": "Säkert & Privat",
+    "learnMore": "Läs Mer"
+  },
+  "TrustIndicators": {
+    "encrypted": "End-to-End Krypterat",
+    "noStorage": "Ingen Datalagring",
+    "instantSetup": "Omedelbar Inställning"
+  },
+  "Features": {
+    "title": "Varför Välja o2o?",
+    "subtitle": "Allt du behöver för säkra, privata samtal",
+    "private": {
+      "title": "Privat & Säker",
+      "description": "IP-bundna länkar, end-to-end kryptering, inga spår kvarlämnade"
+    },
+    "onetoone": {
+      "title": "Fokuserat på 1-mot-1",
+      "description": "Designat för bara två personer, inga distraktioner, inga gruppchattar"
+    },
+    "nodownload": {
+      "title": "Ingen Nedladdning Behövs",
+      "description": "Ren webbläsarbaserad, fungerar på alla enheter, ingen installation krävs"
+    },
+    "pricing": {
+      "title": "Flexibla Priser",
+      "description": "Betala enligt användning från $2.99, ingen prenumerationspress"
+    }
+  },
+  "HowItWorks": {
+    "title": "Hur Det Fungerar",
+    "subtitle": "Kom igång på tre enkla steg",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Skapa Konto",
+        "description": "Registrera dig gratis och få 100 minuters gratis provperiod"
+      },
+      "start": {
+        "step": "02",
+        "title": "Starta ett Rum",
+        "description": "Skapa ett privat rum och dela länken med din gäst"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Anslut Säkert",
+        "description": "Njut av end-to-end krypterade 1-mot-1 videosamtal"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Enkla, Transparena Priser",
+    "subtitle": "Börja med 100 gratis minuter, uppgradera när du behöver mer",
+    "starter": {
+      "name": "Start",
+      "price": "$2.99",
+      "minutes": "60 minuter",
+      "sessionLimit": "120 minuters sessionsgräns",
+      "noExpiration": "Inget utgångsdatum",
+      "hdVideo": "HD-video",
+      "cta": "Kom Igång"
+    },
+    "standard": {
+      "name": "Standard",
+      "price": "$5.99",
+      "minutes": "150 minuter",
+      "sessionLimit": "120 minuters sessionsgräns",
+      "noExpiration": "Inget utgångsdatum",
+      "hdVideo": "HD-video",
+      "screenSharing": "Skärmdelning",
+      "cta": "Kom Igång",
+      "bestValue": "Bästa Värdet"
+    },
+    "unlimited": {
+      "name": "Obegränsat",
+      "price": "$9.99",
+      "minutes": "300 minuter",
+      "sessionLimit": "120 minuters sessionsgräns",
+      "noExpiration": "Inget utgångsdatum",
+      "hdVideo": "HD-video",
+      "allFeatures": "Alla premiumfunktioner",
+      "cta": "Kom Igång"
+    }
+  },
+  "Dashboard": {
+    "title": "Instrumentpanel",
+    "subtitle": "Starta ett privat samtal eller hantera ditt konto",
+    "newMeeting": {
+      "title": "Nytt Möte",
+      "description": "Skapa ett nytt 1-mot-1 videorum",
+      "button": "Skapa Rum",
+      "pageTitle": "Skapa Nytt Möte",
+      "pageDescription": "Skapa ett nytt 1-mot-1 videomötesrum. Du kan bjuda in någon senare.",
+      "meetingNameLabel": "Mötesnamn (valfritt)",
+      "meetingNamePlaceholder": "Mitt Möte",
+      "createButton": "Skapa Mötesrum",
+      "creating": "Skapar...",
+      "createError": "Misslyckades skapa mötesrum. Försök igen.",
+      "features": {
+        "private": "1-mot-1 privat videosamtal",
+        "encrypted": "End-to-end krypterat",
+        "nodownload": "Ingen nedladdning krävs"
+      },
+      "existingRoom": {
+        "title": "Befintligt Aktivt Rum",
+        "message": "Du har redan ett aktivt rum som heter \"{name}\".",
+        "description": "Vill du gå in i det befintliga rummet eller radera det och skapa ett nytt?",
+        "enterExisting": "Gå In i Befintligt Rum",
+        "createNew": "Radera & Skapa Nytt",
+        "deleting": "Raderar..."
+      }
+    },
+    "history": {
+      "title": "Historik",
+      "description": "Visa din möteshistorik",
+      "button": "Visa Historik"
+    },
+    "balance": {
+      "title": "Saldo",
+      "description": "Visa dina tillgängliga minuter",
+      "button": "Fyll På"
+    },
+    "joinMeeting": {
+      "title": "Gå Med i Möte",
+      "description": "Du har blivit inbjuden att gå med i ett möte",
+      "hostName": "Värd",
+      "joinButton": "Gå Med i Möte",
+      "joining": "Går med..."
+    }
+  },
+  "Footer": {
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "cookie": "Cookie-policy",
+    "refund": "Returpolicy",
+    "copyright": "Alla rättigheter förbehållna.",
+    "description": "Privata 1-mot-1 videosamtal med end-to-end kryptering.",
+    "product": "Produkt",
+    "legal": "Juridiskt",
+    "connect": "Anslut",
+    "features": "Funktioner",
+    "pricing": "Priser",
+    "signIn": "Logga In",
+    "signUp": "Registrera Dig"
+  },
+  "CookieConsent": {
+    "title": "Vi använder cookies",
+    "description": "Vi använder cookies för att förbättra din surfupplevelse, analysera webbplatstrafik och anpassa innehåll. Genom att klicka på \"Acceptera Alla\", godkänner du vår användning av cookies.",
+    "acceptAll": "Acceptera Alla",
+    "rejectAll": "Avvisa Alla",
+    "customize": "Anpassa",
+    "savePreferences": "Spara Inställningar",
+    "preferences": {
+      "title": "Cookie-inställningar",
+      "description": "Välj vilka cookies du vill tillåta. Du kan ändra dina inställningar när som helst i inställningarna.",
+      "necessary": {
+        "title": "Nödvändiga Cookies",
+        "description": "Krävs för att webbplatsen ska fungera korrekt. Kan inte inaktiveras.",
+        "alwaysActive": "Alltid Aktiva"
+      },
+      "functional": {
+        "title": "Funktionella Cookies",
+        "description": "Kommer ihåg dina preferenser och inställningar för en anpassad upplevelse."
+      },
+      "analytics": {
+        "title": "Analys-Cookies",
+        "description": "Hjälper oss att förbättra webbplatsen genom att samla in anonym användningsinformation."
+      }
+    },
+    "learnMore": "Läs mer i vår",
+    "policyLink": "Cookie-policy"
+  },
+  "Theme": {
+    "light": "Ljust",
+    "dark": "Mörkt",
+    "auto": "Automatiskt",
+    "label": "Tema"
+  },
+  "Room": {
+    "loading": "Laddar rum...",
+    "notFound": "Rummet hittades inte",
+    "notFoundDescription": "Detta mötesrum finns inte eller har löpt ut.",
+    "error": "Fel vid laddning av rum",
+    "errorDescription": "Något gick fel vid laddning av rummet.",
+    "ended": "Mötet avslutat",
+    "endedDescription": "Detta möte har avslutats och kan inte gås med i.",
+    "duration": "Varaktighet",
+    "participants": "Deltagare",
+    "participant": "Deltagare",
+    "waiting": "Väntar på deltagare...",
+    "inCall": "I samtal",
+    "endCall": "Avsluta Samtal",
+    "leaveCall": "Lämna Samtal",
+    "mute": "Stäng Av Ljud",
+    "unmute": "Sätt På Ljud",
+    "camera": "Kamera",
+    "cameraOn": "Kamera På",
+    "cameraOff": "Kamera Av",
+    "copyLink": "Kopiera Inbjudningslänk",
+    "linkCopied": "Länk kopierad till urklipp!",
+    "shareLink": "Dela denna länk för att bjuda in någon",
+    "endingCall": "Avslutar samtal...",
+    "confirmEnd": "Avsluta detta samtal?",
+    "confirmEndDescription": "Mötet kommer att stängas för alla deltagare.",
+    "joinMeeting": "Gå Med i Möte",
+    "joining": "Går med...",
+    "joinError": "Misslyckades gå med i möte",
+    "you": "Du",
+    "muted": "Tystad",
+    "waitingForParticipants": "Väntar på deltagare...",
+    "endedTitle": "Mötet Avslutat",
+    "endedSummary": "Mötessammanfattning",
+    "durationLabel": "Varaktighet",
+    "endTimeLabel": "Sluttid",
+    "participantCountLabel": "Deltagare",
+    "signupCta": "Registrera dig för att skapa fler möten",
+    "backToDashboard": "Tillbaka till Instrumentpanel",
+    "hostLeftTitle": "Värden Lämnade",
+    "hostLeftMessage": "Värden har avslutat detta möte. Du kommer att omdirigeras till registreringssidan.",
+    "fullscreen": "Helskärm",
+    "exitFullscreen": "Avsluta Helskärm"
+  },
+  "Welcome": {
+    "title": "Starta Din Privata Samtalsresa",
+    "subtitle": "En-mot-en privata videosamtal, end-to-end krypterade, ingen nedladdning krävs",
+    "features": {
+      "private": {
+        "title": "Privat & Säker",
+        "description": "End-to-end kryptering, ingen datalagring"
+      },
+      "onetoone": {
+        "title": "Fokuserat på 1-mot-1",
+        "description": "Designat för två personer, inga distraktioner"
+      },
+      "nodownload": {
+        "title": "Ingen Nedladdning",
+        "description": "Körs i webbläsare, plattformsoberoende stöd"
+      }
+    },
+    "offer": {
+      "title": "Specialerbjudande för Nya Användare",
+      "subtitle": "Registrera dig och få 100 minuter gratis",
+      "signupButton": "Registrera Dig Gratis",
+      "signinButton": "Har du redan ett konto? Logga In",
+      "note": "Inget kreditkort krävs"
+    },
+    "pricing": {
+      "title": "Flexibla Priser, Välj Efter Behov",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Startpaket / 60 min",
+        "limit": "Max 120 min per session"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Standardpaket / 150 min",
+        "limit": "Max 120 min per session",
+        "badge": "Mest Populär"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Obegränsat Paket / 300 min",
+        "limit": "Max 120 min per session"
+      }
+    }
+  },
+  "History": {
+    "title": "Möteshistorik",
+    "description": "Visa dina tidigare möten",
+    "noRecords": "Inga mötesposter",
+    "noRecordsDescription": "Du har inga avslutade möten än",
+    "createFirst": "Skapa ditt första möte",
+    "host": "Värd",
+    "duration": "Varaktighet",
+    "signInRequired": "Inloggning Krävs",
+    "signInToView": "Logga in för att se din möteshistorik",
+    "emptyState": {
+      "title": "Ingen Möteshistorik",
+      "description": "Du har inga avslutade möten än",
+      "createButton": "Skapa ditt första möte"
+    },
+    "pagination": {
+      "previous": "Föregående",
+      "next": "Nästa",
+      "pageInfo": "Sida {current} av {total}"
+    },
+    "status": {
+      "ended": "Avslutat",
+      "active": "Aktivt",
+      "waiting": "Väntar"
+    }
+  },
+  "Billing": {
+    "title": "Fakturering & Påfyllning",
+    "signInRequired": "Inloggning Krävs",
+    "signInToView": "Logga in för att se din faktureringsinformation",
+    "credits": {
+      "title": "Kontosaldo",
+      "availableMinutes": "Tillgängliga Minuter",
+      "totalMinutes": "Totalt Minuter",
+      "usedMinutes": "Använda Minuter",
+      "lifetime": "Livstid Giltig"
+    },
+    "freeTrial": {
+      "title": "Gratis Provperiod",
+      "remainingMinutes": "Återstående Minuter",
+      "expiresAt": "Upphör Den",
+      "expired": "Utgången",
+      "description": "Nya användare får 100 minuter gratis"
+    },
+    "subscription": {
+      "title": "Prenumerationsstatus",
+      "noSubscription": "Ingen prenumeration",
+      "startWithPackage": "Köp ett paket för att komma igång"
+    },
+    "packages": {
+      "title": "Påfyllningspaket",
+      "starter": {
+        "name": "Start",
+        "description": "För tillfälliga användare"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Bästa värdeval",
+        "badge": "Mest Populär"
+      },
+      "unlimited": {
+        "name": "Obegränsat",
+        "description": "För frekventa användare"
+      },
+      "features": {
+        "lifetime": "Giltig livstid",
+        "hdVideo": "HD-video",
+        "encrypted": "End-to-end krypterat"
+      },
+      "buy": "Köp",
+      "processing": "Behandlar..."
+    },
+    "subscriptions": {
+      "title": "Medlemskapsplaner",
+      "monthly": "Månatlig",
+      "yearly": "Årlig",
+      "yearlySave": "Spara 2 månader",
+      "yearlySavings": "Spara ${amount}/år",
+      "perMonth": "/månad",
+      "perYear": "/år",
+      "subscribe": "Prenumerera",
+      "subscribing": "Behandlar..."
+    },
+    "plans": {
+      "member": {
+        "name": "Medlem",
+        "billing": "Månatlig fakturering"
+      },
+      "pro": {
+        "name": "Pro Medlem",
+        "billing": "Månatlig fakturering",
+        "badge": "Mest Populär"
+      },
+      "enterprise": {
+        "name": "Företag",
+        "billing": "Månatlig fakturering",
+        "badge": "För Företag"
+      }
+    },
+    "benefits": {
+      "member": "200 minuter per månad,HD-videosamtal,End-to-end kryptering,Mötesinspelning,Prioriterad support",
+      "pro": "500 minuter per månad,4K Ultra HD-video,End-to-end kryptering,Inspelning + Transkribering,Anpassade bakgrunder,Prioriterad support,Analysrapporter",
+      "enterprise": "Obegränsade minuter,4K Ultra HD-video,End-to-end kryptering,Inspelning + Transkribering,Anpassad varumärkning,Dedikerad kontoansvarig,SLA-garanti,API-åtkomst"
+    },
+    "orders": {
+      "title": "Beställningshistorik",
+      "recentOrders": "Senaste Beställningar"
+    },
+    "messages": {
+      "paymentSuccess": "Betalning lyckades! Minuter läggs automatiskt till ditt konto.",
+      "paymentCanceled": "Betalning avbröts, försök igen",
+      "subscriptionSuccess": "Prenumeration lyckades! Medlemsminuter läggs automatiskt till ditt konto.",
+      "subscriptionCanceled": "Prenumeration avbröts, försök igen",
+      "purchaseError": "Köp misslyckades, försök igen",
+      "subscribeError": "Prenumeration misslyckades, försök igen"
+    },
+    "status": {
+      "active": "Aktiv",
+      "succeeded": "Lyckades",
+      "pending": "Avvaktande",
+      "failed": "Misslyckades",
+      "cancelled": "Avbruten",
+      "expired": "Utgången"
+    }
+  },
+  "Settings": {
+    "title": "Inställningar",
+    "description": "Hantera dina kontoinställningar och preferenser",
+    "profile": {
+      "title": "Profil",
+      "description": "Hantera din personliga information",
+      "name": "Namn",
+      "email": "E-post",
+      "avatar": "Avatar",
+      "memberSince": "Medlem sedan"
+    },
+    "preferences": {
+      "title": "Preferenser",
+      "description": "Anpassa din upplevelse",
+      "language": "Språk",
+      "theme": "Tema",
+      "languageAuto": "Automatiskt",
+      "languageEn": "Engelska",
+      "languageZh": "Kinesiska",
+      "themeLight": "Ljust",
+      "themeDark": "Mörkt",
+      "themeSystem": "System"
+    },
+    "account": {
+      "title": "Konto",
+      "description": "Hantera din kontosäkerhet och inloggningsmetoder",
+      "password": "Ändra Lösenord",
+      "twoFactor": "Tvåfaktorsautentisering",
+      "sessions": "Aktiva Sessioner",
+      "deleteAccount": "Radera Konto"
+    }
+  }
+}

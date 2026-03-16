@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Giriş Yap",
+    "signUp": "Başlayın",
+    "dashboard": "Kontrol Paneli",
+    "loading": "Yükleniyor...",
+    "submit": "Gönder",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki"
+  },
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "pricing": "Fiyatlandırma",
+    "history": "Geçmiş",
+    "settings": "Ayarlar",
+    "billing": "Faturalandırma",
+    "logout": "Çıkış Yap"
+  },
+  "Hero": {
+    "title": "Özel 1'e 1 Video.",
+    "titleHighlight": "İndirme Yok. İz Yok.",
+    "description": "Özel olarak bağlanmanın en güvenli yolu.",
+    "descriptionHighlight": "Bir link, iki kişi, sıfır taviz.",
+    "cta": "Özel Görüşmenizi Başlatın - Ücretsiz 100 Dakika",
+    "ctaLoggedIn": "Özel Görüşmenizi Başlatın",
+    "badge": "Güvenli ve Özel",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "TrustIndicators": {
+    "encrypted": "Uçtan Uca Şifreli",
+    "noStorage": "Veri Saklama Yok",
+    "instantSetup": "Anında Kurulum"
+  },
+  "Features": {
+    "title": "Neden o2o Seçmelisiniz?",
+    "subtitle": "Güvenli, özel görüşmeler için ihtiyacınız olan her şey",
+    "private": {
+      "title": "Özel ve Güvenli",
+      "description": "IP bağlantılı linkler, uçtan uca şifreleme, iz bırakmaz"
+    },
+    "onetoone": {
+      "title": "1'e 1 Odaklı",
+      "description": "Sadece iki kişi için tasarlandı, dikkat dağıtıcı yok, grup sohbeti yok"
+    },
+    "nodownload": {
+      "title": "İndirme Gerekli Değil",
+      "description": "Tamamen tarayıcı tabanlı, tüm cihazlarda çalışır, kurulum gerekmez"
+    },
+    "pricing": {
+      "title": "Esnek Fiyatlandırma",
+      "description": "$2.99'dan başlayan kullandıkça öde, abonelik baskısı yok"
+    }
+  },
+  "HowItWorks": {
+    "title": "Nasıl Çalışır",
+    "subtitle": "Üç basit adımda başlayın",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Hesap Oluştur",
+        "description": "Ücretsiz kaydolun ve 100 dakika ücretsiz deneme süresi alın"
+      },
+      "start": {
+        "step": "02",
+        "title": "Oda Başlat",
+        "description": "Özel bir oda oluşturun ve linki misafirinize paylaşın"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Güvenli Bağlan",
+        "description": "Uçtan uca şifreli 1'e 1 video sohbetin tadını çıkarın"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Basit, Şeffaf Fiyatlandırma",
+    "subtitle": "100 ücretsiz dakika ile başlayın, ihtiyaç duyduğunuzda yükseltin",
+    "starter": {
+      "name": "Başlangıç",
+      "price": "$2.99",
+      "minutes": "60 dakika",
+      "sessionLimit": "120 dk oturum limiti",
+      "noExpiration": "Süresiz",
+      "hdVideo": "HD video",
+      "cta": "Başlayın"
+    },
+    "standard": {
+      "name": "Standart",
+      "price": "$5.99",
+      "minutes": "150 dakika",
+      "sessionLimit": "120 dk oturum limiti",
+      "noExpiration": "Süresiz",
+      "hdVideo": "HD video",
+      "screenSharing": "Ekran paylaşımı",
+      "cta": "Başlayın",
+      "bestValue": "En İyi Değer"
+    },
+    "unlimited": {
+      "name": "Sınırsız",
+      "price": "$9.99",
+      "minutes": "300 dakika",
+      "sessionLimit": "120 dk oturum limiti",
+      "noExpiration": "Süresiz",
+      "hdVideo": "HD video",
+      "allFeatures": "Tüm premium özellikler",
+      "cta": "Başlayın"
+    }
+  },
+  "Dashboard": {
+    "title": "Kontrol Paneli",
+    "subtitle": "Özel bir görüşme başlatın veya hesabınızı yönetin",
+    "newMeeting": {
+      "title": "Yeni Toplantı",
+      "description": "Yeni bir 1'e 1 video odası oluştur",
+      "button": "Oda Oluştur",
+      "pageTitle": "Yeni Toplantı Oluştur",
+      "pageDescription": "Yeni bir 1'e 1 video toplantı odası oluşturun. Daha sonra birini davet edebilirsiniz.",
+      "meetingNameLabel": "Toplantı Adı (isteğe bağlı)",
+      "meetingNamePlaceholder": "Toplantım",
+      "createButton": "Toplantı Odası Oluştur",
+      "creating": "Oluşturuluyor...",
+      "createError": "Toplantı odası oluşturulamadı. Lütfen tekrar deneyin.",
+      "features": {
+        "private": "1'e 1 özel video görüşmesi",
+        "encrypted": "Uçtan uca şifreli",
+        "nodownload": "İndirme gerekli değil"
+      },
+      "existingRoom": {
+        "title": "Mevcut Aktif Oda",
+        "message": "Zaten \"{name}\" adında aktif bir odanız var.",
+        "description": "Mevcut odaya girmek mi yoksa silip yeni bir tane oluşturmak mı istiyorsunuz?",
+        "enterExisting": "Mevcut Odaya Gir",
+        "createNew": "Sil ve Yeni Oluştur",
+        "deleting": "Siliniyor..."
+      }
+    },
+    "history": {
+      "title": "Geçmiş",
+      "description": "Toplantı geçmişinizi görüntüleyin",
+      "button": "Geçmişi Görüntüle"
+    },
+    "balance": {
+      "title": "Bakiye",
+      "description": "Kullanılabilir dakikalarınızı görüntüleyin",
+      "button": "Yükle"
+    },
+    "joinMeeting": {
+      "title": "Toplantıya Katıl",
+      "description": "Bir toplantıya davet edildiniz",
+      "hostName": "Ev Sahibi",
+      "joinButton": "Toplantıya Katıl",
+      "joining": "Katılıyor..."
+    }
+  },
+  "Footer": {
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "cookie": "Çerez Politikası",
+    "refund": "İade Politikası",
+    "copyright": "Tüm hakları saklıdır.",
+    "description": "Uçtan uca şifreleme ile özel 1'e 1 video görüşmeleri.",
+    "product": "Ürün",
+    "legal": "Yasal",
+    "connect": "Bağlan",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "signIn": "Giriş Yap",
+    "signUp": "Kaydol"
+  },
+  "CookieConsent": {
+    "title": "Çerez kullanıyoruz",
+    "description": "Tarama deneyiminizi iyileştirmek, site trafiğini analiz etmek ve içeriği kişiselleştirmek için çerez kullanıyoruz. \"Tümünü Kabul Et\" seçeneğine tıklayarak, çerez kullanımımızı kabul etmiş olursunuz.",
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Tümünü Reddet",
+    "customize": "Özelleştir",
+    "savePreferences": "Tercihleri Kaydet",
+    "preferences": {
+      "title": "Çerez Tercihleri",
+      "description": "Hangi çerezlere izin vereceğinizi seçin. Tercihlerinizi ayarlardan istediğiniz zaman değiştirebilirsiniz.",
+      "necessary": {
+        "title": "Gerekli Çerezler",
+        "description": "Sitenin düzgün çalışması için gereklidir. Devre dışı bırakılamaz.",
+        "alwaysActive": "Her Zaman Aktif"
+      },
+      "functional": {
+        "title": "İşlevsel Çerezler",
+        "description": "Kişiselleştirilmiş bir deneyim için tercihlerinizi ve ayarlarınızı hatırlar."
+      },
+      "analytics": {
+        "title": "Analitik Çerezler",
+        "description": "Anonim kullanım bilgileri toplayarak web sitesini iyileştirmeye yardımcı olur."
+      }
+    },
+    "learnMore": "Daha fazla bilgi için",
+    "policyLink": "Çerez Politikası"
+  },
+  "Theme": {
+    "light": "Açık",
+    "dark": "Koyu",
+    "auto": "Otomatik",
+    "label": "Tema"
+  },
+  "Room": {
+    "loading": "Oda yükleniyor...",
+    "notFound": "Oda bulunamadı",
+    "notFoundDescription": "Bu toplantı odası mevcut değil veya süresi dolmuş.",
+    "error": "Oda yükleme hatası",
+    "errorDescription": "Oda yüklenirken bir şeyler ters gitti.",
+    "ended": "Toplantı sona erdi",
+    "endedDescription": "Bu toplantı sona erdi ve artık katılamazsınız.",
+    "duration": "Süre",
+    "participants": "Katılımcılar",
+    "participant": "Katılımcı",
+    "waiting": "Katılımcılar bekleniyor...",
+    "inCall": "Görüşmede",
+    "endCall": "Görüşmeyi Bitir",
+    "leaveCall": "Görüşmeden Ayrıl",
+    "mute": "Sessize Al",
+    "unmute": "Sesi Aç",
+    "camera": "Kamera",
+    "cameraOn": "Kamera Açık",
+    "cameraOff": "Kamera Kapalı",
+    "copyLink": "Davet Linkini Kopyala",
+    "linkCopied": "Link panoya kopyalandı!",
+    "shareLink": "Birini davet etmek için bu linki paylaşın",
+    "endingCall": "Görüşme bitiriliyor...",
+    "confirmEnd": "Bu görüşmeyi bitir?",
+    "confirmEndDescription": "Toplantı tüm katılımcılar için kapatılacak.",
+    "joinMeeting": "Toplantıya Katıl",
+    "joining": "Katılıyor...",
+    "joinError": "Toplantıya katılamadı",
+    "you": "Siz",
+    "muted": "Sessize Alındı",
+    "waitingForParticipants": "Katılımcılar bekleniyor...",
+    "endedTitle": "Toplantı Sona Erdi",
+    "endedSummary": "Toplantı Özeti",
+    "durationLabel": "Süre",
+    "endTimeLabel": "Bitiş Zamanı",
+    "participantCountLabel": "Katılımcılar",
+    "signupCta": "Daha fazla toplantı oluşturmak için kaydolun",
+    "backToDashboard": "Kontrol Paneline Dön",
+    "hostLeftTitle": "Ev Sahibi Ayrıldı",
+    "hostLeftMessage": "Ev sahibi bu toplantıyı sonlandırdı. Kayıt sayfasına yönlendirileceksiniz.",
+    "fullscreen": "Tam Ekran",
+    "exitFullscreen": "Tam Ekrandan Çık"
+  },
+  "Welcome": {
+    "title": "Özel Görüşme Yolculuğunuza Başlayın",
+    "subtitle": "Birebir özel video görüşmeleri, uçtan uca şifreli, indirme gerekli değil",
+    "features": {
+      "private": {
+        "title": "Özel ve Güvenli",
+        "description": "Uçtan uca şifreleme, veri saklama yok"
+      },
+      "onetoone": {
+        "title": "1'e 1 Odaklı",
+        "description": "İki kişi için tasarlandı, dikkat dağıtıcı yok"
+      },
+      "nodownload": {
+        "title": "İndirme Yok",
+        "description": "Tarayıcıda çalışır, çapraz platform desteği"
+      }
+    },
+    "offer": {
+      "title": "Yeni Kullanıcı Özel",
+      "subtitle": "Kaydolun ve 100 dakika ücretsiz alın",
+      "signupButton": "Ücretsiz Kaydol",
+      "signinButton": "Zaten hesabınız var mı? Giriş Yap",
+      "note": "Kredi kartı gerekli değil"
+    },
+    "pricing": {
+      "title": "Esnek Fiyatlandırma, İhtiyaca Göre Seçin",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Başlangıç Paketi / 60 dk",
+        "limit": "Oturum başına maks 120 dk"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Standart Paket / 150 dk",
+        "limit": "Oturum başına maks 120 dk",
+        "badge": "En Popüler"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Sınırsız Paket / 300 dk",
+        "limit": "Oturum başına maks 120 dk"
+      }
+    }
+  },
+  "History": {
+    "title": "Toplantı Geçmişi",
+    "description": "Geçmiş toplantılarınızı görüntüleyin",
+    "noRecords": "Toplantı kaydı yok",
+    "noRecordsDescription": "Henüz sonlanmış bir toplantınız olmadı",
+    "createFirst": "İlk toplantınızı oluşturun",
+    "host": "Ev Sahibi",
+    "duration": "Süre",
+    "signInRequired": "Giriş Yapılması Gerekli",
+    "signInToView": "Toplantı geçmişinizi görüntülemek için lütfen giriş yapın",
+    "emptyState": {
+      "title": "Toplantı Geçmişi Yok",
+      "description": "Henüz sonlanmış bir toplantınız olmadı",
+      "createButton": "İlk toplantınızı oluşturun"
+    },
+    "pagination": {
+      "previous": "Önceki",
+      "next": "İleri",
+      "pageInfo": "Sayfa {current} / {total}"
+    },
+    "status": {
+      "ended": "Sona Erdi",
+      "active": "Aktif",
+      "waiting": "Bekliyor"
+    }
+  },
+  "Billing": {
+    "title": "Faturalandırma ve Yükleme",
+    "signInRequired": "Giriş Yapılması Gerekli",
+    "signInToView": "Faturalandırma bilgilerinizi görüntülemek için lütfen giriş yapın",
+    "credits": {
+      "title": "Hesap Bakiyesi",
+      "availableMinutes": "Kullanılabilir Dakikalar",
+      "totalMinutes": "Toplam Dakikalar",
+      "usedMinutes": "Kullanılan Dakikalar",
+      "lifetime": "Ömür Boyu Geçerli"
+    },
+    "freeTrial": {
+      "title": "Ücretsiz Deneme",
+      "remainingMinutes": "Kalan Dakikalar",
+      "expiresAt": "Sona Erme",
+      "expired": "Süresi Dolmuş",
+      "description": "Yeni kullanıcılar 100 dakika ücretsiz alır"
+    },
+    "subscription": {
+      "title": "Abonelik Durumu",
+      "noSubscription": "Abonelik yok",
+      "startWithPackage": "Başlamak için bir paket satın alın"
+    },
+    "packages": {
+      "title": "Yükleme Paketleri",
+      "starter": {
+        "name": "Başlangıç",
+        "description": "Ara sıra kullananlar için"
+      },
+      "standard": {
+        "name": "Standart",
+        "description": "En iyi değer seçimi",
+        "badge": "En Popüler"
+      },
+      "unlimited": {
+        "name": "Sınırsız",
+        "description": "Sık kullananlar için"
+      },
+      "features": {
+        "lifetime": "Ömür boyu geçerli",
+        "hdVideo": "HD video",
+        "encrypted": "Uçtan uca şifreli"
+      },
+      "buy": "Satın Al",
+      "processing": "İşleniyor..."
+    },
+    "subscriptions": {
+      "title": "Üyelik Planları",
+      "monthly": "Aylık",
+      "yearly": "Yıllık",
+      "yearlySave": "2 ay tasarruf",
+      "yearlySavings": "${amount}/yıl tasarruf",
+      "perMonth": "/ay",
+      "perYear": "/yıl",
+      "subscribe": "Abone Ol",
+      "subscribing": "İşleniyor..."
+    },
+    "plans": {
+      "member": {
+        "name": "Üye",
+        "billing": "Aylık faturalandırma"
+      },
+      "pro": {
+        "name": "Pro Üye",
+        "billing": "Aylık faturalandırma",
+        "badge": "En Popüler"
+      },
+      "enterprise": {
+        "name": "Kurumsal",
+        "billing": "Aylık faturalandırma",
+        "badge": "İşletmeler İçin"
+      }
+    },
+    "benefits": {
+      "member": "Ayda 200 dakika,HD video görüşmeleri,Uçtan uca şifreleme,Toplantı kaydı,Öncelikli destek",
+      "pro": "Ayda 500 dakika,4K Ultra HD video,Uçtan uca şifreleme,Kayıt + Transkript,Özel arka planlar,Öncelikli destek,Analiz raporları",
+      "enterprise": "Sınırsız dakika,4K Ultra HD video,Uçtan uca şifreleme,Kayıt + Transkript,Özel marka,Dedike hesap yöneticisi,SLA garantisi,API erişimi"
+    },
+    "orders": {
+      "title": "Sipariş Geçmişi",
+      "recentOrders": "Son Siparişler"
+    },
+    "messages": {
+      "paymentSuccess": "Ödeme başarılı! Dakikalar hesabınıza otomatik olarak eklenecektir.",
+      "paymentCanceled": "Ödeme iptal edildi, lütfen tekrar deneyin",
+      "subscriptionSuccess": "Abonelik başarılı! Üye dakikaları hesabınıza otomatik olarak eklenecektir.",
+      "subscriptionCanceled": "Abonelik iptal edildi, lütfen tekrar deneyin",
+      "purchaseError": "Satın alma başarısız, lütfen tekrar deneyin",
+      "subscribeError": "Abonelik başarısız, lütfen tekrar deneyin"
+    },
+    "status": {
+      "active": "Aktif",
+      "succeeded": "Başarılı",
+      "pending": "Beklemede",
+      "failed": "Başarısız",
+      "cancelled": "İptal Edildi",
+      "expired": "Süresi Dolmuş"
+    }
+  },
+  "Settings": {
+    "title": "Ayarlar",
+    "description": "Hesap tercihlerinizi ve ayarlarınızı yönetin",
+    "profile": {
+      "title": "Profil",
+      "description": "Kişisel bilgilerinizi yönetin",
+      "name": "Ad",
+      "email": "E-posta",
+      "avatar": "Avatar",
+      "memberSince": "Üyelik başlangıcı"
+    },
+    "preferences": {
+      "title": "Tercihler",
+      "description": "Deneyiminizi özelleştirin",
+      "language": "Dil",
+      "theme": "Tema",
+      "languageAuto": "Otomatik",
+      "languageEn": "İngilizce",
+      "languageZh": "Çince",
+      "themeLight": "Açık",
+      "themeDark": "Koyu",
+      "themeSystem": "Sistem"
+    },
+    "account": {
+      "title": "Hesap",
+      "description": "Hesap güvenliğinizi ve oturum açma yöntemlerinizi yönetin",
+      "password": "Şifre Değiştir",
+      "twoFactor": "İki Faktörlü Kimlik Doğrulama",
+      "sessions": "Aktif Oturumlar",
+      "deleteAccount": "Hesabı Sil"
+    }
+  }
+}

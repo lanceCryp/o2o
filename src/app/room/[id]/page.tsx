@@ -34,6 +34,7 @@ export default function RoomPage() {
   const [inviteUrl, setInviteUrl] = useState('');
   const [showInviteUrl, setShowInviteUrl] = useState(false);
   const [isTokenReady, setIsTokenReady] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
     if (!isLoaded) return;
@@ -200,6 +201,8 @@ export default function RoomPage() {
               roomId={room.roomId}
               onLeave={() => router.push(room.isHost ? '/dashboard' : '/welcome')}
               onMeetingEnded={() => router.push(`/room/${params.id}/ended`)}
+              isFullscreen={isFullscreen}
+              onToggleFullscreen={() => setIsFullscreen(!isFullscreen)}
             />
 
             {/* Duration display */}
@@ -208,10 +211,11 @@ export default function RoomPage() {
             </div>
           </div>
 
-          {/* Sidebar */}
-          <div className="space-y-4">
-            {/* 房主专属：分享链接 */}
-            {room.isHost && (
+          {/* Sidebar - only show in normal mode */}
+          {!isFullscreen && (
+            <div className="space-y-4">
+              {/* 房主专属：分享链接 */}
+              {room.isHost && (
               <Card>
                 <CardHeader className="pb-3">
                   <CardTitle className="text-lg">{room.roomName}</CardTitle>
@@ -270,6 +274,7 @@ export default function RoomPage() {
               </CardContent>
             </Card>
           </div>
+          )}
         </div>
       </main>
 

@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "サインイン",
+    "signUp": "はじめる",
+    "dashboard": "ダッシュボード",
+    "loading": "読み込み中...",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ"
+  },
+  "Navigation": {
+    "home": "ホーム",
+    "pricing": "料金",
+    "history": "履歴",
+    "settings": "設定",
+    "billing": "請求",
+    "logout": "ログアウト"
+  },
+  "Hero": {
+    "title": "プライベート 1 対 1 ビデオ。",
+    "titleHighlight": "ダウンロード不要。痕跡も残しません。",
+    "description": "最も安全なプライベート接続方法。",
+    "descriptionHighlight": "1 つのリンク、2 人の人、妥協ゼロ。",
+    "cta": "プライベート通話を開始 - 無料 100 分",
+    "ctaLoggedIn": "プライベート通話を開始",
+    "badge": "安全でプライベート",
+    "learnMore": "詳しく見る"
+  },
+  "TrustIndicators": {
+    "encrypted": "エンドツーエンド暗号化",
+    "noStorage": "データ保存なし",
+    "instantSetup": "即座にセットアップ"
+  },
+  "Features": {
+    "title": "o2o を選ぶ理由",
+    "subtitle": "安全でプライベートな会話に必要なすべて",
+    "private": {
+      "title": "プライベートで安全",
+      "description": "IP 紐付リンク、エンドツーエンド暗号化、痕跡を残さない"
+    },
+    "onetoone": {
+      "title": "1 対 1 専門",
+      "description": "2 人のみのために設計、気が散らない、グループチャットなし"
+    },
+    "nodownload": {
+      "title": "ダウンロード不要",
+      "description": "純粋なブラウザベース、すべてのデバイスで動作、インストール不要"
+    },
+    "pricing": {
+      "title": "柔軟な料金体系",
+      "description": "$2.99 から使った分だけ支払い、サブスクリプションのプレッシャーなし"
+    }
+  },
+  "HowItWorks": {
+    "title": "使い方",
+    "subtitle": "3 つの簡単なステップで始めましょう",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "アカウント作成",
+        "description": "無料で登録して 100 分の無料トライアルを取得"
+      },
+      "start": {
+        "step": "02",
+        "title": "ルームを始める",
+        "description": "プライベートルームを作成してゲストとリンクを共有"
+      },
+      "connect": {
+        "step": "03",
+        "title": "安全に接続",
+        "description": "エンドツーエンド暗号化された 1 対 1 のビデオ会話を楽しむ"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "シンプルで透明な料金",
+    "subtitle": "100 分の無料分から開始、必要に応じてアップグレード",
+    "starter": {
+      "name": "スターター",
+      "price": "$2.99",
+      "minutes": "60 分",
+      "sessionLimit": "1 セッション 120 分制限",
+      "noExpiration": "有効期限なし",
+      "hdVideo": "HD ビデオ",
+      "cta": "はじめる"
+    },
+    "standard": {
+      "name": "スタンダード",
+      "price": "$5.99",
+      "minutes": "150 分",
+      "sessionLimit": "1 セッション 120 分制限",
+      "noExpiration": "有効期限なし",
+      "hdVideo": "HD ビデオ",
+      "screenSharing": "画面共有",
+      "cta": "はじめる",
+      "bestValue": "最もお得"
+    },
+    "unlimited": {
+      "name": "無制限",
+      "price": "$9.99",
+      "minutes": "300 分",
+      "sessionLimit": "1 セッション 120 分制限",
+      "noExpiration": "有効期限なし",
+      "hdVideo": "HD ビデオ",
+      "allFeatures": "すべてのプレミアム機能",
+      "cta": "はじめる"
+    }
+  },
+  "Dashboard": {
+    "title": "ダッシュボード",
+    "subtitle": "プライベート会話を開始するかアカウントを管理",
+    "newMeeting": {
+      "title": "新しい会議",
+      "description": "新しい 1 対 1 ビデオルームを作成",
+      "button": "ルームを作成",
+      "pageTitle": "新しい会議を作成",
+      "pageDescription": "新しい 1 対 1 ビデオ会議ルームを作成します。後で誰かを招待できます。",
+      "meetingNameLabel": "会議名（オプション）",
+      "meetingNamePlaceholder": "マイ会議",
+      "createButton": "会議ルームを作成",
+      "creating": "作成中...",
+      "createError": "会議ルームの作成に失敗しました。もう一度お試しください。",
+      "features": {
+        "private": "1 対 1 プライベートビデオ通話",
+        "encrypted": "エンドツーエンド暗号化",
+        "nodownload": "ダウンロード不要"
+      },
+      "existingRoom": {
+        "title": "既存のアクティブルーム",
+        "message": "「{name}」という名前のアクティブルームが既に存在します。",
+        "description": "既存のルームに入りますか、それとも削除して新しいルームを作成しますか？",
+        "enterExisting": "既存のルームに入る",
+        "createNew": "削除して新規作成",
+        "deleting": "削除中..."
+      }
+    },
+    "history": {
+      "title": "履歴",
+      "description": "会議履歴を表示",
+      "button": "履歴を表示"
+    },
+    "balance": {
+      "title": "残高",
+      "description": "利用可能な分を表示",
+      "button": "チャージ"
+    },
+    "joinMeeting": {
+      "title": "会議に参加",
+      "description": "会議に招待されました",
+      "hostName": "ホスト",
+      "joinButton": "会議に参加",
+      "joining": "参加中..."
+    }
+  },
+  "Footer": {
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookie": "クッキーポリシー",
+    "refund": "返金ポリシー",
+    "copyright": "All rights reserved.",
+    "description": "エンドツーエンド暗号化による 1 対 1 プライベートビデオ通話。",
+    "product": "製品",
+    "legal": "法的情報",
+    "connect": "接続",
+    "features": "機能",
+    "pricing": "料金",
+    "signIn": "サインイン",
+    "signUp": "サインアップ"
+  },
+  "CookieConsent": {
+    "title": "クッキーの使用について",
+    "description": "当サイトでは、ブラウジング体験の向上、サイトトラフィックの分析、コンテンツのパーソナライズのためにクッキーを使用しています。「すべて同意」をクリックすることで、クッキーの使用に同意したことになります。",
+    "acceptAll": "すべて同意",
+    "rejectAll": "すべて拒否",
+    "customize": "カスタマイズ",
+    "savePreferences": "設定を保存",
+    "preferences": {
+      "title": "クッキー設定",
+      "description": "許可するクッキーを選択してください。設定からいつでも変更できます。",
+      "necessary": {
+        "title": "必須クッキー",
+        "description": "サイトの適切な機能に必要です。無効化できません。",
+        "alwaysActive": "常にアクティブ"
+      },
+      "functional": {
+        "title": "機能クッキー",
+        "description": "パーソナライズされた体験のために、設定や好みを記憶します。"
+      },
+      "analytics": {
+        "title": "分析クッキー",
+        "description": "匿名の使用情報を収集してウェブサイトの改善に役立てます。"
+      }
+    },
+    "learnMore": "詳しくは",
+    "policyLink": "クッキーポリシー"
+  },
+  "Theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "auto": "自動",
+    "label": "テーマ"
+  },
+  "Room": {
+    "loading": "ルームを読み込み中...",
+    "notFound": "ルームが見つかりません",
+    "notFoundDescription": "この会議ルームは存在しないか、期限切れです。",
+    "error": "ルームの読み込みエラー",
+    "errorDescription": "ルームの読み込み中に問題が発生しました。",
+    "ended": "会議終了",
+    "endedDescription": "この会議は終了しており、参加できません。",
+    "duration": "期間",
+    "participants": "参加者",
+    "participant": "参加者",
+    "waiting": "参加者を待っています...",
+    "inCall": "通話中",
+    "endCall": "通話を終了",
+    "leaveCall": "通話を退出",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "camera": "カメラ",
+    "cameraOn": "カメラオン",
+    "cameraOff": "カメラオフ",
+    "copyLink": "招待リンクをコピー",
+    "linkCopied": "リンクをクリップボードにコピーしました！",
+    "shareLink": "このリンクを共有して誰かを招待",
+    "endingCall": "通話を終了中...",
+    "confirmEnd": "この通話を終了しますか？",
+    "confirmEndDescription": "会議はすべての参加者に対して閉じられます。",
+    "joinMeeting": "会議に参加",
+    "joining": "参加中...",
+    "joinError": "会議への参加に失敗しました",
+    "you": "あなた",
+    "muted": "ミュート済み",
+    "waitingForParticipants": "参加者を待っています...",
+    "endedTitle": "会議終了",
+    "endedSummary": "会議サマリー",
+    "durationLabel": "期間",
+    "endTimeLabel": "終了時刻",
+    "participantCountLabel": "参加者",
+    "signupCta": "さらに会議を作成するには登録してください",
+    "backToDashboard": "ダッシュボードに戻る",
+    "hostLeftTitle": "ホストが退出しました",
+    "hostLeftMessage": "ホストがこの会議を終了しました。サインアップページにリダイレクトされます。",
+    "fullscreen": "全画面",
+    "exitFullscreen": "全画面解除"
+  },
+  "Welcome": {
+    "title": "プライベート通話の旅を始めましょう",
+    "subtitle": "1 対 1 プライベートビデオ通話、エンドツーエンド暗号化、ダウンロード不要",
+    "features": {
+      "private": {
+        "title": "プライベートで安全",
+        "description": "エンドツーエンド暗号化、データ保存なし"
+      },
+      "onetoone": {
+        "title": "1 対 1 専門",
+        "description": "2 人のために設計、気が散らない"
+      },
+      "nodownload": {
+        "title": "ダウンロード不要",
+        "description": "ブラウザで動作、クロスプラットフォーム対応"
+      }
+    },
+    "offer": {
+      "title": "新規ユーザー特典",
+      "subtitle": "登録して 100 分無料でもらえる",
+      "signupButton": "無料で登録",
+      "signinButton": "すでにアカウントをお持ちの方：サインイン",
+      "note": "クレジットカード不要"
+    },
+    "pricing": {
+      "title": "柔軟な料金体系、必要に応じて選択",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "スターターパック / 60 分",
+        "limit": "1 セッション最大 120 分"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "スタンダードパック / 150 分",
+        "limit": "1 セッション最大 120 分",
+        "badge": "最も人気"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "無制限パック / 300 分",
+        "limit": "1 セッション最大 120 分"
+      }
+    }
+  },
+  "History": {
+    "title": "会議履歴",
+    "description": "過去の会議を表示",
+    "noRecords": "会議記録がありません",
+    "noRecordsDescription": "終了した会議はまだありません",
+    "createFirst": "最初の会議を作成",
+    "host": "ホスト",
+    "duration": "期間",
+    "signInRequired": "サインインが必要です",
+    "signInToView": "会議履歴を表示するにはサインインしてください",
+    "emptyState": {
+      "title": "会議履歴がありません",
+      "description": "終了した会議はまだありません",
+      "createButton": "最初の会議を作成"
+    },
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ",
+      "pageInfo": "{current} / {total} ページ"
+    },
+    "status": {
+      "ended": "終了",
+      "active": "アクティブ",
+      "waiting": "待機中"
+    }
+  },
+  "Billing": {
+    "title": "請求とチャージ",
+    "signInRequired": "サインインが必要です",
+    "signInToView": "請求情報を表示するにはサインインしてください",
+    "credits": {
+      "title": "アカウント残高",
+      "availableMinutes": "利用可能分",
+      "totalMinutes": "総分",
+      "usedMinutes": "使用済み分",
+      "lifetime": "無期限有効"
+    },
+    "freeTrial": {
+      "title": "無料トライアル",
+      "remainingMinutes": "残分",
+      "expiresAt": "有効期限",
+      "expired": "期限切れ",
+      "description": "新規ユーザーは 100 分無料"
+    },
+    "subscription": {
+      "title": "サブスクリプションステータス",
+      "noSubscription": "サブスクリプションなし",
+      "startWithPackage": "開始するにはパッケージを購入"
+    },
+    "packages": {
+      "title": "チャージパッケージ",
+      "starter": {
+        "name": "スターター",
+        "description": "たまに使用する方へ"
+      },
+      "standard": {
+        "name": "スタンダード",
+        "description": "最もお得な選択",
+        "badge": "最も人気"
+      },
+      "unlimited": {
+        "name": "無制限",
+        "description": "頻繁に使用する方へ"
+      },
+      "features": {
+        "lifetime": "生涯有効",
+        "hdVideo": "HD ビデオ",
+        "encrypted": "エンドツーエンド暗号化"
+      },
+      "buy": "購入",
+      "processing": "処理中..."
+    },
+    "subscriptions": {
+      "title": "メンバーシッププラン",
+      "monthly": "月額",
+      "yearly": "年額",
+      "yearlySave": "2 ヶ月分お得",
+      "yearlySavings": "${amount}/年お得",
+      "perMonth": "/月",
+      "perYear": "/年",
+      "subscribe": "購読",
+      "subscribing": "処理中..."
+    },
+    "plans": {
+      "member": {
+        "name": "メンバー",
+        "billing": "月額課金"
+      },
+      "pro": {
+        "name": "プロメンバー",
+        "billing": "月額課金",
+        "badge": "最も人気"
+      },
+      "enterprise": {
+        "name": "エンタープライズ",
+        "billing": "月額課金",
+        "badge": "ビジネス向け"
+      }
+    },
+    "benefits": {
+      "member": "月 200 分,HD ビデオ通話,エンドツーエンド暗号化,会議録画,優先サポート",
+      "pro": "月 500 分,4K ウルトラ HD ビデオ,エンドツーエンド暗号化,録画 + 文字起こし,カスタム背景,優先サポート,分析レポート",
+      "enterprise": "無制限分,4K ウルトラ HD ビデオ,エンドツーエンド暗号化,録画 + 文字起こし,カスタムブランディング,専任アカウントマネージャー,SLA 保証,API アクセス"
+    },
+    "orders": {
+      "title": "注文履歴",
+      "recentOrders": "最近の注文"
+    },
+    "messages": {
+      "paymentSuccess": "支払い成功！分が自動的にアカウントに追加されます。",
+      "paymentCanceled": "支払いがキャンセルされました。もう一度お試しください",
+      "subscriptionSuccess": "サブスクリプション成功！メンバー分が自動的にアカウントに追加されます。",
+      "subscriptionCanceled": "サブスクリプションがキャンセルされました。もう一度お試しください",
+      "purchaseError": "購入に失敗しました。もう一度お試しください",
+      "subscribeError": "サブスクリプションに失敗しました。もう一度お試しください"
+    },
+    "status": {
+      "active": "アクティブ",
+      "succeeded": "成功",
+      "pending": "保留中",
+      "failed": "失敗",
+      "cancelled": "キャンセル済み",
+      "expired": "期限切れ"
+    }
+  },
+  "Settings": {
+    "title": "設定",
+    "description": "アカウントの設定と設定を管理",
+    "profile": {
+      "title": "プロフィール",
+      "description": "個人情報を管理",
+      "name": "名前",
+      "email": "メール",
+      "avatar": "アバター",
+      "memberSince": "メンバー登録日"
+    },
+    "preferences": {
+      "title": "設定",
+      "description": "体験をカスタマイズ",
+      "language": "言語",
+      "theme": "テーマ",
+      "languageAuto": "自動",
+      "languageEn": "英語",
+      "languageZh": "中国語",
+      "themeLight": "ライト",
+      "themeDark": "ダーク",
+      "themeSystem": "システム"
+    },
+    "account": {
+      "title": "アカウント",
+      "description": "アカウントのセキュリティとログイン方法を管理",
+      "password": "パスワードを変更",
+      "twoFactor": "二段階認証",
+      "sessions": "アクティブなセッション",
+      "deleteAccount": "アカウントを削除"
+    }
+  }
+}

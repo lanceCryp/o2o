@@ -1,0 +1,470 @@
+{
+  "Common": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Comenzar",
+    "dashboard": "Panel de Control",
+    "loading": "Cargando...",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "pricing": "Precios",
+    "history": "Historial",
+    "settings": "Configuración",
+    "billing": "Facturación",
+    "logout": "Cerrar Sesión"
+  },
+  "Hero": {
+    "title": "Video Privado 1-a-1.",
+    "titleHighlight": "Sin Descargas. Sin Huellas.",
+    "description": "La forma más segura de comunicarse privadamente.",
+    "descriptionHighlight": "Un enlace, dos personas, cero compromisos.",
+    "cta": "Comience Su Llamada Privada - 100 Minutos Gratis",
+    "ctaLoggedIn": "Comience Su Llamada Privada",
+    "badge": "Seguro y Privado",
+    "learnMore": "Más Información"
+  },
+  "TrustIndicators": {
+    "encrypted": "Cifrado de Extremo a Extremo",
+    "noStorage": "Sin Almacenamiento de Datos",
+    "instantSetup": "Configuración Instantánea"
+  },
+  "Features": {
+    "title": "¿Por Qué Elegir o2o?",
+    "subtitle": "Todo lo que necesita para conversaciones privadas y seguras",
+    "private": {
+      "title": "Privado y Seguro",
+      "description": "Enlaces vinculados a IP, cifrado de extremo a extremo, sin dejar rastro"
+    },
+    "onetoone": {
+      "title": "Enfoque 1-a-1",
+      "description": "Diseñado solo para dos personas, sin distracciones, sin chats grupales"
+    },
+    "nodownload": {
+      "title": "No Se Necesita Descarga",
+      "description": "100% basado en navegador, funciona en todos los dispositivos, sin instalación"
+    },
+    "pricing": {
+      "title": "Precios Flexibles",
+      "description": "Pague según使用 desde $2.99, sin presión de suscripción"
+    }
+  },
+  "HowItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Comience en tres pasos simples",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Crear Cuenta",
+        "description": "Regístrese gratis y obtenga 100 minutos de prueba"
+      },
+      "start": {
+        "step": "02",
+        "title": "Iniciar Sala",
+        "description": "Cree una sala privada y comparta el enlace"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Conectar de Forma Segura",
+        "description": "Disfrute de videollamadas 1-a-1 cifradas"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Comience con 100 minutos gratis, actualice cuando necesite más",
+    "starter": {
+      "name": "Inicial",
+      "price": "$2.99",
+      "minutes": "60 minutos",
+      "sessionLimit": "Límite de 120 min por sesión",
+      "noExpiration": "Sin caducidad",
+      "hdVideo": "Video HD",
+      "cta": "Comenzar"
+    },
+    "standard": {
+      "name": "Estándar",
+      "price": "$5.99",
+      "minutes": "150 minutos",
+      "sessionLimit": "Límite de 120 min por sesión",
+      "noExpiration": "Sin caducidad",
+      "hdVideo": "Video HD",
+      "screenSharing": "Compartir pantalla",
+      "cta": "Comenzar",
+      "bestValue": "Mejor Valor"
+    },
+    "unlimited": {
+      "name": "Ilimitado",
+      "price": "$9.99",
+      "minutes": "300 minutos",
+      "sessionLimit": "Límite de 120 min por sesión",
+      "noExpiration": "Sin caducidad",
+      "hdVideo": "Video HD",
+      "allFeatures": "Todas las funciones premium",
+      "cta": "Comenzar"
+    }
+  },
+  "Dashboard": {
+    "title": "Panel de Control",
+    "subtitle": "Inicie una conversación privada o gestione su cuenta",
+    "newMeeting": {
+      "title": "Nueva Reunión",
+      "description": "Crear una nueva sala de video 1-a-1",
+      "button": "Crear Sala",
+      "pageTitle": "Crear Nueva Reunión",
+      "pageDescription": "Cree una nueva sala de reuniones de video 1-a-1. Puede invitar a alguien para unirse más tarde.",
+      "meetingNameLabel": "Nombre de la Reunión (opcional)",
+      "meetingNamePlaceholder": "Mi Reunión",
+      "createButton": "Crear Sala de Reunión",
+      "creating": "Creando...",
+      "createError": "Error al crear la sala de reunión. Intente nuevamente.",
+      "features": {
+        "private": "Videollamada privada 1-a-1",
+        "encrypted": "Cifrado de extremo a extremo",
+        "nodownload": "No se requiere descarga"
+      },
+      "existingRoom": {
+        "title": "Sala Activa Existente",
+        "message": "Ya tiene una sala activa llamada \"{name}\".",
+        "description": "¿Desea ingresar a la sala existente o eliminarla y crear una nueva?",
+        "enterExisting": "Ingresar a Sala Existente",
+        "createNew": "Eliminar y Crear Nueva",
+        "deleting": "Eliminando..."
+      }
+    },
+    "history": {
+      "title": "Historial",
+      "description": "Ver su historial de reuniones",
+      "button": "Ver Historial"
+    },
+    "balance": {
+      "title": "Saldo",
+      "description": "Ver sus minutos disponibles",
+      "button": "Recargar"
+    },
+    "joinMeeting": {
+      "title": "Unirse a Reunión",
+      "description": "Ha sido invitado a unirse a una reunión",
+      "hostName": "Anfitrión",
+      "joinButton": "Unirse a Reunión",
+      "joining": "Uniéndose..."
+    }
+  },
+  "Footer": {
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookie": "Política de Cookies",
+    "refund": "Política de Reembolso",
+    "copyright": "Todos los derechos reservados.",
+    "description": "Videollamadas privadas 1-a-1 con cifrado de extremo a extremo.",
+    "product": "Producto",
+    "legal": "Legal",
+    "connect": "Conectar",
+    "features": "Características",
+    "pricing": "Precios",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse"
+  },
+  "CookieConsent": {
+    "title": "Usamos cookies",
+    "description": "Usamos cookies para mejorar su experiencia de navegación, analizar el tráfico del sitio y personalizar el contenido. Al hacer clic en \"Aceptar Todo\", usted consiente el uso de cookies.",
+    "acceptAll": "Aceptar Todo",
+    "rejectAll": "Rechazar Todo",
+    "customize": "Personalizar",
+    "savePreferences": "Guardar Preferencias",
+    "preferences": {
+      "title": "Preferencias de Cookies",
+      "description": "Elija qué cookies permitir. Puede cambiar sus preferencias en cualquier momento en la configuración.",
+      "necessary": {
+        "title": "Cookies Necesarias",
+        "description": "Requeridas para que el sitio funcione correctamente. No se pueden desactivar.",
+        "alwaysActive": "Siempre Activas"
+      },
+      "functional": {
+        "title": "Cookies Funcionales",
+        "description": "Recuerdan sus preferencias y configuración para una experiencia personalizada."
+      },
+      "analytics": {
+        "title": "Cookies Analíticas",
+        "description": "Nos ayudan a mejorar el sitio recopilando información de uso anónima."
+      }
+    },
+    "learnMore": "Más información en nuestra",
+    "policyLink": "Política de Cookies"
+  },
+  "Theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "auto": "Automático",
+    "label": "Tema"
+  },
+  "Room": {
+    "loading": "Cargando sala...",
+    "notFound": "Sala no encontrada",
+    "notFoundDescription": "Esta sala de reunión no existe o ha caducado.",
+    "error": "Error al cargar la sala",
+    "errorDescription": "Algo salió mal al cargar la sala.",
+    "ended": "Reunión finalizada",
+    "endedDescription": "Esta reunión ha terminado y no se puede unir.",
+    "duration": "Duración",
+    "participants": "Participantes",
+    "participant": "Participante",
+    "waiting": "Esperando participantes...",
+    "inCall": "En llamada",
+    "endCall": "Finalizar Llamada",
+    "leaveCall": "Salir de la Llamada",
+    "mute": "Silenciar",
+    "unmute": "Activar Sonido",
+    "camera": "Cámara",
+    "cameraOn": "Cámara Encendida",
+    "cameraOff": "Cámara Apagada",
+    "copyLink": "Copiar Enlace de Invitación",
+    "linkCopied": "¡Enlace copiado al portapapeles!",
+    "shareLink": "Comparta este enlace para invitar a alguien",
+    "endingCall": "Finalizando llamada...",
+    "confirmEnd": "¿Finalizar esta llamada?",
+    "confirmEndDescription": "La reunión se cerrará para todos los participantes.",
+    "joinMeeting": "Unirse a Reunión",
+    "joining": "Uniéndose...",
+    "joinError": "Error al unirse a la reunión",
+    "you": "Tú",
+    "muted": "Silenciado",
+    "waitingForParticipants": "Esperando participantes...",
+    "endedTitle": "Reunión Finalizada",
+    "endedSummary": "Resumen de la Reunión",
+    "durationLabel": "Duración",
+    "endTimeLabel": "Hora de Finalización",
+    "participantCountLabel": "Participantes",
+    "signupCta": "Regístrese para crear más reuniones",
+    "backToDashboard": "Volver al Panel",
+    "hostLeftTitle": "El Anfitrión se Fue",
+    "hostLeftMessage": "El anfitrión ha finalizado esta reunión. Será redirigido a la página de registro.",
+    "fullscreen": "Pantalla Completa",
+    "exitFullscreen": "Salir de Pantalla Completa"
+  },
+  "Welcome": {
+    "title": "Comience Su Viaje de Llamadas Privadas",
+    "subtitle": "Videollamadas privadas uno a uno, cifradas de extremo a extremo, sin descarga requerida",
+    "features": {
+      "private": {
+        "title": "Privado y Seguro",
+        "description": "Cifrado de extremo a extremo, sin almacenamiento de datos"
+      },
+      "onetoone": {
+        "title": "Enfoque en 1-a-1",
+        "description": "Diseñado para dos personas, sin distracciones"
+      },
+      "nodownload": {
+        "title": "Sin Descarga",
+        "description": "Funciona en el navegador, soporte multiplataforma"
+      }
+    },
+    "offer": {
+      "title": "Especial para Nuevos Usuarios",
+      "subtitle": "Regístrese y obtenga 100 minutos gratis",
+      "signupButton": "Registrarse Gratis",
+      "signinButton": "¿Ya tiene cuenta? Iniciar Sesión",
+      "note": "No se requiere tarjeta de crédito"
+    },
+    "pricing": {
+      "title": "Precios Flexibles, Elija Según Necesite",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Paquete Inicial / 60 min",
+        "limit": "Máx 120 min por sesión"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Paquete Estándar / 150 min",
+        "limit": "Máx 120 min por sesión",
+        "badge": "Más Popular"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Paquete Ilimitado / 300 min",
+        "limit": "Máx 120 min por sesión"
+      }
+    }
+  },
+  "History": {
+    "title": "Historial de Reuniones",
+    "description": "Ver sus reuniones pasadas",
+    "noRecords": "Sin registros de reuniones",
+    "noRecordsDescription": "Aún no ha tenido reuniones finalizadas",
+    "createFirst": "Cree su primera reunión",
+    "host": "Anfitrión",
+    "duration": "Duración",
+    "signInRequired": "Se Requiere Iniciar Sesión",
+    "signInToView": "Por favor inicie sesión para ver su historial de reuniones",
+    "emptyState": {
+      "title": "Sin Historial de Reuniones",
+      "description": "Aún no ha tenido reuniones finalizadas",
+      "createButton": "Cree su primera reunión"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "pageInfo": "Página {current} de {total}"
+    },
+    "status": {
+      "ended": "Finalizada",
+      "active": "Activa",
+      "waiting": "Esperando"
+    }
+  },
+  "Billing": {
+    "title": "Facturación y Recargas",
+    "signInRequired": "Se Requiere Iniciar Sesión",
+    "signInToView": "Por favor inicie sesión para ver su información de facturación",
+    "credits": {
+      "title": "Saldo de Cuenta",
+      "availableMinutes": "Minutos Disponibles",
+      "totalMinutes": "Minutos Totales",
+      "usedMinutes": "Minutos Usados",
+      "lifetime": "Válido de Por Vida"
+    },
+    "freeTrial": {
+      "title": "Prueba Gratis",
+      "remainingMinutes": "Minutos Restantes",
+      "expiresAt": "Expira El",
+      "expired": "Expirado",
+      "description": "Nuevos usuarios obtienen 100 minutos gratis"
+    },
+    "subscription": {
+      "title": "Estado de Suscripción",
+      "noSubscription": "Sin suscripción",
+      "startWithPackage": "Compre un paquete para comenzar"
+    },
+    "packages": {
+      "title": "Paquetes de Recarga",
+      "starter": {
+        "name": "Inicial",
+        "description": "Para usuarios ocasionales"
+      },
+      "standard": {
+        "name": "Estándar",
+        "description": "Mejor opción de valor",
+        "badge": "Más Popular"
+      },
+      "unlimited": {
+        "name": "Ilimitado",
+        "description": "Para usuarios frecuentes"
+      },
+      "features": {
+        "lifetime": "Válido de por vida",
+        "hdVideo": "Video HD",
+        "encrypted": "Cifrado de extremo a extremo"
+      },
+      "buy": "Comprar",
+      "processing": "Procesando..."
+    },
+    "subscriptions": {
+      "title": "Planes de Membresía",
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "yearlySave": "Ahorre 2 meses",
+      "yearlySavings": "Ahorre ${amount}/año",
+      "perMonth": "/mes",
+      "perYear": "/año",
+      "subscribe": "Suscribirse",
+      "subscribing": "Procesando..."
+    },
+    "plans": {
+      "member": {
+        "name": "Miembro",
+        "billing": "Facturación mensual"
+      },
+      "pro": {
+        "name": "Miembro Pro",
+        "billing": "Facturación mensual",
+        "badge": "Más Popular"
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "billing": "Facturación mensual",
+        "badge": "Para Empresas"
+      }
+    },
+    "benefits": {
+      "member": "200 minutos por mes,Llamadas de video HD,Cifrado de extremo a extremo,Grabación de reuniones,Soporte prioritario",
+      "pro": "500 minutos por mes,Video 4K Ultra HD,Cifrado de extremo a extremo,Grabación + Transcripción,Fondos personalizados,Soporte prioritario,Informes analíticos",
+      "enterprise": "Minutos ilimitados,Video 4K Ultra HD,Cifrado de extremo a extremo,Grabación + Transcripción,Marca personalizada,Gerente de cuenta dedicado,Garantía SLA,Acceso API"
+    },
+    "orders": {
+      "title": "Historial de Pedidos",
+      "recentOrders": "Pedidos Recientes"
+    },
+    "messages": {
+      "paymentSuccess": "¡Pago exitoso! Los minutos se agregarán a su cuenta automáticamente.",
+      "paymentCanceled": "Pago cancelado, por favor intente nuevamente",
+      "subscriptionSuccess": "¡Suscripción exitosa! Los minutos de miembro se agregarán a su cuenta automáticamente.",
+      "subscriptionCanceled": "Suscripción cancelada, por favor intente nuevamente",
+      "purchaseError": "Error en la compra, por favor intente nuevamente",
+      "subscribeError": "Error en la suscripción, por favor intente nuevamente"
+    },
+    "status": {
+      "active": "Activo",
+      "succeeded": "Exitoso",
+      "pending": "Pendiente",
+      "failed": "Fallido",
+      "cancelled": "Cancelado",
+      "expired": "Expirado"
+    }
+  },
+  "Settings": {
+    "title": "Configuración",
+    "description": "Gestione sus preferencias y configuración de cuenta",
+    "profile": {
+      "title": "Perfil",
+      "description": "Gestione su información personal",
+      "name": "Nombre",
+      "email": "Email",
+      "avatar": "Avatar",
+      "memberSince": "Miembro desde"
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "description": "Personalice su experiencia",
+      "language": "Idioma",
+      "theme": "Tema",
+      "languageAuto": "Automático",
+      "languageEn": "English",
+      "languageZh": "中文",
+      "languageEs": "Español",
+      "languageJa": "日本語",
+      "languageDe": "Deutsch",
+      "languageFr": "Français",
+      "languagePt": "Português",
+      "languageKo": "한국어",
+      "languageIt": "Italiano",
+      "languageRu": "Русский",
+      "languageAr": "العربية",
+      "languageNl": "Nederlands",
+      "languageHi": "हिन्दी",
+      "languageTr": "Türkçe",
+      "languageId": "Bahasa Indonesia",
+      "languagePl": "Polski",
+      "languageVi": "Tiếng Việt",
+      "languageSv": "Svenska",
+      "themeLight": "Claro",
+      "themeDark": "Oscuro",
+      "themeSystem": "Sistema"
+    },
+    "account": {
+      "title": "Cuenta",
+      "description": "Gestione la seguridad de su cuenta y métodos de inicio de sesión",
+      "password": "Cambiar Contraseña",
+      "twoFactor": "Autenticación de Dos Factores",
+      "sessions": "Sesiones Activas",
+      "deleteAccount": "Eliminar Cuenta"
+    }
+  }
+}

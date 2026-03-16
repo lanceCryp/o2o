@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Anmelden",
+    "signUp": "Loslegen",
+    "dashboard": "Dashboard",
+    "loading": "Laden...",
+    "submit": "Absenden",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück"
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "history": "Verlauf",
+    "settings": "Einstellungen",
+    "billing": "Abrechnung",
+    "logout": "Abmelden"
+  },
+  "Hero": {
+    "title": "Privates 1-zu-1 Video.",
+    "titleHighlight": "Keine Downloads. Keine Spuren.",
+    "description": "Die sicherste Art, privat zu verbinden.",
+    "descriptionHighlight": "Ein Link, zwei Personen, null Kompromisse.",
+    "cta": "Starten Sie Ihren privaten Anruf - 100 Minuten kostenlos",
+    "ctaLoggedIn": "Starten Sie Ihren privaten Anruf",
+    "badge": "Sicher & Privat",
+    "learnMore": "Mehr Erfahren"
+  },
+  "TrustIndicators": {
+    "encrypted": "Ende-zu-Ende Verschlüsselt",
+    "noStorage": "Keine Datenspeicherung",
+    "instantSetup": "Sofortige Einrichtung"
+  },
+  "Features": {
+    "title": "Warum o2o Wählen?",
+    "subtitle": "Alles, was Sie für sichere, private Gespräche benötigen",
+    "private": {
+      "title": "Privat & Sicher",
+      "description": "IP-gebundene Links, Ende-zu-Ende-Verschlüsselung, keine Spuren"
+    },
+    "onetoone": {
+      "title": "1-zu-1 Fokussiert",
+      "description": "Nur für zwei Personen konzipiert, keine Ablenkungen, keine Gruppenchats"
+    },
+    "nodownload": {
+      "title": "Kein Download Erforderlich",
+      "description": "Rein browserbasiert, funktioniert auf allen Geräten, keine Installation"
+    },
+    "pricing": {
+      "title": "Flexible Preise",
+      "description": "Pay-as-you-go ab $2.99, kein Abonnementdruck"
+    }
+  },
+  "HowItWorks": {
+    "title": "So Funktioniert's",
+    "subtitle": "Starten Sie in drei einfachen Schritten",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Konto Erstellen",
+        "description": "Kostenlos registrieren und 100 Minuten kostenlose Testzeit erhalten"
+      },
+      "start": {
+        "step": "02",
+        "title": "Raum Starten",
+        "description": "Erstellen Sie einen privaten Raum und teilen Sie den Link mit Ihrem Gast"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Sicher Verbinden",
+        "description": "Genießen Sie ende-zu-ende verschlüsselte 1-zu-1-Videogespräche"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Einfache, Transparente Preise",
+    "subtitle": "Starten Sie mit 100 kostenlosen Minuten, upgraden bei Bedarf",
+    "starter": {
+      "name": "Starter",
+      "price": "$2.99",
+      "minutes": "60 Minuten",
+      "sessionLimit": "120 Min Sitzlimit",
+      "noExpiration": "Kein Verfallsdatum",
+      "hdVideo": "HD-Video",
+      "cta": "Loslegen"
+    },
+    "standard": {
+      "name": "Standard",
+      "price": "$5.99",
+      "minutes": "150 Minuten",
+      "sessionLimit": "120 Min Sitzlimit",
+      "noExpiration": "Kein Verfallsdatum",
+      "hdVideo": "HD-Video",
+      "screenSharing": "Bildschirmfreigabe",
+      "cta": "Loslegen",
+      "bestValue": "Bestes Preis-Leistungs-Verhältnis"
+    },
+    "unlimited": {
+      "name": "Unlimited",
+      "price": "$9.99",
+      "minutes": "300 Minuten",
+      "sessionLimit": "120 Min Sitzlimit",
+      "noExpiration": "Kein Verfallsdatum",
+      "hdVideo": "HD-Video",
+      "allFeatures": "Alle Premium-Funktionen",
+      "cta": "Loslegen"
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Starten Sie ein privates Gespräch oder verwalten Sie Ihr Konto",
+    "newMeeting": {
+      "title": "Neues Meeting",
+      "description": "Erstellen Sie einen neuen 1-zu-1-Videoraum",
+      "button": "Raum Erstellen",
+      "pageTitle": "Neues Meeting Erstellen",
+      "pageDescription": "Erstellen Sie einen neuen 1-zu-1-Videomeetingraum. Sie können später jemanden einladen.",
+      "meetingNameLabel": "Meeting-Name (optional)",
+      "meetingNamePlaceholder": "Mein Meeting",
+      "createButton": "Meeting-Raum Erstellen",
+      "creating": "Erstellen...",
+      "createError": "Meeting-Raum konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+      "features": {
+        "private": "1-zu-1 privater Videoanruf",
+        "encrypted": "Ende-zu-Ende verschlüsselt",
+        "nodownload": "Kein Download erforderlich"
+      },
+      "existingRoom": {
+        "title": "Bestehender Aktiver Raum",
+        "message": "Sie haben bereits einen aktiven Raum namens \"{name}\".",
+        "description": "Möchten Sie den bestehenden Raum betreten oder ihn löschen und einen neuen erstellen?",
+        "enterExisting": "Bestehenden Raum Betreten",
+        "createNew": "Löschen & Neu Erstellen",
+        "deleting": "Löschen..."
+      }
+    },
+    "history": {
+      "title": "Verlauf",
+      "description": "Meeting-Verlauf anzeigen",
+      "button": "Verlauf Anzeigen"
+    },
+    "balance": {
+      "title": "Guthaben",
+      "description": "Verfügbare Minuten anzeigen",
+      "button": "Aufladen"
+    },
+    "joinMeeting": {
+      "title": "Meeting Beitreten",
+      "description": "Sie wurden zu einem Meeting eingeladen",
+      "hostName": "Gastgeber",
+      "joinButton": "Meeting Beitreten",
+      "joining": "Beitreten..."
+    }
+  },
+  "Footer": {
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookie": "Cookie-Richtlinie",
+    "refund": "Rückerstattungsrichtlinie",
+    "copyright": "Alle Rechte vorbehalten.",
+    "description": "Private 1-zu-1 Videoanrufe mit Ende-zu-Ende-Verschlüsselung.",
+    "product": "Produkt",
+    "legal": "Rechtliches",
+    "connect": "Verbinden",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren"
+  },
+  "CookieConsent": {
+    "title": "Wir verwenden Cookies",
+    "description": "Wir verwenden Cookies, um Ihr Browsing-Erlebnis zu verbessern, Site-Traffic zu analysieren und Inhalte zu personalisieren. Durch Klicken auf \"Alle Akzeptieren\" stimmen Sie unserer Verwendung von Cookies zu.",
+    "acceptAll": "Alle Akzeptieren",
+    "rejectAll": "Alle Ablehnen",
+    "customize": "Anpassen",
+    "savePreferences": "Einstellungen Speichern",
+    "preferences": {
+      "title": "Cookie-Einstellungen",
+      "description": "Wählen Sie, welche Cookies erlaubt werden sollen. Sie können Ihre Einstellungen jederzeit in den Einstellungen ändern.",
+      "necessary": {
+        "title": "Notwendige Cookies",
+        "description": "Erforderlich für die ordnungsgemäße Funktion der Website. Kann nicht deaktiviert werden.",
+        "alwaysActive": "Immer Aktiv"
+      },
+      "functional": {
+        "title": "Funktionale Cookies",
+        "description": "Erinnern Sie sich an Ihre Einstellungen für ein personalisiertes Erlebnis."
+      },
+      "analytics": {
+        "title": "Analytik-Cookies",
+        "description": "Helfen Sie uns, die Website zu verbessern, indem Sie anonyme Nutzungsinformationen sammeln."
+      }
+    },
+    "learnMore": "Mehr Informationen in unserer",
+    "policyLink": "Cookie-Richtlinie"
+  },
+  "Theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "auto": "Automatisch",
+    "label": "Design"
+  },
+  "Room": {
+    "loading": "Raum wird geladen...",
+    "notFound": "Raum nicht gefunden",
+    "notFoundDescription": "Dieser Meeting-Raum existiert nicht oder ist abgelaufen.",
+    "error": "Fehler beim Laden des Raums",
+    "errorDescription": "Beim Laden des Raums ist etwas schief gelaufen.",
+    "ended": "Meeting beendet",
+    "endedDescription": "Dieses Meeting wurde beendet und kann nicht mehr betreten werden.",
+    "duration": "Dauer",
+    "participants": "Teilnehmer",
+    "participant": "Teilnehmer",
+    "waiting": "Warten auf Teilnehmer...",
+    "inCall": "Im Anruf",
+    "endCall": "Anruf Beenden",
+    "leaveCall": "Anruf Verlassen",
+    "mute": "Stummschalten",
+    "unmute": "Stummschalten Aufheben",
+    "camera": "Kamera",
+    "cameraOn": "Kamera An",
+    "cameraOff": "Kamera Aus",
+    "copyLink": "Einladungslink Kopieren",
+    "linkCopied": "Link in die Zwischenablage kopiert!",
+    "shareLink": "Teilen Sie diesen Link, um jemanden einzuladen",
+    "endingCall": "Anruf wird beendet...",
+    "confirmEnd": "Diesen Anruf beenden?",
+    "confirmEndDescription": "Das Meeting wird für alle Teilnehmer geschlossen.",
+    "joinMeeting": "Meeting Beitreten",
+    "joining": "Beitreten...",
+    "joinError": "Meeting-Beitritt fehlgeschlagen",
+    "you": "Sie",
+    "muted": "Stummgeschaltet",
+    "waitingForParticipants": "Warten auf Teilnehmer...",
+    "endedTitle": "Meeting Beendet",
+    "endedSummary": "Meeting-Zusammenfassung",
+    "durationLabel": "Dauer",
+    "endTimeLabel": "Endzeit",
+    "participantCountLabel": "Teilnehmer",
+    "signupCta": "Registrieren Sie sich, um weitere Meetings zu erstellen",
+    "backToDashboard": "Zurück zum Dashboard",
+    "hostLeftTitle": "Gastgeber Verlassen",
+    "hostLeftMessage": "Der Gastgeber hat dieses Meeting beendet. Sie werden zur Anmeldeseite weitergeleitet.",
+    "fullscreen": "Vollbild",
+    "exitFullscreen": "Vollbild Beenden"
+  },
+  "Welcome": {
+    "title": "Starten Sie Ihre Reise mit Privaten Anrufen",
+    "subtitle": "Eins-zu-eins private Videoanrufe, ende-zu-ende verschlüsselt, kein Download erforderlich",
+    "features": {
+      "private": {
+        "title": "Privat & Sicher",
+        "description": "Ende-zu-Ende-Verschlüsselung, keine Datenspeicherung"
+      },
+      "onetoone": {
+        "title": "Fokus auf 1-zu-1",
+        "description": "Für zwei Personen konzipiert, keine Ablenkungen"
+      },
+      "nodownload": {
+        "title": "Kein Download",
+        "description": "Läuft im Browser, plattformübergreifende Unterstützung"
+      }
+    },
+    "offer": {
+      "title": "Neues Benutzer Angebot",
+      "subtitle": "Registrieren Sie sich und erhalten Sie 100 Minuten kostenlos",
+      "signupButton": "Kostenlos Registrieren",
+      "signinButton": "Bereits ein Konto? Anmelden",
+      "note": "Keine Kreditkarte erforderlich"
+    },
+    "pricing": {
+      "title": "Flexible Preise, Wählen Sie nach Bedarf",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Starter-Paket / 60 Min",
+        "limit": "Max 120 Min pro Sitzung"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Standard-Paket / 150 Min",
+        "limit": "Max 120 Min pro Sitzung",
+        "badge": "Am Beliebtesten"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Unlimited-Paket / 300 Min",
+        "limit": "Max 120 Min pro Sitzung"
+      }
+    }
+  },
+  "History": {
+    "title": "Meeting-Verlauf",
+    "description": "Vergangene Meetings anzeigen",
+    "noRecords": "Keine Meeting-Aufzeichnungen",
+    "noRecordsDescription": "Sie hatten noch keine beendeten Meetings",
+    "createFirst": "Erstellen Sie Ihr erstes Meeting",
+    "host": "Gastgeber",
+    "duration": "Dauer",
+    "signInRequired": "Anmeldung Erforderlich",
+    "signInToView": "Bitte melden Sie sich an, um Ihren Meeting-Verlauf anzuzeigen",
+    "emptyState": {
+      "title": "Kein Meeting-Verlauf",
+      "description": "Sie hatten noch keine beendeten Meetings",
+      "createButton": "Erstellen Sie Ihr erstes Meeting"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "pageInfo": "Seite {current} von {total}"
+    },
+    "status": {
+      "ended": "Beendet",
+      "active": "Aktiv",
+      "waiting": "Wartend"
+    }
+  },
+  "Billing": {
+    "title": "Abrechnung & Aufladen",
+    "signInRequired": "Anmeldung Erforderlich",
+    "signInToView": "Bitte melden Sie sich an, um Ihre Abrechnungsinformationen anzuzeigen",
+    "credits": {
+      "title": "Kontoguthaben",
+      "availableMinutes": "Verfügbare Minuten",
+      "totalMinutes": "Gesamtminuten",
+      "usedMinutes": "Verwendete Minuten",
+      "lifetime": "Lebenslang Gültig"
+    },
+    "freeTrial": {
+      "title": "Kostenlose Testversion",
+      "remainingMinutes": "Verbleibende Minuten",
+      "expiresAt": "Läuft Ab Am",
+      "expired": "Abgelaufen",
+      "description": "Neue Benutzer erhalten 100 Minuten kostenlos"
+    },
+    "subscription": {
+      "title": "Abonnement-Status",
+      "noSubscription": "Kein Abonnement",
+      "startWithPackage": "Kaufen Sie ein Paket, um zu beginnen"
+    },
+    "packages": {
+      "title": "Auflade-Pakete",
+      "starter": {
+        "name": "Starter",
+        "description": "Für gelegentliche Benutzer"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Beste Wertwahl",
+        "badge": "Am Beliebtesten"
+      },
+      "unlimited": {
+        "name": "Unlimited",
+        "description": "Für häufige Benutzer"
+      },
+      "features": {
+        "lifetime": "Lebenslang gültig",
+        "hdVideo": "HD-Video",
+        "encrypted": "Ende-zu-Ende verschlüsselt"
+      },
+      "buy": "Kaufen",
+      "processing": "Verarbeiten..."
+    },
+    "subscriptions": {
+      "title": "Mitgliedschaftspläne",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "yearlySave": "2 Monate sparen",
+      "yearlySavings": "${amount}/Jahr sparen",
+      "perMonth": "/Monat",
+      "perYear": "/Jahr",
+      "subscribe": "Abonnieren",
+      "subscribing": "Verarbeiten..."
+    },
+    "plans": {
+      "member": {
+        "name": "Mitglied",
+        "billing": "Monatliche Abrechnung"
+      },
+      "pro": {
+        "name": "Pro-Mitglied",
+        "billing": "Monatliche Abrechnung",
+        "badge": "Am Beliebtesten"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "billing": "Monatliche Abrechnung",
+        "badge": "Für Unternehmen"
+      }
+    },
+    "benefits": {
+      "member": "200 Minuten pro Monat,HD-Videoanrufe,Ende-zu-Ende-Verschlüsselung,Meeting-Aufzeichnung,Priority-Support",
+      "pro": "500 Minuten pro Monat,4K Ultra HD-Video,Ende-zu-Ende-Verschlüsselung,Aufzeichnung + Transkription,Angepasste Hintergründe,Priority-Support,Analyseberichte",
+      "enterprise": "Unbegrenzte Minuten,4K Ultra HD-Video,Ende-zu-Ende-Verschlüsselung,Aufzeichnung + Transkription,Angepasstes Branding,Dedizierter Kontomanager,SLA-Garantie,API-Zugriff"
+    },
+    "orders": {
+      "title": "Bestellverlauf",
+      "recentOrders": "Letzte Bestellungen"
+    },
+    "messages": {
+      "paymentSuccess": "Zahlung erfolgreich! Minuten werden automatisch Ihrem Konto hinzugefügt.",
+      "paymentCanceled": "Zahlung storniert, bitte versuchen Sie es erneut",
+      "subscriptionSuccess": "Abonnement erfolgreich! Mitgliederminuten werden automatisch Ihrem Konto hinzugefügt.",
+      "subscriptionCanceled": "Abonnement storniert, bitte versuchen Sie es erneut",
+      "purchaseError": "Kauf fehlgeschlagen, bitte versuchen Sie es erneut",
+      "subscribeError": "Abonnement fehlgeschlagen, bitte versuchen Sie es erneut"
+    },
+    "status": {
+      "active": "Aktiv",
+      "succeeded": "Erfolgreich",
+      "pending": "Ausstehend",
+      "failed": "Fehlgeschlagen",
+      "cancelled": "Storniert",
+      "expired": "Abgelaufen"
+    }
+  },
+  "Settings": {
+    "title": "Einstellungen",
+    "description": "Verwalten Sie Ihre Kontoeinstellungen und Präferenzen",
+    "profile": {
+      "title": "Profil",
+      "description": "Verwalten Sie Ihre persönlichen Informationen",
+      "name": "Name",
+      "email": "E-Mail",
+      "avatar": "Avatar",
+      "memberSince": "Mitglied seit"
+    },
+    "preferences": {
+      "title": "Präferenzen",
+      "description": "Passen Sie Ihre Erfahrung an",
+      "language": "Sprache",
+      "theme": "Design",
+      "languageAuto": "Automatisch",
+      "languageEn": "Englisch",
+      "languageZh": "Chinesisch",
+      "themeLight": "Hell",
+      "themeDark": "Dunkel",
+      "themeSystem": "System"
+    },
+    "account": {
+      "title": "Konto",
+      "description": "Verwalten Sie Ihre Kontosicherheit und Anmeldeoptionen",
+      "password": "Passwort Ändern",
+      "twoFactor": "Zwei-Faktor-Authentifizierung",
+      "sessions": "Aktive Sitzungen",
+      "deleteAccount": "Konto Löschen"
+    }
+  }
+}

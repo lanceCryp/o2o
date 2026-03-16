@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Đăng Nhập",
+    "signUp": "Bắt Đầu",
+    "dashboard": "Bảng Điều Khiển",
+    "loading": "Đang tải...",
+    "submit": "Gửi",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Chỉnh Sửa",
+    "close": "Đóng",
+    "back": "Quay Lại",
+    "next": "Tiếp Theo",
+    "previous": "Trước"
+  },
+  "Navigation": {
+    "home": "Trang Chủ",
+    "pricing": "Giá Cả",
+    "history": "Lịch Sử",
+    "settings": "Cài Đặt",
+    "billing": "Thanh Toán",
+    "logout": "Đăng Xuất"
+  },
+  "Hero": {
+    "title": "Video Riêng Tư 1-đối-1.",
+    "titleHighlight": "Không Tải Xuống. Không Dấu Vết.",
+    "description": "Cách an toàn nhất để kết nối riêng tư.",
+    "descriptionHighlight": "Một liên kết, hai người, không thỏa hiệp.",
+    "cta": "Bắt Đầu Cuộc Gọi Riêng Tư - 100 Phút Miễn Phí",
+    "ctaLoggedIn": "Bắt Đầu Cuộc Gọi Riêng Tư",
+    "badge": "An Toàn & Riêng Tư",
+    "learnMore": "Tìm Hiểu Thêm"
+  },
+  "TrustIndicators": {
+    "encrypted": "Mã Hóa Đầu Cuối",
+    "noStorage": "Không Lưu Trữ Dữ Liệu",
+    "instantSetup": "Thiết Lập Tức Thì"
+  },
+  "Features": {
+    "title": "Tại Sao Chọn o2o?",
+    "subtitle": "Mọi thứ bạn cần cho cuộc trò chuyện an toàn, riêng tư",
+    "private": {
+      "title": "Riêng Tư & An Toàn",
+      "description": "Liên kết ràng buộc IP, mã hóa đầu cuối, không để lại dấu vết"
+    },
+    "onetoone": {
+      "title": "Tập Trung 1-đối-1",
+      "description": "Thiết kế chỉ cho hai người, không xao nhãng, không trò chuyện nhóm"
+    },
+    "nodownload": {
+      "title": "Không Cần Tải Xuống",
+      "description": "Hoàn toàn trên trình duyệt, hoạt động trên mọi thiết bị, không cần cài đặt"
+    },
+    "pricing": {
+      "title": "Giá Cả Linh Hoạt",
+      "description": "Trả theo mức sử dụng từ $2.99, không áp lực đăng ký"
+    }
+  },
+  "HowItWorks": {
+    "title": "Cách Hoạt Động",
+    "subtitle": "Bắt đầu với ba bước đơn giản",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Tạo Tài Khoản",
+        "description": "Đăng ký miễn phí và nhận 100 phút dùng thử miễn phí"
+      },
+      "start": {
+        "step": "02",
+        "title": "Bắt Đầu Phòng",
+        "description": "Tạo phòng riêng và chia sẻ liên kết với khách của bạn"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Kết Nối An Toàn",
+        "description": "Tận hưởng cuộc trò chuyện video 1-đối-1 được mã hóa đầu cuối"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Giá Cả Đơn Giản, Minh Bạch",
+    "subtitle": "Bắt đầu với 100 phút miễn phí, nâng cấp khi cần thêm",
+    "starter": {
+      "name": "Khởi Đầu",
+      "price": "$2.99",
+      "minutes": "60 phút",
+      "sessionLimit": "Giới hạn phiên 120 phút",
+      "noExpiration": "Không hết hạn",
+      "hdVideo": "Video HD",
+      "cta": "Bắt Đầu"
+    },
+    "standard": {
+      "name": "Tiêu Chuẩn",
+      "price": "$5.99",
+      "minutes": "150 phút",
+      "sessionLimit": "Giới hạn phiên 120 phút",
+      "noExpiration": "Không hết hạn",
+      "hdVideo": "Video HD",
+      "screenSharing": "Chia sẻ màn hình",
+      "cta": "Bắt Đầu",
+      "bestValue": "Giá Trị Tốt Nhất"
+    },
+    "unlimited": {
+      "name": "Không Giới Hạn",
+      "price": "$9.99",
+      "minutes": "300 phút",
+      "sessionLimit": "Giới hạn phiên 120 phút",
+      "noExpiration": "Không hết hạn",
+      "hdVideo": "Video HD",
+      "allFeatures": "Tất cả tính năng cao cấp",
+      "cta": "Bắt Đầu"
+    }
+  },
+  "Dashboard": {
+    "title": "Bảng Điều Khiển",
+    "subtitle": "Bắt đầu cuộc trò chuyện riêng tư hoặc quản lý tài khoản",
+    "newMeeting": {
+      "title": "Cuộc Họp Mới",
+      "description": "Tạo phòng video 1-đối-1 mới",
+      "button": "Tạo Phòng",
+      "pageTitle": "Tạo Cuộc Họp Mới",
+      "pageDescription": "Tạo phòng họp video 1-đối-1 mới. Bạn có thể mời ai đó sau.",
+      "meetingNameLabel": "Tên Cuộc Họp (tùy chọn)",
+      "meetingNamePlaceholder": "Cuộc Họp Của Tôi",
+      "createButton": "Tạo Phòng Họp",
+      "creating": "Đang tạo...",
+      "createError": "Không thể tạo phòng họp. Vui lòng thử lại.",
+      "features": {
+        "private": "Cuộc gọi video riêng tư 1-đối-1",
+        "encrypted": "Mã hóa đầu cuối",
+        "nodownload": "Không cần tải xuống"
+      },
+      "existingRoom": {
+        "title": "Phòng Đang Hoạt Động Hiện Có",
+        "message": "Bạn đã có một phòng đang hoạt động tên là \"{name}\".",
+        "description": "Bạn muốn vào phòng hiện có hay xóa và tạo mới?",
+        "enterExisting": "Vào Phòng Hiện Có",
+        "createNew": "Xóa & Tạo Mới",
+        "deleting": "Đang xóa..."
+      }
+    },
+    "history": {
+      "title": "Lịch Sử",
+      "description": "Xem lịch sử cuộc họp của bạn",
+      "button": "Xem Lịch Sử"
+    },
+    "balance": {
+      "title": "Số Dư",
+      "description": "Xem phút khả dụng của bạn",
+      "button": "Nạp Thêm"
+    },
+    "joinMeeting": {
+      "title": "Tham Gia Cuộc Họp",
+      "description": "Bạn được mời tham gia một cuộc họp",
+      "hostName": "Chủ Nhà",
+      "joinButton": "Tham Gia Cuộc Họp",
+      "joining": "Đang tham gia..."
+    }
+  },
+  "Footer": {
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ",
+    "cookie": "Chính Sách Cookie",
+    "refund": "Chính Sách Hoàn Tiền",
+    "copyright": "Đã bảo lưu mọi quyền.",
+    "description": "Cuộc gọi video riêng tư 1-đối-1 với mã hóa đầu cuối.",
+    "product": "Sản Phẩm",
+    "legal": "Pháp Lý",
+    "connect": "Kết Nối",
+    "features": "Tính Năng",
+    "pricing": "Giá Cả",
+    "signIn": "Đăng Nhập",
+    "signUp": "Đăng Ký"
+  },
+  "CookieConsent": {
+    "title": "Chúng tôi sử dụng cookie",
+    "description": "Chúng tôi sử dụng cookie để nâng cao trải nghiệm duyệt web, phân tích lưu lượng truy cập và cá nhân hóa nội dung. Bằng cách nhấp vào \"Chấp Nhận Tất Cả\", bạn đồng ý với việc sử dụng cookie của chúng tôi.",
+    "acceptAll": "Chấp Nhận Tất Cả",
+    "rejectAll": "Từ Chối Tất Cả",
+    "customize": "Tùy Chỉnh",
+    "savePreferences": "Lưu Tùy Chọn",
+    "preferences": {
+      "title": "Tùy Chọn Cookie",
+      "description": "Chọn cookie nào để cho phép. Bạn có thể thay đổi tùy chọn bất cứ lúc nào trong cài đặt.",
+      "necessary": {
+        "title": "Cookie Cần Thiết",
+        "description": "Cần thiết để trang web hoạt động đúng. Không thể tắt.",
+        "alwaysActive": "Luôn Hoạt Động"
+      },
+      "functional": {
+        "title": "Cookie Chức Năng",
+        "description": "Ghi nhớ tùy chọn và cài đặt của bạn cho trải nghiệm cá nhân hóa."
+      },
+      "analytics": {
+        "title": "Cookie Phân Tích",
+        "description": "Giúp cải thiện trang web bằng cách thu thập thông tin sử dụng ẩn danh."
+      }
+    },
+    "learnMore": "Tìm hiểu thêm trong",
+    "policyLink": "Chính Sách Cookie"
+  },
+  "Theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "auto": "Tự Động",
+    "label": "Chủ Đề"
+  },
+  "Room": {
+    "loading": "Đang tải phòng...",
+    "notFound": "Không tìm thấy phòng",
+    "notFoundDescription": "Phòng họp này không tồn tại hoặc đã hết hạn.",
+    "error": "Lỗi tải phòng",
+    "errorDescription": "Đã xảy ra lỗi khi tải phòng.",
+    "ended": "Cuộc họp kết thúc",
+    "endedDescription": "Cuộc họp này đã kết thúc và không thể tham gia nữa.",
+    "duration": "Thời Lượng",
+    "participants": "Người Tham Gia",
+    "participant": "Người Tham Gia",
+    "waiting": "Đang chờ người tham gia...",
+    "inCall": "Trong cuộc gọi",
+    "endCall": "Kết Thúc Cuộc Gọi",
+    "leaveCall": "Rời Cuộc Gọi",
+    "mute": "Tắt Tiếng",
+    "unmute": "Bật Tiếng",
+    "camera": "Camera",
+    "cameraOn": "Camera Bật",
+    "cameraOff": "Camera Tắt",
+    "copyLink": "Sao Chép Liên Kết Mời",
+    "linkCopied": "Liên kết đã sao chép vào bộ nhớ tạm!",
+    "shareLink": "Chia sẻ liên kết này để mời ai đó",
+    "endingCall": "Đang kết thúc cuộc gọi...",
+    "confirmEnd": "Kết thúc cuộc gọi này?",
+    "confirmEndDescription": "Cuộc họp sẽ đóng cho tất cả người tham gia.",
+    "joinMeeting": "Tham Gia Cuộc Họp",
+    "joining": "Đang tham gia...",
+    "joinError": "Không thể tham gia cuộc họp",
+    "you": "Bạn",
+    "muted": "Đã tắt tiếng",
+    "waitingForParticipants": "Đang chờ người tham gia...",
+    "endedTitle": "Cuộc Họp Kết Thúc",
+    "endedSummary": "Tóm Tắt Cuộc Họp",
+    "durationLabel": "Thời Lượng",
+    "endTimeLabel": "Thời Gian Kết Thúc",
+    "participantCountLabel": "Người Tham Gia",
+    "signupCta": "Đăng ký để tạo thêm cuộc họp",
+    "backToDashboard": "Quay Lại Bảng Điều Khiển",
+    "hostLeftTitle": "Chủ Nhà Đã Rời",
+    "hostLeftMessage": "Chủ nhà đã kết thúc cuộc họp này. Bạn sẽ được chuyển hướng đến trang đăng ký.",
+    "fullscreen": "Toàn Màn Hình",
+    "exitFullscreen": "Thoát Toàn Màn Hình"
+  },
+  "Welcome": {
+    "title": "Bắt Đầu Hành Trình Cuộc Gọi Riêng Tư",
+    "subtitle": "Cuộc gọi video một-một riêng tư, mã hóa đầu cuối, không cần tải xuống",
+    "features": {
+      "private": {
+        "title": "Riêng Tư & An Toàn",
+        "description": "Mã hóa đầu cuối, không lưu trữ dữ liệu"
+      },
+      "onetoone": {
+        "title": "Tập Trung 1-đối-1",
+        "description": "Thiết kế cho hai người, không xao nhãng"
+      },
+      "nodownload": {
+        "title": "Không Tải Xuống",
+        "description": "Chạy trên trình duyệt, hỗ trợ đa nền tảng"
+      }
+    },
+    "offer": {
+      "title": "Ưu Đãi Đặc Biệt Cho Người Dùng Mới",
+      "subtitle": "Đăng ký và nhận 100 phút miễn phí",
+      "signupButton": "Đăng Ký Miễn Phí",
+      "signinButton": "Đã có tài khoản? Đăng Nhập",
+      "note": "Không cần thẻ tín dụng"
+    },
+    "pricing": {
+      "title": "Giá Cả Linh Hoạt, Chọn Theo Nhu Cầu",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Gói Khởi Đầu / 60 phút",
+        "limit": "Tối đa 120 phút mỗi phiên"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Gói Tiêu Chuẩn / 150 phút",
+        "limit": "Tối đa 120 phút mỗi phiên",
+        "badge": "Phổ Biến Nhất"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Gói Không Giới Hạn / 300 phút",
+        "limit": "Tối đa 120 phút mỗi phiên"
+      }
+    }
+  },
+  "History": {
+    "title": "Lịch Sử Cuộc Họp",
+    "description": "Xem cuộc họp trước đây của bạn",
+    "noRecords": "Không có bản ghi cuộc họp",
+    "noRecordsDescription": "Bạn chưa có cuộc họp kết thúc nào",
+    "createFirst": "Tạo cuộc họp đầu tiên",
+    "host": "Chủ Nhà",
+    "duration": "Thời Lượng",
+    "signInRequired": "Cần Đăng Nhập",
+    "signInToView": "Vui lòng đăng nhập để xem lịch sử cuộc họp",
+    "emptyState": {
+      "title": "Không Có Lịch Sử Cuộc Họp",
+      "description": "Bạn chưa có cuộc họp kết thúc nào",
+      "createButton": "Tạo cuộc họp đầu tiên"
+    },
+    "pagination": {
+      "previous": "Trước",
+      "next": "Tiếp Theo",
+      "pageInfo": "Trang {current} / {total}"
+    },
+    "status": {
+      "ended": "Kết Thúc",
+      "active": "Hoạt Động",
+      "waiting": "Đang Chờ"
+    }
+  },
+  "Billing": {
+    "title": "Thanh Toán & Nạp Tiền",
+    "signInRequired": "Cần Đăng Nhập",
+    "signInToView": "Vui lòng đăng nhập để xem thông tin thanh toán",
+    "credits": {
+      "title": "Số Dư Tài Khoản",
+      "availableMinutes": "Phút Khả Dụng",
+      "totalMinutes": "Tổng Phút",
+      "usedMinutes": "Phút Đã Dùng",
+      "lifetime": "Hiệu Lực Trọn Đời"
+    },
+    "freeTrial": {
+      "title": "Dùng Thử Miễn Phí",
+      "remainingMinutes": "Phút Còn Lại",
+      "expiresAt": "Hết Hạn Vào",
+      "expired": "Đã Hết Hạn",
+      "description": "Người dùng mới nhận 100 phút miễn phí"
+    },
+    "subscription": {
+      "title": "Trạng Thái Đăng Ký",
+      "noSubscription": "Không đăng ký",
+      "startWithPackage": "Mua gói để bắt đầu"
+    },
+    "packages": {
+      "title": "Gói Nạp Tiền",
+      "starter": {
+        "name": "Khởi Đầu",
+        "description": "Cho người dùng thỉnh thoảng"
+      },
+      "standard": {
+        "name": "Tiêu Chuẩn",
+        "description": "Lựa chọn giá trị tốt nhất",
+        "badge": "Phổ Biến Nhất"
+      },
+      "unlimited": {
+        "name": "Không Giới Hạn",
+        "description": "Cho người dùng thường xuyên"
+      },
+      "features": {
+        "lifetime": "Hiệu lực trọn đời",
+        "hdVideo": "Video HD",
+        "encrypted": "Mã hóa đầu cuối"
+      },
+      "buy": "Mua",
+      "processing": "Đang xử lý..."
+    },
+    "subscriptions": {
+      "title": "Gói Thành Viên",
+      "monthly": "Hàng Tháng",
+      "yearly": "Hàng Năm",
+      "yearlySave": "Tiết kiệm 2 tháng",
+      "yearlySavings": "Tiết kiệm ${amount}/năm",
+      "perMonth": "/tháng",
+      "perYear": "/năm",
+      "subscribe": "Đăng Ký",
+      "subscribing": "Đang xử lý..."
+    },
+    "plans": {
+      "member": {
+        "name": "Thành Viên",
+        "billing": "Thanh toán hàng tháng"
+      },
+      "pro": {
+        "name": "Thành Viên Pro",
+        "billing": "Thanh toán hàng tháng",
+        "badge": "Phổ Biến Nhất"
+      },
+      "enterprise": {
+        "name": "Doanh Nghiệp",
+        "billing": "Thanh toán hàng tháng",
+        "badge": "Cho Doanh Nghiệp"
+      }
+    },
+    "benefits": {
+      "member": "200 phút mỗi tháng,Cuộc gọi video HD,Mã hóa đầu cuối,Ghi hình cuộc họp,Hỗ trợ ưu tiên",
+      "pro": "500 phút mỗi tháng,Video 4K Ultra HD,Mã hóa đầu cuối,Ghi hình + Chuyển ngữ,Hình nền tùy chỉnh,Hỗ trợ ưu tiên,Báo cáo phân tích",
+      "enterprise": "Phút không giới hạn,Video 4K Ultra HD,Mã hóa đầu cuối,Ghi hình + Chuyển ngữ,Thương hiệu tùy chỉnh,Quản lý tài khoản riêng,Bảo đảm SLA,Truy cập API"
+    },
+    "orders": {
+      "title": "Lịch Sử Đơn Hàng",
+      "recentOrders": "Đơn Hàng Gần Đây"
+    },
+    "messages": {
+      "paymentSuccess": "Thanh toán thành công! Phút sẽ được thêm vào tài khoản tự động.",
+      "paymentCanceled": "Thanh toán bị hủy, vui lòng thử lại",
+      "subscriptionSuccess": "Đăng ký thành công! Phút thành viên sẽ được thêm vào tài khoản tự động.",
+      "subscriptionCanceled": "Đăng ký bị hủy, vui lòng thử lại",
+      "purchaseError": "Mua hàng thất bại, vui lòng thử lại",
+      "subscribeError": "Đăng ký thất bại, vui lòng thử lại"
+    },
+    "status": {
+      "active": "Hoạt Động",
+      "succeeded": "Thành Công",
+      "pending": "Đang Xử Lý",
+      "failed": "Thất Bại",
+      "cancelled": "Đã Hủy",
+      "expired": "Hết Hạn"
+    }
+  },
+  "Settings": {
+    "title": "Cài Đặt",
+    "description": "Quản lý tùy chọn và cài đặt tài khoản",
+    "profile": {
+      "title": "Hồ Sơ",
+      "description": "Quản lý thông tin cá nhân",
+      "name": "Tên",
+      "email": "Email",
+      "avatar": "Avatar",
+      "memberSince": "Thành viên từ"
+    },
+    "preferences": {
+      "title": "Tùy Chọn",
+      "description": "Tùy chỉnh trải nghiệm",
+      "language": "Ngôn Ngữ",
+      "theme": "Chủ Đề",
+      "languageAuto": "Tự Động",
+      "languageEn": "Tiếng Anh",
+      "languageZh": "Tiếng Trung",
+      "themeLight": "Sáng",
+      "themeDark": "Tối",
+      "themeSystem": "Hệ Thống"
+    },
+    "account": {
+      "title": "Tài Khoản",
+      "description": "Quản lý bảo mật và phương thức đăng nhập",
+      "password": "Đổi Mật Khẩu",
+      "twoFactor": "Xác Thực Hai Yếu Tố",
+      "sessions": "Phiên Hoạt Động",
+      "deleteAccount": "Xóa Tài Khoản"
+    }
+  }
+}

@@ -109,7 +109,23 @@ export default function SettingsPage() {
                 <div>
                   <h3 className="font-medium">{t('Settings.preferences.language')}</h3>
                   <p className="text-sm text-muted-foreground">
-                    {locale === 'zh' ? t('Settings.preferences.languageZh') : locale === 'en' ? t('Settings.preferences.languageEn') : t('Settings.preferences.languageAuto')}
+                    {locale === 'zh' ? t('Settings.preferences.languageZh') :
+                     locale === 'es' ? 'Español' :
+                     locale === 'de' ? 'Deutsch' :
+                     locale === 'fr' ? 'Français' :
+                     locale === 'ja' ? '日本語' :
+                     locale === 'ko' ? '한국어' :
+                     locale === 'pt' ? 'Português' :
+                     locale === 'it' ? 'Italiano' :
+                     locale === 'ru' ? 'Русский' :
+                     locale === 'ar' ? 'العربية' :
+                     locale === 'hi' ? 'हिन्दी' :
+                     locale === 'nl' ? 'Nederlands' :
+                     locale === 'tr' ? 'Türkçe' :
+                     locale === 'id' ? 'Bahasa Indonesia' :
+                     locale === 'pl' ? 'Polski' :
+                     locale === 'sv' ? 'Svenska' :
+                     locale === 'vi' ? 'Tiếng Việt' : t('Settings.preferences.languageEn')}
                   </p>
                 </div>
                 <LanguageToggle />

@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "로그인",
+    "signUp": "시작하기",
+    "dashboard": "대시보드",
+    "loading": "로딩 중...",
+    "submit": "제출",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집",
+    "close": "닫기",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전"
+  },
+  "Navigation": {
+    "home": "홈",
+    "pricing": "가격",
+    "history": "기록",
+    "settings": "설정",
+    "billing": "결제",
+    "logout": "로그아웃"
+  },
+  "Hero": {
+    "title": "프라이빗 1:1 비디오.",
+    "titleHighlight": "다운로드 없음. 흔적 없음.",
+    "description": "가장 안전한 프라이빗 연결 방법.",
+    "descriptionHighlight": "하나의 링크, 두 사람, 타협 없음.",
+    "cta": "프라이빗 통화 시작 - 무료 100 분",
+    "ctaLoggedIn": "프라이빗 통화 시작",
+    "badge": "안전하고 프라이빗",
+    "learnMore": "자세히 보기"
+  },
+  "TrustIndicators": {
+    "encrypted": "종단 간 암호화",
+    "noStorage": "데이터 저장 없음",
+    "instantSetup": "즉시 설정"
+  },
+  "Features": {
+    "title": "o2o 를 선택해야 하는 이유",
+    "subtitle": "안전하고 프라이빗한 대화에 필요한 모든 것",
+    "private": {
+      "title": "프라이빗하고 안전함",
+      "description": "IP 연동 링크, 종단 간 암호화, 흔적 없음"
+    },
+    "onetoone": {
+      "title": "1:1 집중",
+      "description": "오직 두 사람을 위해 설계됨, 방해 요소 없음, 그룹 채팅 없음"
+    },
+    "nodownload": {
+      "title": "다운로드 불필요",
+      "description": "순수 브라우저 기반, 모든 기기에서 작동, 설치 불필요"
+    },
+    "pricing": {
+      "title": "유연한 가격",
+      "description": "$2.99 부터 사용한 만큼만 지불, 구독 압박 없음"
+    }
+  },
+  "HowItWorks": {
+    "title": "이용 방법",
+    "subtitle": "세 가지 간단한 단계로 시작하세요",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "계정 만들기",
+        "description": "무료로 가입하고 100 분 무료 체험 시간 받기"
+      },
+      "start": {
+        "step": "02",
+        "title": "룸 시작하기",
+        "description": "프라이빗 룸을 만들고 게스트와 링크 공유"
+      },
+      "connect": {
+        "step": "03",
+        "title": "안전하게 연결하기",
+        "description": "종단 간 암호화된 1:1 비디오 대화 즐기기"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "단순하고 투명한 가격",
+    "subtitle": "100 분 무료로 시작, 필요시 업그레이드",
+    "starter": {
+      "name": "스타터",
+      "price": "$2.99",
+      "minutes": "60 분",
+      "sessionLimit": "1 세션 120 분 제한",
+      "noExpiration": "유효기간 없음",
+      "hdVideo": "HD 비디오",
+      "cta": "시작하기"
+    },
+    "standard": {
+      "name": "스탠다드",
+      "price": "$5.99",
+      "minutes": "150 분",
+      "sessionLimit": "1 세션 120 분 제한",
+      "noExpiration": "유효기간 없음",
+      "hdVideo": "HD 비디오",
+      "screenSharing": "화면 공유",
+      "cta": "시작하기",
+      "bestValue": "최고의 가치"
+    },
+    "unlimited": {
+      "name": "무제한",
+      "price": "$9.99",
+      "minutes": "300 분",
+      "sessionLimit": "1 세션 120 분 제한",
+      "noExpiration": "유효기간 없음",
+      "hdVideo": "HD 비디오",
+      "allFeatures": "모든 프리미엄 기능",
+      "cta": "시작하기"
+    }
+  },
+  "Dashboard": {
+    "title": "대시보드",
+    "subtitle": "프라이빗 대화를 시작하거나 계정 관리",
+    "newMeeting": {
+      "title": "새 회의",
+      "description": "새로운 1:1 비디오 룸 만들기",
+      "button": "룸 만들기",
+      "pageTitle": "새 회의 만들기",
+      "pageDescription": "새로운 1:1 비디오 회의 룸을 만듭니다. 나중에 누군가를 초대할 수 있습니다.",
+      "meetingNameLabel": "회의 이름 (선택사항)",
+      "meetingNamePlaceholder": "내 회의",
+      "createButton": "회의 룸 만들기",
+      "creating": "만드는 중...",
+      "createError": "회의 룸 만들기에 실패했습니다. 다시 시도해 주세요.",
+      "features": {
+        "private": "1:1 프라이빗 비디오 통화",
+        "encrypted": "종단 간 암호화",
+        "nodownload": "다운로드 불필요"
+      },
+      "existingRoom": {
+        "title": "기존 활성 룸",
+        "message": "\"{name}\"이라는 이름의 활성 룸이 이미 있습니다.",
+        "description": "기존 룸에 masuk 하시겠습니까, 아니면 삭제하고 새로 만드시겠습니까?",
+        "enterExisting": "기존 룸 입장",
+        "createNew": "삭제하고 새로 만들기",
+        "deleting": "삭제 중..."
+      }
+    },
+    "history": {
+      "title": "기록",
+      "description": "회의 기록 보기",
+      "button": "기록 보기"
+    },
+    "balance": {
+      "title": "잔액",
+      "description": "사용 가능한 분 보기",
+      "button": "충전"
+    },
+    "joinMeeting": {
+      "title": "회의 참여",
+      "description": "회의에 초대받았습니다",
+      "hostName": "호스트",
+      "joinButton": "회의 참여",
+      "joining": "참여 중..."
+    }
+  },
+  "Footer": {
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "cookie": "쿠키 정책",
+    "refund": "환불 정책",
+    "copyright": "All rights reserved.",
+    "description": "종단 간 암호화를 통한 1:1 프라이빗 비디오 통화.",
+    "product": "제품",
+    "legal": "법률",
+    "connect": "연결",
+    "features": "기능",
+    "pricing": "가격",
+    "signIn": "로그인",
+    "signUp": "가입하기"
+  },
+  "CookieConsent": {
+    "title": "쿠키 사용",
+    "description": "당사는 브라우징 경험 향상, 사이트 트래픽 분석, 콘텐츠 개인화를 위해 쿠키를 사용합니다. \"모두 동의\" 를 클릭하면 쿠키 사용에 동의하는 것입니다.",
+    "acceptAll": "모두 동의",
+    "rejectAll": "모두 거부",
+    "customize": "사용자 지정",
+    "savePreferences": "설정 저장",
+    "preferences": {
+      "title": "쿠키 설정",
+      "description": "허용할 쿠키를 선택하세요. 설정에서 언제든지 변경할 수 있습니다.",
+      "necessary": {
+        "title": "필수 쿠키",
+        "description": "사이트의 적절한 기능에 필요합니다. 비활성화할 수 없습니다.",
+        "alwaysActive": "항상 활성"
+      },
+      "functional": {
+        "title": "기능 쿠키",
+        "description": "개인화된 경험을 위해 설정과 선호도를 기억합니다."
+      },
+      "analytics": {
+        "title": "분석 쿠키",
+        "description": "익명 사용 정보를 수집하여 웹사이트 개선에 도움을 줍니다."
+      }
+    },
+    "learnMore": "자세한 정보는",
+    "policyLink": "쿠키 정책"
+  },
+  "Theme": {
+    "light": "라이트",
+    "dark": "다크",
+    "auto": "자동",
+    "label": "테마"
+  },
+  "Room": {
+    "loading": "룸 로딩 중...",
+    "notFound": "룸을 찾을 수 없습니다",
+    "notFoundDescription": "이 회의 룸은 존재하지 않거나 만료되었습니다.",
+    "error": "룸 로딩 오류",
+    "errorDescription": "룸을 로딩하는 중 문제가 발생했습니다.",
+    "ended": "회의 종료",
+    "endedDescription": "이 회의는 종료되었으며 더 이상 참여할 수 없습니다.",
+    "duration": "지속 시간",
+    "participants": "참가자",
+    "participant": "참가자",
+    "waiting": "참가자 기다리는 중...",
+    "inCall": "통화 중",
+    "endCall": "통화 종료",
+    "leaveCall": "통화 나가기",
+    "mute": "음소거",
+    "unmute": "음소거 해제",
+    "camera": "카메라",
+    "cameraOn": "카메라 켜기",
+    "cameraOff": "카메라 끄기",
+    "copyLink": "초대 링크 복사",
+    "linkCopied": "링크가 클립보드에 복사되었습니다!",
+    "shareLink": "이 링크를 공유하여 초대하세요",
+    "endingCall": "통화 종료 중...",
+    "confirmEnd": "이 통화를 종료하시겠습니까?",
+    "confirmEndDescription": "회의는 모든 참가자에게 종료됩니다.",
+    "joinMeeting": "회의 참여",
+    "joining": "참여 중...",
+    "joinError": "회의 참여 실패",
+    "you": "나",
+    "muted": "음소거됨",
+    "waitingForParticipants": "참가자 기다리는 중...",
+    "endedTitle": "회의 종료",
+    "endedSummary": "회의 요약",
+    "durationLabel": "지속 시간",
+    "endTimeLabel": "종료 시간",
+    "participantCountLabel": "참가자",
+    "signupCta": "더 많은 회의를 만들려면 가입하세요",
+    "backToDashboard": "대시보드로 돌아가기",
+    "hostLeftTitle": "호스트 퇴장",
+    "hostLeftMessage": "호스트가 이 회의를 종료했습니다. 회원가입 페이지로 리디렉션됩니다.",
+    "fullscreen": "전체 화면",
+    "exitFullscreen": "전체 화면 종료"
+  },
+  "Welcome": {
+    "title": "프라이빗 통화 여정 시작",
+    "subtitle": "1:1 프라이빗 비디오 통화, 종단 간 암호화, 다운로드 불필요",
+    "features": {
+      "private": {
+        "title": "프라이빗하고 안전함",
+        "description": "종단 간 암호화, 데이터 저장 없음"
+      },
+      "onetoone": {
+        "title": "1:1 집중",
+        "description": "두 사람을 위해 설계됨, 방해 요소 없음"
+      },
+      "nodownload": {
+        "title": "다운로드 없음",
+        "description": "브라우저에서 실행, 크로스플랫폼 지원"
+      }
+    },
+    "offer": {
+      "title": "신규 사용자 특별 혜택",
+      "subtitle": "가입하고 100 분 무료 받기",
+      "signupButton": "무료 가입",
+      "signinButton": "이미 계정이 있으신가요? 로그인",
+      "note": "신용카드 불필요"
+    },
+    "pricing": {
+      "title": "유연한 가격, 필요에 따라 선택",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "스타터 팩 / 60 분",
+        "limit": "세션당 최대 120 분"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "스탠다드 팩 / 150 분",
+        "limit": "세션당 최대 120 분",
+        "badge": "가장 인기"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "무제한 팩 / 300 분",
+        "limit": "세션당 최대 120 분"
+      }
+    }
+  },
+  "History": {
+    "title": "회의 기록",
+    "description": "과거 회의 보기",
+    "noRecords": "회의 기록 없음",
+    "noRecordsDescription": "종료된 회의가 아직 없습니다",
+    "createFirst": "첫 회의 만들기",
+    "host": "호스트",
+    "duration": "지속 시간",
+    "signInRequired": "로그인 필요",
+    "signInToView": "회의 기록을 보려면 로그인해 주세요",
+    "emptyState": {
+      "title": "회의 기록 없음",
+      "description": "종료된 회의가 아직 없습니다",
+      "createButton": "첫 회의 만들기"
+    },
+    "pagination": {
+      "previous": "이전",
+      "next": "다음",
+      "pageInfo": "{total} 페이지 중 {current}"
+    },
+    "status": {
+      "ended": "종료",
+      "active": "활성",
+      "waiting": "대기 중"
+    }
+  },
+  "Billing": {
+    "title": "결제 및 충전",
+    "signInRequired": "로그인 필요",
+    "signInToView": "결제 정보를 보려면 로그인해 주세요",
+    "credits": {
+      "title": "계정 잔액",
+      "availableMinutes": "사용 가능한 분",
+      "totalMinutes": "총 분",
+      "usedMinutes": "사용된 분",
+      "lifetime": "평생 유효"
+    },
+    "freeTrial": {
+      "title": "무료 체험",
+      "remainingMinutes": "남은 분",
+      "expiresAt": "만료일",
+      "expired": "만료됨",
+      "description": "신규 사용자는 100 분 무료"
+    },
+    "subscription": {
+      "title": "구독 상태",
+      "noSubscription": "구독 없음",
+      "startWithPackage": "시작하려면 패키지 구매"
+    },
+    "packages": {
+      "title": "충전 패키지",
+      "starter": {
+        "name": "스타터",
+        "description": "가끔 사용하는 분을 위해"
+      },
+      "standard": {
+        "name": "스탠다드",
+        "description": "최고의 가성비 선택",
+        "badge": "가장 인기"
+      },
+      "unlimited": {
+        "name": "무제한",
+        "description": "자주 사용하는 분을 위해"
+      },
+      "features": {
+        "lifetime": "평생 유효",
+        "hdVideo": "HD 비디오",
+        "encrypted": "종단 간 암호화"
+      },
+      "buy": "구매",
+      "processing": "처리 중..."
+    },
+    "subscriptions": {
+      "title": "멤버십 플랜",
+      "monthly": "월간",
+      "yearly": "연간",
+      "yearlySave": "2 개월 절약",
+      "yearlySavings": "${amount}/년 절약",
+      "perMonth": "/월",
+      "perYear": "/년",
+      "subscribe": "구독",
+      "subscribing": "처리 중..."
+    },
+    "plans": {
+      "member": {
+        "name": "멤버",
+        "billing": "월간 청구"
+      },
+      "pro": {
+        "name": "프로 멤버",
+        "billing": "월간 청구",
+        "badge": "가장 인기"
+      },
+      "enterprise": {
+        "name": "엔터프라이즈",
+        "billing": "월간 청구",
+        "badge": "비즈니스용"
+      }
+    },
+    "benefits": {
+      "member": "월 200 분,HD 비디오 통화,종단 간 암호화,회의 녹화,우선 지원",
+      "pro": "월 500 분,4K 울트라 HD 비디오,종단 간 암호화,녹화 + 필사,사용자 지정 배경,우선 지원,분석 보고서",
+      "enterprise": "무제한 분,4K 울트라 HD 비디오,종단 간 암호화,녹화 + 필사,사용자 지정 브랜딩,전담 계정 관리자,SLA 보장,API 액세스"
+    },
+    "orders": {
+      "title": "주문 기록",
+      "recentOrders": "최근 주문"
+    },
+    "messages": {
+      "paymentSuccess": "결제 성공! 분 이 자동으로 계정에 추가됩니다.",
+      "paymentCanceled": "결제가 취소되었습니다. 다시 시도해 주세요",
+      "subscriptionSuccess": "구독 성공! 멤버 분 이 자동으로 계정에 추가됩니다.",
+      "subscriptionCanceled": "구독이 취소되었습니다. 다시 시도해 주세요",
+      "purchaseError": "구매 실패, 다시 시도해 주세요",
+      "subscribeError": "구독 실패, 다시 시도해 주세요"
+    },
+    "status": {
+      "active": "활성",
+      "succeeded": "성공",
+      "pending": "대기 중",
+      "failed": "실패",
+      "cancelled": "취소됨",
+      "expired": "만료됨"
+    }
+  },
+  "Settings": {
+    "title": "설정",
+    "description": "계정 환경설정 및 설정 관리",
+    "profile": {
+      "title": "프로필",
+      "description": "개인 정보 관리",
+      "name": "이름",
+      "email": "이메일",
+      "avatar": "아바타",
+      "memberSince": "멤버십 시작"
+    },
+    "preferences": {
+      "title": "환경설정",
+      "description": "경험 사용자 지정",
+      "language": "언어",
+      "theme": "테마",
+      "languageAuto": "자동",
+      "languageEn": "영어",
+      "languageZh": "중국어",
+      "themeLight": "라이트",
+      "themeDark": "다크",
+      "themeSystem": "시스템"
+    },
+    "account": {
+      "title": "계정",
+      "description": "계정 보안 및 로그인 방법 관리",
+      "password": "비밀번호 변경",
+      "twoFactor": "2 단계 인증",
+      "sessions": "활성 세션",
+      "deleteAccount": "계정 삭제"
+    }
+  }
+}

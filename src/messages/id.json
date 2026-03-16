@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Masuk",
+    "signUp": "Mulai",
+    "dashboard": "Dasbor",
+    "loading": "Memuat...",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Lanjut",
+    "previous": "Sebelumnya"
+  },
+  "Navigation": {
+    "home": "Beranda",
+    "pricing": "Harga",
+    "history": "Riwayat",
+    "settings": "Pengaturan",
+    "billing": "Tagihan",
+    "logout": "Keluar"
+  },
+  "Hero": {
+    "title": "Video Pribadi 1-lawan-1.",
+    "titleHighlight": "Tanpa Unduhan. Tanpa Jejak.",
+    "description": "Cara paling aman untuk terhubung secara pribadi.",
+    "descriptionHighlight": "Satu tautan, dua orang, nol kompromi.",
+    "cta": "Mulai Panggilan Pribadi Anda - 100 Menit Gratis",
+    "ctaLoggedIn": "Mulai Panggilan Pribadi Anda",
+    "badge": "Aman & Pribadi",
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "TrustIndicators": {
+    "encrypted": "Terenkripsi End-to-End",
+    "noStorage": "Tanpa Penyimpanan Data",
+    "instantSetup": "Penyiapan Instan"
+  },
+  "Features": {
+    "title": "Mengapa Memilih o2o?",
+    "subtitle": "Semua yang Anda butuhkan untuk percakapan aman dan pribadi",
+    "private": {
+      "title": "Pribadi & Aman",
+      "description": "Tautan terikat IP, enkripsi end-to-end, tidak meninggalkan jejak"
+    },
+    "onetoone": {
+      "title": "Fokus 1-lawan-1",
+      "description": "Dirancang hanya untuk dua orang, tanpa gangguan, tanpa obrolan grup"
+    },
+    "nodownload": {
+      "title": "Tanpa Unduhan",
+      "description": "Murni berbasis browser, berfungsi di semua perangkat, tanpa instalasi"
+    },
+    "pricing": {
+      "title": "Harga Fleksibel",
+      "description": "Bayar sesuai pemakaian mulai $2.99, tanpa tekanan berlangganan"
+    }
+  },
+  "HowItWorks": {
+    "title": "Cara Kerjanya",
+    "subtitle": "Mulai dalam tiga langkah sederhana",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Buat Akun",
+        "description": "Daftar gratis dan dapatkan 100 menit uji coba gratis"
+      },
+      "start": {
+        "step": "02",
+        "title": "Mulai Ruangan",
+        "description": "Buat ruangan pribadi dan bagikan tautan dengan tamu Anda"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Terhubung dengan Aman",
+        "description": "Nikmati percakapan video 1-lawan-1 yang terenkripsi end-to-end"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Harga Sederhana dan Transparan",
+    "subtitle": "Mulai dengan 100 menit gratis, tingkatkan saat butuh lebih",
+    "starter": {
+      "name": "Starter",
+      "price": "$2.99",
+      "minutes": "60 menit",
+      "sessionLimit": "Batas sesi 120 menit",
+      "noExpiration": "Tanpa kedaluwarsa",
+      "hdVideo": "Video HD",
+      "cta": "Mulai"
+    },
+    "standard": {
+      "name": "Standar",
+      "price": "$5.99",
+      "minutes": "150 menit",
+      "sessionLimit": "Batas sesi 120 menit",
+      "noExpiration": "Tanpa kedaluwarsa",
+      "hdVideo": "Video HD",
+      "screenSharing": "Berbagi layar",
+      "cta": "Mulai",
+      "bestValue": "Nilai Terbaik"
+    },
+    "unlimited": {
+      "name": "Tanpa Batas",
+      "price": "$9.99",
+      "minutes": "300 menit",
+      "sessionLimit": "Batas sesi 120 menit",
+      "noExpiration": "Tanpa kedaluwarsa",
+      "hdVideo": "Video HD",
+      "allFeatures": "Semua fitur premium",
+      "cta": "Mulai"
+    }
+  },
+  "Dashboard": {
+    "title": "Dasbor",
+    "subtitle": "Mulai percakapan pribadi atau kelola akun Anda",
+    "newMeeting": {
+      "title": "Pertemuan Baru",
+      "description": "Buat ruangan video 1-lawan-1 baru",
+      "button": "Buat Ruangan",
+      "pageTitle": "Buat Pertemuan Baru",
+      "pageDescription": "Buat ruangan pertemuan video 1-lawan-1 baru. Anda dapat mengundang seseorang nanti.",
+      "meetingNameLabel": "Nama Pertemuan (opsional)",
+      "meetingNamePlaceholder": "Pertemuan Saya",
+      "createButton": "Buat Ruangan Pertemuan",
+      "creating": "Membuat...",
+      "createError": "Gagal membuat ruangan pertemuan. Silakan coba lagi.",
+      "features": {
+        "private": "Panggilan video pribadi 1-lawan-1",
+        "encrypted": "Terenkripsi end-to-end",
+        "nodownload": "Tanpa unduhan"
+      },
+      "existingRoom": {
+        "title": "Ruangan Aktif yang Ada",
+        "message": "Anda sudah memiliki ruangan aktif bernama \"{name}\".",
+        "description": "Apakah Anda ingin masuk ke ruangan yang ada atau menghapusnya dan membuat yang baru?",
+        "enterExisting": "Masuk Ruangan yang Ada",
+        "createNew": "Hapus & Buat Baru",
+        "deleting": "Menghapus..."
+      }
+    },
+    "history": {
+      "title": "Riwayat",
+      "description": "Lihat riwayat pertemuan Anda",
+      "button": "Lihat Riwayat"
+    },
+    "balance": {
+      "title": "Saldo",
+      "description": "Lihat menit tersedia Anda",
+      "button": "Isi Ulang"
+    },
+    "joinMeeting": {
+      "title": "Bergabung Pertemuan",
+      "description": "Anda diundang untuk bergabung dengan pertemuan",
+      "hostName": "Tuan Rumah",
+      "joinButton": "Bergabung Pertemuan",
+      "joining": "Bergabung..."
+    }
+  },
+  "Footer": {
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "cookie": "Kebijakan Cookie",
+    "refund": "Kebijakan Pengembalian Dana",
+    "copyright": "Hak cipta dilindungi.",
+    "description": "Panggilan video pribadi 1-lawan-1 dengan enkripsi end-to-end.",
+    "product": "Produk",
+    "legal": "Hukum",
+    "connect": "Terhubung",
+    "features": "Fitur",
+    "pricing": "Harga",
+    "signIn": "Masuk",
+    "signUp": "Daftar"
+  },
+  "CookieConsent": {
+    "title": "Kami menggunakan cookie",
+    "description": "Kami menggunakan cookie untuk meningkatkan pengalaman browsing Anda, menganalisis lalu lintas situs, dan mempersonalisasi konten. Dengan mengklik \"Terima Semua\", Anda menyetujui penggunaan cookie kami.",
+    "acceptAll": "Terima Semua",
+    "rejectAll": "Tolak Semua",
+    "customize": "Sesuaikan",
+    "savePreferences": "Simpan Preferensi",
+    "preferences": {
+      "title": "Preferensi Cookie",
+      "description": "Pilih cookie mana yang akan diizinkan. Anda dapat mengubah preferensi kapan saja di pengaturan.",
+      "necessary": {
+        "title": "Cookie Diperlukan",
+        "description": "Diperlukan agar situs berfungsi dengan baik. Tidak dapat dinonaktifkan.",
+        "alwaysActive": "Selalu Aktif"
+      },
+      "functional": {
+        "title": "Cookie Fungsional",
+        "description": "Mengingat preferensi dan pengaturan Anda untuk pengalaman yang dipersonalisasi."
+      },
+      "analytics": {
+        "title": "Cookie Analitik",
+        "description": "Membantu meningkatkan situs web dengan mengumpulkan informasi penggunaan anonim."
+      }
+    },
+    "learnMore": "Pelajari lebih lanjut di",
+    "policyLink": "Kebijakan Cookie"
+  },
+  "Theme": {
+    "light": "Terang",
+    "dark": "Gelap",
+    "auto": "Otomatis",
+    "label": "Tema"
+  },
+  "Room": {
+    "loading": "Memuat ruangan...",
+    "notFound": "Ruangan tidak ditemukan",
+    "notFoundDescription": "Ruangan pertemuan ini tidak ada atau telah kedaluwarsa.",
+    "error": "Kesalahan memuat ruangan",
+    "errorDescription": "Terjadi kesalahan saat memuat ruangan.",
+    "ended": "Pertemuan berakhir",
+    "endedDescription": "Pertemuan ini telah berakhir dan tidak dapat diikuti lagi.",
+    "duration": "Durasi",
+    "participants": "Peserta",
+    "participant": "Peserta",
+    "waiting": "Menunggu peserta...",
+    "inCall": "Dalam panggilan",
+    "endCall": "Akhiri Panggilan",
+    "leaveCall": "Tinggalkan Panggilan",
+    "mute": "Bisukan",
+    "unmute": "Hidupkan Suara",
+    "camera": "Kamera",
+    "cameraOn": "Kamera Aktif",
+    "cameraOff": "Kamera Mati",
+    "copyLink": "Salin Tautan Undangan",
+    "linkCopied": "Tautan disalin ke clipboard!",
+    "shareLink": "Bagikan tautan ini untuk mengundang seseorang",
+    "endingCall": "Mengakhiri panggilan...",
+    "confirmEnd": "Akhiri panggilan ini?",
+    "confirmEndDescription": "Pertemuan akan ditutup untuk semua peserta.",
+    "joinMeeting": "Bergabung Pertemuan",
+    "joining": "Bergabung...",
+    "joinError": "Gagal bergabung dengan pertemuan",
+    "you": "Anda",
+    "muted": "Dibisukan",
+    "waitingForParticipants": "Menunggu peserta...",
+    "endedTitle": "Pertemuan Berakhir",
+    "endedSummary": "Ringkasan Pertemuan",
+    "durationLabel": "Durasi",
+    "endTimeLabel": "Waktu Berakhir",
+    "participantCountLabel": "Peserta",
+    "signupCta": "Daftar untuk membuat lebih banyak pertemuan",
+    "backToDashboard": "Kembali ke Dasbor",
+    "hostLeftTitle": "Tuan Rumah Pergi",
+    "hostLeftMessage": "Tuan rumah telah mengakhiri pertemuan ini. Anda akan dialihkan ke halaman pendaftaran.",
+    "fullscreen": "Layar Penuh",
+    "exitFullscreen": "Keluar Layar Penuh"
+  },
+  "Welcome": {
+    "title": "Mulai Perjalanan Panggilan Pribadi Anda",
+    "subtitle": "Panggilan video satu-lawan-satu pribadi, terenkripsi end-to-end, tanpa unduhan",
+    "features": {
+      "private": {
+        "title": "Pribadi & Aman",
+        "description": "Enkripsi end-to-end, tanpa penyimpanan data"
+      },
+      "onetoone": {
+        "title": "Fokus pada 1-lawan-1",
+        "description": "Dirancang untuk dua orang, tanpa gangguan"
+      },
+      "nodownload": {
+        "title": "Tanpa Unduhan",
+        "description": "Berjalan di browser, dukungan lintas platform"
+      }
+    },
+    "offer": {
+      "title": "Penawaran Khusus Pengguna Baru",
+      "subtitle": "Daftar dan dapatkan 100 menit gratis",
+      "signupButton": "Daftar Gratis",
+      "signinButton": "Sudah punya akun? Masuk",
+      "note": "Tidak perlu kartu kredit"
+    },
+    "pricing": {
+      "title": "Harga Fleksibel, Pilih Sesuai Kebutuhan",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Paket Starter / 60 menit",
+        "limit": "Maksimal 120 menit per sesi"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Paket Standar / 150 menit",
+        "limit": "Maksimal 120 menit per sesi",
+        "badge": "Paling Populer"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Paket Tanpa Batas / 300 menit",
+        "limit": "Maksimal 120 menit per sesi"
+      }
+    }
+  },
+  "History": {
+    "title": "Riwayat Pertemuan",
+    "description": "Lihat pertemuan masa lalu Anda",
+    "noRecords": "Tidak ada catatan pertemuan",
+    "noRecordsDescription": "Anda belum memiliki pertemuan yang berakhir",
+    "createFirst": "Buat pertemuan pertama Anda",
+    "host": "Tuan Rumah",
+    "duration": "Durasi",
+    "signInRequired": "Perlu Masuk",
+    "signInToView": "Silakan masuk untuk melihat riwayat pertemuan Anda",
+    "emptyState": {
+      "title": "Tidak Ada Riwayat Pertemuan",
+      "description": "Anda belum memiliki pertemuan yang berakhir",
+      "createButton": "Buat pertemuan pertama Anda"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Lanjut",
+      "pageInfo": "Halaman {current} dari {total}"
+    },
+    "status": {
+      "ended": "Berakhir",
+      "active": "Aktif",
+      "waiting": "Menunggu"
+    }
+  },
+  "Billing": {
+    "title": "Tagihan & Isi Ulang",
+    "signInRequired": "Perlu Masuk",
+    "signInToView": "Silakan masuk untuk melihat informasi tagihan Anda",
+    "credits": {
+      "title": "Saldo Akun",
+      "availableMinutes": "Menit Tersedia",
+      "totalMinutes": "Total Menit",
+      "usedMinutes": "Menit Digunakan",
+      "lifetime": "Berlaku Seumur Hidup"
+    },
+    "freeTrial": {
+      "title": "Uji Coba Gratis",
+      "remainingMinutes": "Menit Tersisa",
+      "expiresAt": "Kedaluwarsa Pada",
+      "expired": "Kedaluwarsa",
+      "description": "Pengguna baru mendapatkan 100 menit gratis"
+    },
+    "subscription": {
+      "title": "Status Langganan",
+      "noSubscription": "Tidak ada langganan",
+      "startWithPackage": "Beli paket untuk memulai"
+    },
+    "packages": {
+      "title": "Paket Isi Ulang",
+      "starter": {
+        "name": "Starter",
+        "description": "Untuk pengguna sesekali"
+      },
+      "standard": {
+        "name": "Standar",
+        "description": "Pilihan nilai terbaik",
+        "badge": "Paling Populer"
+      },
+      "unlimited": {
+        "name": "Tanpa Batas",
+        "description": "Untuk pengguna sering"
+      },
+      "features": {
+        "lifetime": "Berlaku seumur hidup",
+        "hdVideo": "Video HD",
+        "encrypted": "Terenkripsi end-to-end"
+      },
+      "buy": "Beli",
+      "processing": "Memproses..."
+    },
+    "subscriptions": {
+      "title": "Plan Keanggotaan",
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "yearlySave": "Hemat 2 bulan",
+      "yearlySavings": "Hemat ${amount}/tahun",
+      "perMonth": "/bulan",
+      "perYear": "/tahun",
+      "subscribe": "Berlangganan",
+      "subscribing": "Memproses..."
+    },
+    "plans": {
+      "member": {
+        "name": "Anggota",
+        "billing": "Tagihan bulanan"
+      },
+      "pro": {
+        "name": "Anggota Pro",
+        "billing": "Tagihan bulanan",
+        "badge": "Paling Populer"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "billing": "Tagihan bulanan",
+        "badge": "Untuk Bisnis"
+      }
+    },
+    "benefits": {
+      "member": "200 menit per bulan,Panggilan video HD,Enkripsi end-to-end,Rekaman pertemuan,Dukungan prioritas",
+      "pro": "500 menit per bulan,Video 4K Ultra HD,Enkripsi end-to-end,Rekaman + Transkripsi,Latar belakang kustom,Dukungan prioritas,Laporan analitik",
+      "enterprise": "Menit tanpa batas,Video 4K Ultra HD,Enkripsi end-to-end,Rekaman + Transkripsi,Branding kustom,Manajer akun khusus,Jaminan SLA,Akses API"
+    },
+    "orders": {
+      "title": "Riwayat Pesanan",
+      "recentOrders": "Pesanan Terbaru"
+    },
+    "messages": {
+      "paymentSuccess": "Pembayaran berhasil! Menit akan ditambahkan ke akun Anda secara otomatis.",
+      "paymentCanceled": "Pembayaran dibatalkan, silakan coba lagi",
+      "subscriptionSuccess": "Langganan berhasil! Menit anggota akan ditambahkan ke akun Anda secara otomatis.",
+      "subscriptionCanceled": "Langganan dibatalkan, silakan coba lagi",
+      "purchaseError": "Pembelian gagal, silakan coba lagi",
+      "subscribeError": "Langganan gagal, silakan coba lagi"
+    },
+    "status": {
+      "active": "Aktif",
+      "succeeded": "Berhasil",
+      "pending": "Tertunda",
+      "failed": "Gagal",
+      "cancelled": "Dibatalkan",
+      "expired": "Kedaluwarsa"
+    }
+  },
+  "Settings": {
+    "title": "Pengaturan",
+    "description": "Kelola preferensi dan pengaturan akun Anda",
+    "profile": {
+      "title": "Profil",
+      "description": "Kelola informasi pribadi Anda",
+      "name": "Nama",
+      "email": "Email",
+      "avatar": "Avatar",
+      "memberSince": "Anggota sejak"
+    },
+    "preferences": {
+      "title": "Preferensi",
+      "description": "Sesuaikan pengalaman Anda",
+      "language": "Bahasa",
+      "theme": "Tema",
+      "languageAuto": "Otomatis",
+      "languageEn": "Inggris",
+      "languageZh": "Tiongkok",
+      "themeLight": "Terang",
+      "themeDark": "Gelap",
+      "themeSystem": "Sistem"
+    },
+    "account": {
+      "title": "Akun",
+      "description": "Kelola keamanan akun dan metode login Anda",
+      "password": "Ubah Kata Sandi",
+      "twoFactor": "Otentikasi Dua Faktor",
+      "sessions": "Sesi Aktif",
+      "deleteAccount": "Hapus Akun"
+    }
+  }
+}

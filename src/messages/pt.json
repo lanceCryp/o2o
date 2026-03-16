@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Entrar",
+    "signUp": "Começar",
+    "dashboard": "Painel",
+    "loading": "Carregando...",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "close": "Fechar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior"
+  },
+  "Navigation": {
+    "home": "Início",
+    "pricing": "Preços",
+    "history": "Histórico",
+    "settings": "Configurações",
+    "billing": "Faturamento",
+    "logout": "Sair"
+  },
+  "Hero": {
+    "title": "Vídeo Privado 1-para-1.",
+    "titleHighlight": "Sem Downloads. Sem Rastros.",
+    "description": "A maneira mais segura de se conectar em privado.",
+    "descriptionHighlight": "Um link, duas pessoas, zero compromissos.",
+    "cta": "Inicie Sua Chamada Privada - 100 Minutos Grátis",
+    "ctaLoggedIn": "Inicie Sua Chamada Privada",
+    "badge": "Seguro e Privado",
+    "learnMore": "Saiba Mais"
+  },
+  "TrustIndicators": {
+    "encrypted": "Criptografado de Ponta a Ponta",
+    "noStorage": "Sem Armazenamento de Dados",
+    "instantSetup": "Configuração Instantânea"
+  },
+  "Features": {
+    "title": "Por Que Escolher o2o?",
+    "subtitle": "Tudo que você precisa para conversas seguras e privadas",
+    "private": {
+      "title": "Privado e Seguro",
+      "description": "Links vinculados a IP, criptografia de ponta a ponta, sem rastros"
+    },
+    "onetoone": {
+      "title": "Foco 1-para-1",
+      "description": "Projetado apenas para duas pessoas, sem distrações, sem chats em grupo"
+    },
+    "nodownload": {
+      "title": "Sem Download Necessário",
+      "description": "100% baseado em navegador, funciona em todos os dispositivos, sem instalação"
+    },
+    "pricing": {
+      "title": "Preços Flexíveis",
+      "description": "Pague conforme o uso a partir de $2.99, sem pressão de assinatura"
+    }
+  },
+  "HowItWorks": {
+    "title": "Como Funciona",
+    "subtitle": "Comece em três passos simples",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Criar Conta",
+        "description": "Registre-se gratuitamente e receba 100 minutos de teste grátis"
+      },
+      "start": {
+        "step": "02",
+        "title": "Iniciar Sala",
+        "description": "Crie uma sala privada e compartilhe o link com seu convidado"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Conectar com Segurança",
+        "description": "Aproveite conversas de vídeo 1-para-1 criptografadas de ponta a ponta"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Preços Simples e Transparentes",
+    "subtitle": "Comece com 100 minutos grátis, faça upgrade quando precisar",
+    "starter": {
+      "name": "Inicial",
+      "price": "$2.99",
+      "minutes": "60 minutos",
+      "sessionLimit": "Limite de 120 min por sessão",
+      "noExpiration": "Sem expiração",
+      "hdVideo": "Vídeo HD",
+      "cta": "Começar"
+    },
+    "standard": {
+      "name": "Padrão",
+      "price": "$5.99",
+      "minutes": "150 minutos",
+      "sessionLimit": "Limite de 120 min por sessão",
+      "noExpiration": "Sem expiração",
+      "hdVideo": "Vídeo HD",
+      "screenSharing": "Compartilhamento de tela",
+      "cta": "Começar",
+      "bestValue": "Melhor Custo-Benefício"
+    },
+    "unlimited": {
+      "name": "Ilimitado",
+      "price": "$9.99",
+      "minutes": "300 minutos",
+      "sessionLimit": "Limite de 120 min por sessão",
+      "noExpiration": "Sem expiração",
+      "hdVideo": "Vídeo HD",
+      "allFeatures": "Todos os recursos premium",
+      "cta": "Começar"
+    }
+  },
+  "Dashboard": {
+    "title": "Painel",
+    "subtitle": "Inicie uma conversa privada ou gerencie sua conta",
+    "newMeeting": {
+      "title": "Nova Reunião",
+      "description": "Criar uma nova sala de vídeo 1-para-1",
+      "button": "Criar Sala",
+      "pageTitle": "Criar Nova Reunião",
+      "pageDescription": "Crie uma nova sala de reunião de vídeo 1-para-1. Você pode convidar alguém depois.",
+      "meetingNameLabel": "Nome da Reunião (opcional)",
+      "meetingNamePlaceholder": "Minha Reunião",
+      "createButton": "Criar Sala de Reunião",
+      "creating": "Criando...",
+      "createError": "Falha ao criar sala de reunião. Por favor, tente novamente.",
+      "features": {
+        "private": "Chamada de vídeo privada 1-para-1",
+        "encrypted": "Criptografada de ponta a ponta",
+        "nodownload": "Sem download necessário"
+      },
+      "existingRoom": {
+        "title": "Sala Ativa Existente",
+        "message": "Você já tem uma sala ativa chamada \"{name}\".",
+        "description": "Deseja entrar na sala existente ou excluí-la e criar uma nova?",
+        "enterExisting": "Entrar na Sala Existente",
+        "createNew": "Excluir e Criar Nova",
+        "deleting": "Excluindo..."
+      }
+    },
+    "history": {
+      "title": "Histórico",
+      "description": "Ver seu histórico de reuniões",
+      "button": "Ver Histórico"
+    },
+    "balance": {
+      "title": "Saldo",
+      "description": "Ver seus minutos disponíveis",
+      "button": "Recarregar"
+    },
+    "joinMeeting": {
+      "title": "Entrar na Reunião",
+      "description": "Você foi convidado para uma reunião",
+      "hostName": "Anfitrião",
+      "joinButton": "Entrar na Reunião",
+      "joining": "Entrando..."
+    }
+  },
+  "Footer": {
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookie": "Política de Cookies",
+    "refund": "Política de Reembolso",
+    "copyright": "Todos os direitos reservados.",
+    "description": "Chamadas de vídeo privadas 1-para-1 com criptografia de ponta a ponta.",
+    "product": "Produto",
+    "legal": "Jurídico",
+    "connect": "Conectar",
+    "features": "Recursos",
+    "pricing": "Preços",
+    "signIn": "Entrar",
+    "signUp": "Cadastrar"
+  },
+  "CookieConsent": {
+    "title": "Usamos cookies",
+    "description": "Usamos cookies para melhorar sua experiência de navegação, analisar o tráfego do site e personalizar conteúdo. Ao clicar em \"Aceitar Todos\", você concorda com nosso uso de cookies.",
+    "acceptAll": "Aceitar Todos",
+    "rejectAll": "Rejeitar Todos",
+    "customize": "Personalizar",
+    "savePreferences": "Salvar Preferências",
+    "preferences": {
+      "title": "Preferências de Cookies",
+      "description": "Escolha quais cookies permitir. Você pode alterar suas preferências a qualquer momento nas configurações.",
+      "necessary": {
+        "title": "Cookies Necessários",
+        "description": "Necessários para o funcionamento adequado do site. Não podem ser desativados.",
+        "alwaysActive": "Sempre Ativos"
+      },
+      "functional": {
+        "title": "Cookies Funcionais",
+        "description": "Lembram suas preferências e configurações para uma experiência personalizada."
+      },
+      "analytics": {
+        "title": "Cookies de Análise",
+        "description": "Ajudam a melhorar o site coletando informações de uso anônimas."
+      }
+    },
+    "learnMore": "Saiba mais em nossa",
+    "policyLink": "Política de Cookies"
+  },
+  "Theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "auto": "Automático",
+    "label": "Tema"
+  },
+  "Room": {
+    "loading": "Carregando sala...",
+    "notFound": "Sala não encontrada",
+    "notFoundDescription": "Esta sala de reunião não existe ou expirou.",
+    "error": "Erro ao carregar sala",
+    "errorDescription": "Algo deu errado ao carregar a sala.",
+    "ended": "Reunião encerrada",
+    "endedDescription": "Esta reunião foi encerrada e não pode mais ser acessada.",
+    "duration": "Duração",
+    "participants": "Participantes",
+    "participant": "Participante",
+    "waiting": "Aguardando participantes...",
+    "inCall": "Em chamada",
+    "endCall": "Encerrar Chamada",
+    "leaveCall": "Sair da Chamada",
+    "mute": "Silenciar",
+    "unmute": "Ativar Som",
+    "camera": "Câmera",
+    "cameraOn": "Câmera Ligada",
+    "cameraOff": "Câmera Desligada",
+    "copyLink": "Copiar Link de Convite",
+    "linkCopied": "Link copiado para a área de transferência!",
+    "shareLink": "Compartilhe este link para convidar alguém",
+    "endingCall": "Encerrando chamada...",
+    "confirmEnd": "Encerrar esta chamada?",
+    "confirmEndDescription": "A reunião será fechada para todos os participantes.",
+    "joinMeeting": "Entrar na Reunião",
+    "joining": "Entrando...",
+    "joinError": "Falha ao entrar na reunião",
+    "you": "Você",
+    "muted": "Silenciado",
+    "waitingForParticipants": "Aguardando participantes...",
+    "endedTitle": "Reunião Encerrada",
+    "endedSummary": "Resumo da Reunião",
+    "durationLabel": "Duração",
+    "endTimeLabel": "Hora de Término",
+    "participantCountLabel": "Participantes",
+    "signupCta": "Cadastre-se para criar mais reuniões",
+    "backToDashboard": "Voltar ao Painel",
+    "hostLeftTitle": "Anfitrião Saiu",
+    "hostLeftMessage": "O anfitrião encerrou esta reunião. Você será redirecionado para a página de cadastro.",
+    "fullscreen": "Tela Cheia",
+    "exitFullscreen": "Sair da Tela Cheia"
+  },
+  "Welcome": {
+    "title": "Comece Sua Jornada de Chamadas Privadas",
+    "subtitle": "Chamadas de vídeo privadas um-para-um, criptografadas de ponta a ponta, sem download",
+    "features": {
+      "private": {
+        "title": "Privado e Seguro",
+        "description": "Criptografia de ponta a ponta, sem armazenamento de dados"
+      },
+      "onetoone": {
+        "title": "Foco 1-para-1",
+        "description": "Projetado para duas pessoas, sem distrações"
+      },
+      "nodownload": {
+        "title": "Sem Download",
+        "description": "Funciona no navegador, suporte multiplataforma"
+      }
+    },
+    "offer": {
+      "title": "Oferta Especial para Novos Usuários",
+      "subtitle": "Cadastre-se e receba 100 minutos grátis",
+      "signupButton": "Cadastrar Gratuitamente",
+      "signinButton": "Já tem uma conta? Entrar",
+      "note": "Nenhum cartão de crédito necessário"
+    },
+    "pricing": {
+      "title": "Preços Flexíveis, Escolha Conforme Necessidade",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Pacote Inicial / 60 mins",
+        "limit": "Máx 120 mins por sessão"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Pacote Padrão / 150 mins",
+        "limit": "Máx 120 mins por sessão",
+        "badge": "Mais Popular"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Pacote Ilimitado / 300 mins",
+        "limit": "Máx 120 mins por sessão"
+      }
+    }
+  },
+  "History": {
+    "title": "Histórico de Reuniões",
+    "description": "Veja suas reuniões passadas",
+    "noRecords": "Nenhum registro de reunião",
+    "noRecordsDescription": "Você ainda não teve nenhuma reunião encerrada",
+    "createFirst": "Crie sua primeira reunião",
+    "host": "Anfitrião",
+    "duration": "Duração",
+    "signInRequired": "Entrar Necessário",
+    "signInToView": "Por favor, entre para ver seu histórico de reuniões",
+    "emptyState": {
+      "title": "Nenhum Histórico de Reuniões",
+      "description": "Você ainda não teve nenhuma reunião encerrada",
+      "createButton": "Crie sua primeira reunião"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Próximo",
+      "pageInfo": "Página {current} de {total}"
+    },
+    "status": {
+      "ended": "Encerrada",
+      "active": "Ativa",
+      "waiting": "Aguardando"
+    }
+  },
+  "Billing": {
+    "title": "Faturamento e Recarga",
+    "signInRequired": "Entrar Necessário",
+    "signInToView": "Por favor, entre para ver suas informações de faturamento",
+    "credits": {
+      "title": "Saldo da Conta",
+      "availableMinutes": "Minutos Disponíveis",
+      "totalMinutes": "Minutos Totais",
+      "usedMinutes": "Minutos Usados",
+      "lifetime": "Vitalício"
+    },
+    "freeTrial": {
+      "title": "Teste Grátis",
+      "remainingMinutes": "Minutos Restantes",
+      "expiresAt": "Expira Em",
+      "expired": "Expirado",
+      "description": "Novos usuários recebem 100 minutos grátis"
+    },
+    "subscription": {
+      "title": "Status da Assinatura",
+      "noSubscription": "Nenhuma assinatura",
+      "startWithPackage": "Compre um pacote para começar"
+    },
+    "packages": {
+      "title": "Pacotes de Recarga",
+      "starter": {
+        "name": "Inicial",
+        "description": "Para usuários ocasionais"
+      },
+      "standard": {
+        "name": "Padrão",
+        "description": "Melhor escolha de valor",
+        "badge": "Mais Popular"
+      },
+      "unlimited": {
+        "name": "Ilimitado",
+        "description": "Para usuários frequentes"
+      },
+      "features": {
+        "lifetime": "Válido vitaliciamente",
+        "hdVideo": "Vídeo HD",
+        "encrypted": "Criptografado de ponta a ponta"
+      },
+      "buy": "Comprar",
+      "processing": "Processando..."
+    },
+    "subscriptions": {
+      "title": "Planos de Assinatura",
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "yearlySave": "Economize 2 meses",
+      "yearlySavings": "Economize ${amount}/ano",
+      "perMonth": "/mês",
+      "perYear": "/ano",
+      "subscribe": "Assinar",
+      "subscribing": "Processando..."
+    },
+    "plans": {
+      "member": {
+        "name": "Membro",
+        "billing": "Faturamento mensal"
+      },
+      "pro": {
+        "name": "Membro Pro",
+        "billing": "Faturamento mensal",
+        "badge": "Mais Popular"
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "billing": "Faturamento mensal",
+        "badge": "Para Empresas"
+      }
+    },
+    "benefits": {
+      "member": "200 minutos por mês,Chamadas de vídeo HD,Criptografia de ponta a ponta,Gravação de reuniões,Suporte prioritário",
+      "pro": "500 minutos por mês,Vídeo Ultra HD 4K,Criptografia de ponta a ponta,Gravação + Transcrição,Planos de fundo personalizados,Suporte prioritário,Relatórios de análise",
+      "enterprise": "Minutos ilimitados,Vídeo Ultra HD 4K,Criptografia de ponta a ponta,Gravação + Transcrição,Marcas personalizadas,Gerente de conta dedicado,Garantia SLA,Acesso à API"
+    },
+    "orders": {
+      "title": "Histórico de Pedidos",
+      "recentOrders": "Pedidos Recentes"
+    },
+    "messages": {
+      "paymentSuccess": "Pagamento bem-sucedido! Os minutos serão adicionados automaticamente à sua conta.",
+      "paymentCanceled": "Pagamento cancelado, por favor tente novamente",
+      "subscriptionSuccess": "Assinatura bem-sucedida! Os minutos de membro serão adicionados automaticamente à sua conta.",
+      "subscriptionCanceled": "Assinatura cancelada, por favor tente novamente",
+      "purchaseError": "Falha na compra, por favor tente novamente",
+      "subscribeError": "Falha na assinatura, por favor tente novamente"
+    },
+    "status": {
+      "active": "Ativo",
+      "succeeded": "Bem-sucedido",
+      "pending": "Pendente",
+      "failed": "Falhou",
+      "cancelled": "Cancelado",
+      "expired": "Expirado"
+    }
+  },
+  "Settings": {
+    "title": "Configurações",
+    "description": "Gerencie suas preferências e configurações de conta",
+    "profile": {
+      "title": "Perfil",
+      "description": "Gerencie suas informações pessoais",
+      "name": "Nome",
+      "email": "Email",
+      "avatar": "Avatar",
+      "memberSince": "Membro desde"
+    },
+    "preferences": {
+      "title": "Preferências",
+      "description": "Personalize sua experiência",
+      "language": "Idioma",
+      "theme": "Tema",
+      "languageAuto": "Automático",
+      "languageEn": "Inglês",
+      "languageZh": "Chinês",
+      "themeLight": "Claro",
+      "themeDark": "Escuro",
+      "themeSystem": "Sistema"
+    },
+    "account": {
+      "title": "Conta",
+      "description": "Gerencie a segurança da sua conta e métodos de login",
+      "password": "Alterar Senha",
+      "twoFactor": "Autenticação de Dois Fatores",
+      "sessions": "Sessões Ativas",
+      "deleteAccount": "Excluir Conta"
+    }
+  }
+}

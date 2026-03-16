@@ -1,0 +1,454 @@
+{
+  "Common": {
+    "signIn": "Zaloguj się",
+    "signUp": "Rozpocznij",
+    "dashboard": "Panel",
+    "loading": "Ładowanie...",
+    "submit": "Wyślij",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "back": "Wróć",
+    "next": "Dalej",
+    "previous": "Poprzedni"
+  },
+  "Navigation": {
+    "home": "Strona główna",
+    "pricing": "Cennik",
+    "history": "Historia",
+    "settings": "Ustawienia",
+    "billing": "Rozliczenia",
+    "logout": "Wyloguj"
+  },
+  "Hero": {
+    "title": "Prywatne Wideo 1-na-1.",
+    "titleHighlight": "Bez Pobierania. Bez Śladów.",
+    "description": "Najbezpieczniejszy sposób na prywatne połączenie.",
+    "descriptionHighlight": "Jeden link, dwie osoby, zero kompromisów.",
+    "cta": "Rozpocznij Prywatną Rozmowę - 100 Minut Darmowo",
+    "ctaLoggedIn": "Rozpocznij Prywatną Rozmowę",
+    "badge": "Bezpieczne i Prywatne",
+    "learnMore": "Dowiedz się Więcej"
+  },
+  "TrustIndicators": {
+    "encrypted": "Szyfrowanie End-to-End",
+    "noStorage": "Brak Przechowywania Danych",
+    "instantSetup": "Natychmiastowa Konfiguracja"
+  },
+  "Features": {
+    "title": "Dlaczego Wybrać o2o?",
+    "subtitle": "Wszystko, czego potrzebujesz do bezpiecznych, prywatnych rozmów",
+    "private": {
+      "title": "Prywatne i Bezpieczne",
+      "description": "Linki powiązane z IP, szyfrowanie end-to-end, bez pozostawiania śladów"
+    },
+    "onetoone": {
+      "title": "Skupione na 1-na-1",
+      "description": "Zaprojektowane tylko dla dwóch osób, bez rozpraszaczy, bez czatów grupowych"
+    },
+    "nodownload": {
+      "title": "Bez Pobierania",
+      "description": "Czysta przeglądarka, działa na wszystkich urządzeniach, bez instalacji"
+    },
+    "pricing": {
+      "title": "Elastyczne Ceny",
+      "description": "Płatność według zużycia od $2.99, bez presji subskrypcji"
+    }
+  },
+  "HowItWorks": {
+    "title": "Jak to Działa",
+    "subtitle": "Rozpocznij w trzech prostych krokach",
+    "steps": {
+      "create": {
+        "step": "01",
+        "title": "Utwórz Konto",
+        "description": "Zarejestruj się za darmo i otrzymaj 100 minut bezpłatnego okresu próbnego"
+      },
+      "start": {
+        "step": "02",
+        "title": "Rozpocznij Pokój",
+        "description": "Utwórz prywatny pokój i udostępnij link swojemu gościowi"
+      },
+      "connect": {
+        "step": "03",
+        "title": "Połącz się Bezpiecznie",
+        "description": "Ciesz się szyfrowanymi end-to-end rozmowami wideo 1-na-1"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Proste, Przejrzyste Ceny",
+    "subtitle": "Rozpocznij z 100 darmowymi minutami, ulepsz gdy potrzebujesz więcej",
+    "starter": {
+      "name": "Starter",
+      "price": "$2.99",
+      "minutes": "60 minut",
+      "sessionLimit": "Limit sesji 120 min",
+      "noExpiration": "Bez wygaśnięcia",
+      "hdVideo": "Wideo HD",
+      "cta": "Rozpocznij"
+    },
+    "standard": {
+      "name": "Standard",
+      "price": "$5.99",
+      "minutes": "150 minut",
+      "sessionLimit": "Limit sesji 120 min",
+      "noExpiration": "Bez wygaśnięcia",
+      "hdVideo": "Wideo HD",
+      "screenSharing": "Udostępnianie ekranu",
+      "cta": "Rozpocznij",
+      "bestValue": "Najlepsza Wartość"
+    },
+    "unlimited": {
+      "name": "Nielimitowany",
+      "price": "$9.99",
+      "minutes": "300 minut",
+      "sessionLimit": "Limit sesji 120 min",
+      "noExpiration": "Bez wygaśnięcia",
+      "hdVideo": "Wideo HD",
+      "allFeatures": "Wszystkie funkcje premium",
+      "cta": "Rozpocznij"
+    }
+  },
+  "Dashboard": {
+    "title": "Panel",
+    "subtitle": "Rozpocznij prywatną rozmowę lub zarządzaj swoim kontem",
+    "newMeeting": {
+      "title": "Nowe Spotkanie",
+      "description": "Utwórz nowy pokój wideo 1-na-1",
+      "button": "Utwórz Pokój",
+      "pageTitle": "Utwórz Nowe Spotkanie",
+      "pageDescription": "Utwórz nowy pokój spotkań wideo 1-na-1. Możesz później kogoś zaprosić.",
+      "meetingNameLabel": "Nazwa Spotkania (opcjonalnie)",
+      "meetingNamePlaceholder": "Moje Spotkanie",
+      "createButton": "Utwórz Pokój Spotkania",
+      "creating": "Tworzenie...",
+      "createError": "Nie udało się utworzyć pokoju spotkania. Spróbuj ponownie.",
+      "features": {
+        "private": "Prywatna rozmowa wideo 1-na-1",
+        "encrypted": "Szyfrowana end-to-end",
+        "nodownload": "Bez pobierania"
+      },
+      "existingRoom": {
+        "title": "Istniejący Aktywny Pokój",
+        "message": "Masz już aktywny pokój o nazwie \"{name}\".",
+        "description": "Czy chcesz wejść do istniejącego pokoju, czy usunąć go i utworzyć nowy?",
+        "enterExisting": "Wejdź do Istniejącego Pokoju",
+        "createNew": "Usuń i Utwórz Nowy",
+        "deleting": "Usuwanie..."
+      }
+    },
+    "history": {
+      "title": "Historia",
+      "description": "Zobacz historię swoich spotkań",
+      "button": "Zobacz Historię"
+    },
+    "balance": {
+      "title": "Saldo",
+      "description": "Zobierz dostępne minuty",
+      "button": "Doładuj"
+    },
+    "joinMeeting": {
+      "title": "Dołącz do Spotkania",
+      "description": "Zostałeś zaproszony na spotkanie",
+      "hostName": "Gospodarz",
+      "joinButton": "Dołącz do Spotkania",
+      "joining": "Dołączanie..."
+    }
+  },
+  "Footer": {
+    "privacy": "Polityka Prywatności",
+    "terms": "Warunki Korzystania",
+    "cookie": "Polityka Cookies",
+    "refund": "Polityka Zwrotów",
+    "copyright": "Wszelkie prawa zastrzeżone.",
+    "description": "Prywatne rozmowy wideo 1-na-1 z szyfrowaniem end-to-end.",
+    "product": "Produkt",
+    "legal": "Prawne",
+    "connect": "Połącz",
+    "features": "Funkcje",
+    "pricing": "Cennik",
+    "signIn": "Zaloguj się",
+    "signUp": "Zarejestruj się"
+  },
+  "CookieConsent": {
+    "title": "Używamy plików cookie",
+    "description": "Używamy plików cookie, aby poprawić Twoje doświadczenia przeglądania, analizować ruch na stronie i personalizować treści. Klikając \"Akceptuj Wszystko\", wyrażasz zgodę na nasze używanie plików cookie.",
+    "acceptAll": "Akceptuj Wszystko",
+    "rejectAll": "Odrzuć Wszystko",
+    "customize": "Dostosuj",
+    "savePreferences": "Zapisz Preferencje",
+    "preferences": {
+      "title": "Preferencje Cookie",
+      "description": "Wybierz, które pliki cookie chcesz zezwolić. Możesz zmienić swoje preferencje w dowolnym momencie w ustawieniach.",
+      "necessary": {
+        "title": "Niezbędne Cookies",
+        "description": "Wymagane do prawidłowego działania strony. Nie można ich wyłączyć.",
+        "alwaysActive": "Zawsze Aktywne"
+      },
+      "functional": {
+        "title": "Funkcjonalne Cookies",
+        "description": "Zapamiętują Twoje preferencje i ustawienia dla spersonalizowanego doświadczenia."
+      },
+      "analytics": {
+        "title": "Analityczne Cookies",
+        "description": "Pomagają ulepszyć stronę internetową poprzez zbieranie anonimowych informacji o użytkowaniu."
+      }
+    },
+    "learnMore": "Dowiedz się więcej w naszej",
+    "policyLink": "Polityce Cookies"
+  },
+  "Theme": {
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "auto": "Automatyczny",
+    "label": "Motyw"
+  },
+  "Room": {
+    "loading": "Ładowanie pokoju...",
+    "notFound": "Nie znaleziono pokoju",
+    "notFoundDescription": "Ten pokój spotkania nie istnieje lub wygasł.",
+    "error": "Błąd ładowania pokoju",
+    "errorDescription": "Coś poszło nie tak podczas ładowania pokoju.",
+    "ended": "Spotkanie zakończone",
+    "endedDescription": "To spotkanie zostało zakończone i nie można do niego dołączyć.",
+    "duration": "Czas trwania",
+    "participants": "Uczestnicy",
+    "participant": "Uczestnik",
+    "waiting": "Oczekiwanie na uczestników...",
+    "inCall": "W rozmowie",
+    "endCall": "Zakończ Rozmowę",
+    "leaveCall": "Opuść Rozmowę",
+    "mute": "Wycisz",
+    "unmute": "Włącz Dźwięk",
+    "camera": "Kamera",
+    "cameraOn": "Kamera Włączona",
+    "cameraOff": "Kamera Wyłączona",
+    "copyLink": "Kopiuj Link Zaproszenia",
+    "linkCopied": "Link skopiowany do schowka!",
+    "shareLink": "Udostępnij ten link, aby zaprosić kogoś",
+    "endingCall": "Kończenie rozmowy...",
+    "confirmEnd": "Zakończyć tę rozmowę?",
+    "confirmEndDescription": "Spotkanie zostanie zamknięte dla wszystkich uczestników.",
+    "joinMeeting": "Dołącz do Spotkania",
+    "joining": "Dołączanie...",
+    "joinError": "Nie udało się dołączyć do spotkania",
+    "you": "Ty",
+    "muted": "Wyciszony",
+    "waitingForParticipants": "Oczekiwanie na uczestników...",
+    "endedTitle": "Spotkanie Zakończone",
+    "endedSummary": "Podsumowanie Spotkania",
+    "durationLabel": "Czas trwania",
+    "endTimeLabel": "Czas Zakończenia",
+    "participantCountLabel": "Uczestnicy",
+    "signupCta": "Zarejestruj się, aby tworzyć więcej spotkań",
+    "backToDashboard": "Wróć do Panelu",
+    "hostLeftTitle": "Gospodarz Wyszedł",
+    "hostLeftMessage": "Gospodarz zakończył to spotkanie. Zostaniesz przekierowany do strony rejestracji.",
+    "fullscreen": "Pełny Ekran",
+    "exitFullscreen": "Wyjdź z Pełnego Ekranu"
+  },
+  "Welcome": {
+    "title": "Rozpocznij Swoją Podróż z Prywatnymi Rozmowami",
+    "subtitle": "Jeden-na-jeden prywatne rozmowy wideo, szyfrowane end-to-end, bez pobierania",
+    "features": {
+      "private": {
+        "title": "Prywatne i Bezpieczne",
+        "description": "Szyfrowanie end-to-end, brak przechowywania danych"
+      },
+      "onetoone": {
+        "title": "Skupione na 1-na-1",
+        "description": "Zaprojektowane dla dwóch osób, bez rozpraszaczy"
+      },
+      "nodownload": {
+        "title": "Bez Pobierania",
+        "description": "Działa w przeglądarce, wsparcie wieloplatformowe"
+      }
+    },
+    "offer": {
+      "title": "Specjalna Oferta dla Nowych Użytkowników",
+      "subtitle": "Zarejestruj się i otrzymaj 100 minut darmowo",
+      "signupButton": "Zarejestruj się Darmowo",
+      "signinButton": "Masz już konto? Zaloguj się",
+      "note": "Karta kredytowa nie wymagana"
+    },
+    "pricing": {
+      "title": "Elastyczne Ceny, Wybierz Według Potrzeb",
+      "starter": {
+        "price": "$2.99",
+        "minutes": "Pakiet Starter / 60 min",
+        "limit": "Maks 120 min na sesję"
+      },
+      "standard": {
+        "price": "$5.99",
+        "minutes": "Pakiet Standard / 150 min",
+        "limit": "Maks 120 min na sesję",
+        "badge": "Najpopularniejszy"
+      },
+      "unlimited": {
+        "price": "$9.99",
+        "minutes": "Pakiet Nielimitowany / 300 min",
+        "limit": "Maks 120 min na sesję"
+      }
+    }
+  },
+  "History": {
+    "title": "Historia Spotkań",
+    "description": "Zobierz swoje przeszłe spotkania",
+    "noRecords": "Brak zapisów spotkań",
+    "noRecordsDescription": "Nie miałeś jeszcze żadnych zakończonych spotkań",
+    "createFirst": "Utwórz swoje pierwsze spotkanie",
+    "host": "Gospodarz",
+    "duration": "Czas trwania",
+    "signInRequired": "Wymagane Logowanie",
+    "signInToView": "Zaloguj się, aby wyświetlić historię spotkań",
+    "emptyState": {
+      "title": "Brak Historii Spotkań",
+      "description": "Nie miałeś jeszcze żadnych zakończonych spotkań",
+      "createButton": "Utwórz swoje pierwsze spotkanie"
+    },
+    "pagination": {
+      "previous": "Poprzedni",
+      "next": "Dalej",
+      "pageInfo": "Strona {current} z {total}"
+    },
+    "status": {
+      "ended": "Zakończone",
+      "active": "Aktywne",
+      "waiting": "Oczekiwanie"
+    }
+  },
+  "Billing": {
+    "title": "Rozliczenia i Doładowanie",
+    "signInRequired": "Wymagane Logowanie",
+    "signInToView": "Zaloguj się, aby wyświetlić informacje o rozliczeniach",
+    "credits": {
+      "title": "Saldo Konta",
+      "availableMinutes": "Dostępne Minuty",
+      "totalMinutes": "Łącznie Minut",
+      "usedMinutes": "Wykorzystane Minuty",
+      "lifetime": "Dożywotnia Ważność"
+    },
+    "freeTrial": {
+      "title": "Darmowy Okres Probny",
+      "remainingMinutes": "Pozostałe Minuty",
+      "expiresAt": "Wygasa",
+      "expired": "Wygasł",
+      "description": "Nowi użytkownicy otrzymują 100 minut darmowo"
+    },
+    "subscription": {
+      "title": "Status Subskrypcji",
+      "noSubscription": "Brak subskrypcji",
+      "startWithPackage": "Kup pakiet, aby rozpocząć"
+    },
+    "packages": {
+      "title": "Pakiety Doładowania",
+      "starter": {
+        "name": "Starter",
+        "description": "Dla okazjonalnych użytkowników"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Najlepszy wybór wartości",
+        "badge": "Najpopularniejszy"
+      },
+      "unlimited": {
+        "name": "Nielimitowany",
+        "description": "Dla częstych użytkowników"
+      },
+      "features": {
+        "lifetime": "Ważne dożywotnio",
+        "hdVideo": "Wideo HD",
+        "encrypted": "Szyfrowane end-to-end"
+      },
+      "buy": "Kup",
+      "processing": "Przetwarzanie..."
+    },
+    "subscriptions": {
+      "title": "Plany Członkostwa",
+      "monthly": "Miesięczny",
+      "yearly": "Roczny",
+      "yearlySave": "Oszczędź 2 miesiące",
+      "yearlySavings": "Oszczędź ${amount}/rok",
+      "perMonth": "/miesiąc",
+      "perYear": "/rok",
+      "subscribe": "Subskrybuj",
+      "subscribing": "Przetwarzanie..."
+    },
+    "plans": {
+      "member": {
+        "name": "Członek",
+        "billing": "Rozliczenie miesięczne"
+      },
+      "pro": {
+        "name": "Członek Pro",
+        "billing": "Rozliczenie miesięczne",
+        "badge": "Najpopularniejszy"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "billing": "Rozliczenie miesięczne",
+        "badge": "Dla Firm"
+      }
+    },
+    "benefits": {
+      "member": "200 minut miesięcznie,Rozmowy wideo HD,Szyfrowanie end-to-end,Nagrywanie spotkań,Priorytetowe wsparcie",
+      "pro": "500 minut miesięcznie,Wideo 4K Ultra HD,Szyfrowanie end-to-end,Nagrywanie + Transkrypcja,Niestandardowe tła,Priorytetowe wsparcie,Raporty analityczne",
+      "enterprise": "Nielimitowane minuty,Wideo 4K Ultra HD,Szyfrowanie end-to-end,Nagrywanie + Transkrypcja,Niestandardowy branding,Dedykowany menedżer konta,Gwarancja SLA,Dostęp do API"
+    },
+    "orders": {
+      "title": "Historia Zamówień",
+      "recentOrders": "Ostatnie Zamówienia"
+    },
+    "messages": {
+      "paymentSuccess": "Płatność udana! Minuty zostaną automatycznie dodane do Twojego konta.",
+      "paymentCanceled": "Płatność anulowana, spróbuj ponownie",
+      "subscriptionSuccess": "Subskrypcja udana! Minuty członkowskie zostaną automatycznie dodane do Twojego konta.",
+      "subscriptionCanceled": "Subskrypcja anulowana, spróbuj ponownie",
+      "purchaseError": "Zakup nieudany, spróbuj ponownie",
+      "subscribeError": "Subskrypcja nieudana, spróbuj ponownie"
+    },
+    "status": {
+      "active": "Aktywne",
+      "succeeded": "Udana",
+      "pending": "Oczekujące",
+      "failed": "Nieudane",
+      "cancelled": "Anulowane",
+      "expired": "Wygasłe"
+    }
+  },
+  "Settings": {
+    "title": "Ustawienia",
+    "description": "Zarządzaj preferencjami i ustawieniami konta",
+    "profile": {
+      "title": "Profil",
+      "description": "Zarządzaj swoimi danymi osobowymi",
+      "name": "Nazwa",
+      "email": "Email",
+      "avatar": "Awatar",
+      "memberSince": "Członek od"
+    },
+    "preferences": {
+      "title": "Preferencje",
+      "description": "Dostosuj swoje doświadczenie",
+      "language": "Język",
+      "theme": "Motyw",
+      "languageAuto": "Automatyczny",
+      "languageEn": "Angielski",
+      "languageZh": "Chiński",
+      "themeLight": "Jasny",
+      "themeDark": "Ciemny",
+      "themeSystem": "System"
+    },
+    "account": {
+      "title": "Konto",
+      "description": "Zarządzaj bezpieczeństwem konta i metodami logowania",
+      "password": "Zmień Hasło",
+      "twoFactor": "Uwierzytelnianie Dwuskładnikowe",
+      "sessions": "Aktywne Sesje",
+      "deleteAccount": "Usuń Konto"
+    }
+  }
+}

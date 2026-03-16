@@ -20,6 +20,8 @@ interface MeetingRoomProps {
   roomId?: string;
   onLeave?: () => void;
   onMeetingEnded?: () => void;
+  isFullscreen?: boolean;
+  onToggleFullscreen?: () => void;
 }
 
 // 参与者视频组件（在循环外使用 Hook，避免违反 Hooks 规则）
@@ -72,7 +74,7 @@ function ParticipantVideo({ sessionId }: { sessionId: string }) {
   );
 }
 
-function MeetingRoomContent({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }: MeetingRoomProps) {
+function MeetingRoomContent({ roomUrl, isHost, roomId, onLeave, onMeetingEnded, isFullscreen, onToggleFullscreen }: MeetingRoomProps) {
   const { t } = useI18n();
   const daily = useDaily();
   const localParticipant = useLocalParticipant();
@@ -125,6 +127,19 @@ function MeetingRoomContent({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }
     setIsVideoEnabled(!isVideoEnabled);
   }, [daily, isVideoEnabled]);
 
+  // 监听全屏状态变化
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      if (!document.fullscreenElement && isFullscreen) {
+        onToggleFullscreen?.();
+      }
+    };
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, [isFullscreen, onToggleFullscreen]);
+
   // 离开会议 - 房主和访客有不同的处理逻辑
   const handleLeave = useCallback(async () => {
     if (isLeaving) return;
@@ -170,11 +185,11 @@ function MeetingRoomContent({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }
   }
 
   return (
-    <div className="flex flex-col h-full">
+    <div className={`flex flex-col ${isFullscreen ? 'fixed inset-0 z-50 bg-black' : 'h-full'}`}>
       {/* 视频网格区域 */}
-      <div className="flex-1 bg-black rounded-lg overflow-hidden p-4">
+      <div className={`flex-1 bg-black ${isFullscreen ? '' : 'rounded-lg'} overflow-hidden ${isFullscreen ? '' : 'p-4'}`}>
         <div
-          className="grid gap-4 h-full"
+          className="grid gap-2 h-full"
           style={{
             gridTemplateColumns:
               participantCount === 1
@@ -281,6 +296,57 @@ function MeetingRoomContent({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }
           )}
         </Button>
 
+        {/* 全屏按钮 */}
+        <Button
+          variant={isFullscreen ? "outline" : "default"}
+          size="lg"
+          onClick={() => {
+            if (!document.fullscreenElement) {
+              document.documentElement.requestFullscreen().then(() => {
+                onToggleFullscreen?.();
+              }).catch((error) => {
+                console.error('Failed to enter fullscreen:', error);
+              });
+            } else {
+              document.exitFullscreen().then(() => {
+                onToggleFullscreen?.();
+              });
+            }
+          }}
+          className="w-14 h-14 rounded-full"
+          title={isFullscreen ? t('Room.exitFullscreen') : t('Room.fullscreen')}
+        >
+          {isFullscreen ? (
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25"
+              />
+            </svg>
+          ) : (
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"
+              />
+            </svg>
+          )}
+        </Button>
+
         <Button
           variant="destructive"
           size="lg"
@@ -314,7 +380,7 @@ function MeetingRoomContent({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }
   );
 }
 
-export function MeetingRoom({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }: MeetingRoomProps) {
+export function MeetingRoom({ roomUrl, isHost, roomId, onLeave, onMeetingEnded, isFullscreen, onToggleFullscreen }: MeetingRoomProps) {
   // 从 URL 中提取 token（格式：https://xxx.daily.co/xxx?t=xxx）
   const urlParts = roomUrl.split("?t=");
   const baseUrl = urlParts[0];
@@ -333,7 +399,7 @@ export function MeetingRoom({ roomUrl, isHost, roomId, onLeave, onMeetingEnded }
 
   return (
     <DailyProvider callObject={callObject}>
-      <MeetingRoomContent roomUrl={roomUrl} isHost={isHost} roomId={roomId} onLeave={onLeave} onMeetingEnded={onMeetingEnded} />
+      <MeetingRoomContent roomUrl={roomUrl} isHost={isHost} roomId={roomId} onLeave={onLeave} onMeetingEnded={onMeetingEnded} isFullscreen={isFullscreen} onToggleFullscreen={onToggleFullscreen} />
     </DailyProvider>
   );
 }

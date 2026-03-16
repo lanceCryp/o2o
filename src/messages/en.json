@@ -212,8 +212,11 @@
     "notFoundDescription": "This meeting room doesn't exist or has expired.",
     "error": "Error loading room",
     "errorDescription": "Something went wrong while loading the room.",
+    "ended": "Meeting ended",
+    "endedDescription": "This meeting has ended and cannot be joined.",
     "duration": "Duration",
     "participants": "Participants",
+    "participant": "Participant",
     "waiting": "Waiting for participants...",
     "inCall": "In call",
     "endCall": "End Call",
@@ -231,6 +234,10 @@
     "confirmEndDescription": "The meeting will be closed for all participants.",
     "joinMeeting": "Join Meeting",
     "joining": "Joining...",
+    "joinError": "Failed to join meeting",
+    "you": "You",
+    "muted": "Muted",
+    "waitingForParticipants": "Waiting for participants...",
     "endedTitle": "Meeting Ended",
     "endedSummary": "Meeting Summary",
     "durationLabel": "Duration",
@@ -239,7 +246,9 @@
     "signupCta": "Sign up to create more meetings",
     "backToDashboard": "Back to Dashboard",
     "hostLeftTitle": "Host Left",
-    "hostLeftMessage": "The host has ended this meeting. You will be redirected to the sign up page."
+    "hostLeftMessage": "The host has ended this meeting. You will be redirected to the sign up page.",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen"
   },
   "Welcome": {
     "title": "Start Your Private Call Journey",

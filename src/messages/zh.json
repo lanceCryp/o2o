@@ -246,7 +246,9 @@
     "signupCta": "注册账户以创建更多会议",
     "backToDashboard": "返回仪表板",
     "hostLeftTitle": "房主已离开",
-    "hostLeftMessage": "房主已结束此会议，您将被 redirect 到注册页面"
+    "hostLeftMessage": "房主已结束此会议，您将被重定向到注册页面",
+    "fullscreen": "全屏",
+    "exitFullscreen": "退出全屏"
   },
   "Welcome": {
     "title": "开始您的私密通话之旅",
